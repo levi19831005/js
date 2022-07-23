@@ -7,7 +7,7 @@
  * 7-6		签到兑换实物
  * 7-14     增加积分查询
  * ========= 青龙--配置文件 =========
- * 变量格式: export tls_data=' openid的值'   ,多账号用 换行 或 @ 分割
+ * 变量格式: export tls_data=' openid的值'   ,多账号用换行 或 @ 分割
  * 抓mall.telunsu.net下opendid的值
  */
 
