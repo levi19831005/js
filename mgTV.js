@@ -1,10 +1,10 @@
 /**
  * 芒果TV app 我的-兴趣中心-芒果农场
  
- * 抓https://api-farm.game.mgtv.com域名下请求头中的autohrization
+ * 抓https://api-farm.game.mgtv.com/api/login?openid=xxxxx下body里的全部放变量里
  
  * ========= 青龙--配置文件 =========
- * 变量格式: export mgtv_token="cookie@cookie"多个账号换行 或用 @ 分割
+ * 变量格式: export mgtv_token="body@body"多个账号换行 或用 @ 分割
  *
  */
 
@@ -45,20 +45,24 @@ async function tips(ckArr) {
     .finally(() => $.done());
 
 async function start() {
+        DoubleLog("\n ========= 刷新token =========");
+        await token();
             
         DoubleLog("\n ========= 浇水 =========");
         await watering();
 
-        n = local_hours(); if (n == 7){
+        n = local_hours(); if (n == 12){
         DoubleLog("\n ========= 签到 =========");
         await collectBottle1();
         await $.wait(5 * 1000);
         await NewUserGift();
         await $.wait(5 * 1000);
+        await taskid();
+        await $.wait(5 * 1000);
         await sign();
         } else {
         DoubleLog("\n ========= 签到 =========");
-        DoubleLog("\n非设定的领取时间 明天7点后再来 ");
+        DoubleLog("\n非设定的领取时间 明天12点后再来 ");
         }
         
         DoubleLog("\n ========= 彩蛋 =========");
@@ -75,18 +79,18 @@ async function collectBottle1() {
         url: `${hostname}/api/collectBottle?`,
         headers: {
             'Host': host,
-            'autohrization': `${ck[0]}`
+            'autohrization': `${token}`
         },
        
     };
     let result = await httpRequest(options, `水瓶`);
 
-     if (result.data.errcode == 7) {
+     if (result.status == 50014) {
+        DoubleLog(`\n ${result.message}`);
+     } else if (result.data.errcode == 7) {
         DoubleLog(`\n收集瓶:  时间未到或已领取过了\n\n`);
     } else if (result.data.gainaward.type == 0) {
         DoubleLog(`\n收集瓶: 获得${result.data.gainaward.value}滴水\n剩余：${result.data.drips}滴水\n\n`);
-    } else {
-        DoubleLog(`\n 任务失败 原因未知`);
     }
 }
 
@@ -96,13 +100,15 @@ async function collectBucket() {
         url: `${hostname}/api/collectBucket?`,
         headers: {
             'Host': host,
-            'autohrization': `${ck[0]}`
+            'autohrization': `${token}`
         },
        
     };
     let result = await httpRequest(options, `水井`);
 
-     if (result.data.errcode == 6) {
+     if (result.status == 50014) {
+        DoubleLog(`\n ${result.message}`);
+     } else if (result.data.errcode == 6) {
         DoubleLog(`\n 收水滴: 已领取完了 稍后再来\n`);
     } else if (result.data.gainaward.type == 0) {
         DoubleLog(`\n收水滴: 获得${result.data.gainaward.value}滴水\n剩余：${result.data.drips}滴水`);
@@ -111,8 +117,6 @@ async function collectBucket() {
         DoubleLog("\n ========= 浇水 =========");
         await watering();
         }
-    } else {
-        DoubleLog(`\n 任务失败 原因未知`);
     }
 }
 
@@ -122,13 +126,15 @@ async function box() {
         url: `${hostname}/api/openbox?`,
         headers: {
             'Host': host,
-            'autohrization': `${ck[0]}`
+            'autohrization': `${token}`
         },
        
     };
     let result = await httpRequest(options, `开宝箱`);
 
-     if (result.data.errcode == 3) {
+     if (result.status == 50014) {
+        DoubleLog(`\n ${result.message}`);
+     } else if (result.data.errcode == 3) {
         DoubleLog(`\n开宝箱: 已领取完了 稍后再来`);
     } else if (result.data.gainaward.type == 0) {
         DoubleLog(`\n开宝箱: 获得${result.data.gainaward.value}滴水\n剩余：${result.data.drips}滴水`);
@@ -146,39 +152,39 @@ async function sign() {
         url: `${hostname}/api/sign?`,
         headers: {
             'Host': host,
-            'autohrization': `${ck[0]}`
+            'autohrization': `${token}`
         },
        
     };
     let result = await httpRequest(options, `每日签到`);
 
-     if (result.data.errcode == 16) {
+     if (result.status == 50014) {
+        DoubleLog(`\n ${result.message}`);
+     } else if (result.data.errcode == 16) {
         DoubleLog(`\n 签到: 今天已领取过了`);
     }else if (result.data.gainaward.type == 0) {
         DoubleLog(`\n签到: 获得${result.data.gainaward.value}滴水`);
-    } else {
-        DoubleLog(`\n 任务失败 原因未知`);
     }
 }
 
-async function sign() {
+async function taskid() {
     let options = {
         method: 'POST',
         url: `${hostname}/api/gainTaskAward?taskid=1`,
         headers: {
             'Host': host,
-            'autohrization': `${ck[0]}`
+            'autohrization': `${token}`
         },
        
     };
     let result = await httpRequest(options, `浇水奖励`);
 
-     if (result.data.errcode == 16) {
-        DoubleLog(`\n 签到: 今天已领取过了`);
-    }else if (result.data.gainaward.type == 0) {
-        DoubleLog(`\n签到: 获得${result.data.gainaward.value}滴水`);
-    } else {
-        DoubleLog(`\n 任务失败 原因未知`);
+     if (result.status == 50014) {
+        DoubleLog(`\n ${result.message}`);
+     } else if (result.data.errcode == 19) {
+        DoubleLog(`\n 浇水奖励: 今天已领取过了`);
+    }else if (result.data.gainaward.type == 1) {
+        DoubleLog(`\n浇水奖励: 获得${result.data.gainaward.value}滴水`);
     }
 }
  
@@ -189,13 +195,15 @@ async function NewUserGift() {
         url: `${hostname}/api/getNewUserGift?`,
         headers: {
             'Host': host,
-            'autohrization': `${ck[0]}`
+            'autohrization': `${token}`
         },
        
     };
     let result = await httpRequest(options, `新手奖励`);
 
-     if (result.data.errcode == 23) {
+     if (result.status == 50014) {
+        DoubleLog(`\n ${result.message}`);
+     } else if (result.data.errcode == 23) {
         DoubleLog(`\n 新手奖励: 今天已经领取过了`);
     } else if (result.data.gainaward.type == 0) {
         DoubleLog(`\n新手奖励: 获得${result.data.gainaward.value}滴水`);
@@ -212,13 +220,15 @@ async function watering() {
         url: `${hostname}/api/watering`,
         headers: {
             'Host': host,
-            'autohrization': `${ck[0]}`
+            'autohrization': `${token}`
         },
         body: `wateringtype=0`
     };
     let result = await httpRequest(options, `浇水`);
 
-    if (result.data.errcode == 2) {
+    if (result.status == 50014) {
+        DoubleLog(`\n ${result.message}`);
+     } else if (result.data.errcode == 2) {
         DoubleLog(`\n浇水: 水滴不足\n`);
     } else if (result.code == 200) {
         DoubleLog(`\n浇水: 第${watering_unm}次浇水\n当前等级：${result.data.level}\n等级进度：${result.data.levelExp}\n剩余滴水：${result.data.drips}`);
@@ -230,6 +240,26 @@ async function watering() {
     }
 }
 
+async function token() {
+    let options = {
+        method: 'POST',
+        url: `${hostname}/api/login`,
+        headers: {
+            'Host': host,
+            'content-type': 'application/x-www-form-urlencoded'
+        },
+        body: `${ck[0]}`
+    };
+    let result = await httpRequest(options, `刷新token`);
+
+    if (result.code == 200) {
+       token = result.data.token
+       DoubleLog(`\n 这是新token：${token}`);
+     }  else {
+        DoubleLog(`\n 任务失败 原因未知`);
+    }
+    
+}
 // #region *************************************************************  固定代码  *************************************************************
 /**
  * 变量检查
