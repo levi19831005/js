@@ -17,7 +17,7 @@ V2P/圈X：
 #卡夫享
 50 8,20 * * * https://raw.githubusercontent.com/leafxcy/JavaScript/main/kfx.js, tag=卡夫享, enabled=true
 [rewrite_local]
-https://fscrm.kraftheinz.net.cn/crm/public/index.php/api/v1/getUserInfo url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/kfx.js
+https://fscrm.kraftheinz.net.cn/crm/public/index.php/api/v1/getUserInfo url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/kfx.js
 [MITM]
 hostname = fscrm.kraftheinz.net.cn
 */
