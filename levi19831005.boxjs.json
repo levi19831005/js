@@ -3,7 +3,7 @@
   "id": "levi19831005.app.sub",
   "name": "levi 自用脚本订阅",
   "author": "levi",
-  "icon": "https://raw.githubusercontent.com/Levi9831005/js/main/image/levi.png",
+  "icon": "https://raw.githubusercontent.com/levi9831005/js/main/image/levi.png",
   "repo": "https://github.com/levi9831005/js",
   "apps": [
   {
@@ -25,7 +25,7 @@
             "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
     } ],
             "repo": "https://raw.githubusercontent.com/levi19831005/js/main/kfx.js",
-            "icons": ["https://raw.githubusercontent.com/Levi9831005/js/main/image/kfx.png"],
+            "icons": ["https://raw.githubusercontent.com/levi9831005/js/main/image/kfx.png"],
             "script": "https://raw.githubusercontent.com/levi19831005/js/main/kfx.js"
     }
     	]
