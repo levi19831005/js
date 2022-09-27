@@ -13,11 +13,11 @@ https://raw.githubusercontent.com/YaphetS0903/JStest/main/YaphteS0903.boxjs.json
 
 [rewrite_local]
 #启牛果园分享
-https://qaf.feierlaiedu.com/knowledge-app-farm/api/v1/activity/reward/share url script-request-head https://raw.githubusercontent.com/YaphetS0903/JStest/main/qngy.js
-https://qaf.feierlaiedu.com/knowledge-app-farm/api/v1/activity/reward/share url script-request-body https://raw.githubusercontent.com/YaphetS0903/JStest/main/qngy.js
+https://qaf.feierlaiedu.com/knowledge-app-farm/api/v1/activity/reward/share url script-request-head https://raw.githubusercontent.com/levi19831005/js/main/qxrewrite/qngyck.js
+https://qaf.feierlaiedu.com/knowledge-app-farm/api/v1/activity/reward/share url script-request-body https://raw.githubusercontent.com/levi19831005/js/main/qxrewrite/qngyck.js
 #启牛果园浇水
-https://qaf.feierlaiedu.com/knowledge-app-farm/api/v1/activity/feed url script-request-head https://raw.githubusercontent.com/YaphetS0903/JStest/main/qngy.js
-https://qaf.feierlaiedu.com/knowledge-app-farm/api/v1/activity/feed url script-request-body https://raw.githubusercontent.com/YaphetS0903/JStest/main/qngy.js
+https://qaf.feierlaiedu.com/knowledge-app-farm/api/v1/activity/feed url script-request-head https://raw.githubusercontent.com/levi19831005/js/main/qxrewrite/qngyck.js
+https://qaf.feierlaiedu.com/knowledge-app-farm/api/v1/activity/feed url script-request-body https://raw.githubusercontent.com/levi19831005/js/main/qxrewrite/qngyck.js
 [MITM]
 hostname = qaf.feierlaiedu.com
 */
