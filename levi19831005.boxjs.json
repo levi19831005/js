@@ -31,7 +31,7 @@
       {
             "id": "cy100",
             "name": "畅意100",
-            "keys": ["cy100hd", "cy100hd2","cy100hd3", "cy100hd4","cy100hd5", "cy100hd6","cy100hd7", "cy100hd8","cy100hd9", "cy100hd10"],
+            "keys": ["cy100hd"],
             "author": "levi",
             "settings": [{
             "id": "cy100status",
@@ -39,13 +39,8 @@
             "val": "1",
             "type": "number",
             "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-    },{
-            "id": "cy100count",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-    } ],
+    }
+             ],
             "repo": "https://raw.githubusercontent.com/levi19831005/js/main/cy100.js",
             "icons": ["https://s2.loli.net/2022/09/27/Q2EKLlzm3xkAWMj.png","https://s2.loli.net/2022/09/27/Q2EKLlzm3xkAWMj.png"],
             "script": "https://raw.githubusercontent.com/levi19831005/js/main/cy100.js"
