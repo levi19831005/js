@@ -25,7 +25,7 @@
             "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
     } ],
             "repo": "https://raw.githubusercontent.com/levi19831005/js/main/kfx.js",
-            "icons": ["https://s2.loli.net/2022/09/26/3EXWvDVyLhRZJPA.png","https://s2.loli.net/2022/09/26/3EXWvDVyLhRZJPA.png"],
+            "icons": ["https://s2.loli.net/2022/09/27/DecvEWImChFQVGY.png","https://s2.loli.net/2022/09/27/DecvEWImChFQVGY.png"],
             "script": "https://raw.githubusercontent.com/levi19831005/js/main/kfx.js"
     }
     	]
