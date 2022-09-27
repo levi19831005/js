@@ -6,7 +6,7 @@
  签到一天10积分 7天额外+30
   
 [rewrite_local]
-https://qapi.yili.com/cy/api/order url script-request-headers https://raw.githubusercontent.com/liuqi6968/-/main/cy100.js
+https://qapi.yili.com/cy/api/order url script-request-headers https://raw.githubusercontent.com/levi19831005/js/main/cy100.js
 
 [mitm]
 hostname = qapi.yili.com
