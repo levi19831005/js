@@ -67,7 +67,7 @@
             "keys": ["xlwlyhd"],
             "author": "levi",
             "settings": [{
-            "id": "xlwlystatus",
+            "id": "xlwlyhd",
             "name": "当前账号",
             "val": "1",
             "type": "number",
