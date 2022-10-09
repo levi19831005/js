@@ -62,14 +62,17 @@ hostname = mapi.baigongyi.com
      .finally(() => $.done());
 
 //圈X获取ck
-//https://mapi.baigongyi.com/appStartRecord 
 function bgyck() {
-    if ($request.url.indexOf("mapi") > -1 && $request.url.indexOf("appStartRecord") > -1) {
-        const bgy_cookie = $request.headers.Authentication
-        if (bgy_cookie) $.setdata(bgy_cookie, `bgy_cookie${status}`)
-        $.log(bgy_cookie)
+    if ($request.url.indexOf("appStartRecord") > -1) {
 
-        $.msg($.name, "", `百工驿${status}获取数据成功`)
+
+        const bgyhd = JSON.stringify($request.headers.Authentication)
+        if (bgyhd) $.setdata(bgyhd, `bgyhd${status}`)
+        $.log(bgyhd)
+
+
+
+        $.msg($.name, "", `百工驿${status}获取headers成功`)
 
     }
 }
