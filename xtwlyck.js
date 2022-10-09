@@ -1,4 +1,7 @@
-﻿/*
+
+
+
+*/
 2022.10.09 新天威旅游qx获取CK
 
 
@@ -8,14 +11,10 @@
 
 主机名：www.xtwtour.com
 
-*/
+/*
 
 
-
-//https://www.xtwtour.com/api/user/points/get_user_points
-// 把  新天威旅游ck  改成软件名  
-
-const $ = new Env('新天威旅游ck');
+const $ = new Env('新天威旅游');
 let status;
 
 status = (status = ($.getval("xtwlystatus") || "1")) > 1 ? `${status}` : "";
@@ -64,7 +63,7 @@ let xtwlybody = $.getdata('xtwlybody')
                 xtwlybody = xtwlybodyArr[i];
 
                 $.index = i + 1;
-                console.log(`\n\n开始【新天威旅游ck${$.index}】`)
+                console.log(`\n\n开始【新天威旅游${$.index}】`)
 
 
                 //循环运行
@@ -84,17 +83,20 @@ let xtwlybody = $.getdata('xtwlybody')
     .finally(() => $.done())
 
 
-//获取ck
+//获取ck https://www.xtwtour.com/api/user/user/get_login_user
 function xtwlyck() {
-    if ($request.url.indexOf("points") > -1) {
-   
+    if ($request.url.indexOf("get_login_user") > -1) {
+        const xtwlyurl = $request.url
+        if (xtwlyurl) $.setdata(xtwlyurl, `xtwlyurl${status}`)
+        $.log(xtwlyurl)
 
-        const xtwlyhd = JSON.stringify($request.headers)
+        const xtwlyhd = JSON.stringify($request.headers.user-login-token)
         if (xtwlyhd) $.setdata(xtwlyhd, `xtwlyhd${status}`)
         $.log(xtwlyhd)
 
-      
-        $.msg($.name, "", `新天威旅游ck${status}获取headers成功`)
+   
+
+        $.msg($.name, "", `新天威旅游${status}获取headers成功`)
 
     }
 }
