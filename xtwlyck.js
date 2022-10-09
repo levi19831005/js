@@ -12,7 +12,7 @@
 
 
 
-//https://www.xtwtour.com/api/user/user/get_login_user
+//https://www.xtwtour.com/api/user/points/get_user_points
 // 把  新天威旅游ck  改成软件名  
 
 const $ = new Env('新天威旅游ck');
@@ -86,7 +86,7 @@ let xtwlybody = $.getdata('xtwlybody')
 
 //获取ck
 function xtwlyck() {
-    if ($request.url.indexOf("login") > -1) {
+    if ($request.url.indexOf("points") > -1) {
    
 
         const xtwlyhd = JSON.stringify($request.headers.user-login-token)
