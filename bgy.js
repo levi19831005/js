@@ -34,7 +34,8 @@ hostname = mapi.baigongyi.com
  ram_num = randomInt(1, 10)
  let textarr = ['点赞', '赞', '赞一个', '有用', '强', '学习', '学下', '看看', '学到', '嘿嘿']
  let text = textarr[ram_num];
-
+ let status;
+ status = (status = ($.getval("bgystatus") || "1")) > 1 ? `${status}` : "";
  
  async function tips(ckArr) {
  
