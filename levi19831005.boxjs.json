@@ -9,7 +9,7 @@
   {
             "id": "kfx",
             "name": "卡夫享",
-            "keys": ["kfxtoken", "kfxtoken2","kfxtoken3", "kfxtoken4","kfxtoken5", "kfxtoken6","kfxtoken7", "kfxtoken8","kfxtoken9", "kfxtoken10"],
+            "keys": ["kfxtoken"],
             "author": "levi",
             "settings": [{
             "id": "kfxstatus",
@@ -38,6 +38,23 @@
             "repo": "https://raw.githubusercontent.com/levi19831005/js/main/cy100.js",
             "icons": ["https://s2.loli.net/2022/09/27/Q2EKLlzm3xkAWMj.png","https://s2.loli.net/2022/09/27/Q2EKLlzm3xkAWMj.png"],
             "script": "https://raw.githubusercontent.com/levi19831005/js/main/cy100.js"
+    } ,
+      {
+            "id": "bgy",
+            "name": "百工驿",
+            "keys": ["bgy_cookie"],
+            "author": "levi",
+            "settings": [{
+            "id": "bgystatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    }
+             ],
+            "repo": "https://raw.githubusercontent.com/levi19831005/js/main/bgyck.js",
+            "icons": ["https://s2.loli.net/2022/10/09/bPK1Jq4rcxMaAQZ.png","https://s2.loli.net/2022/10/09/bPK1Jq4rcxMaAQZ.png"],
+            "script": "https://raw.githubusercontent.com/levi19831005/js/main/bgyck.js"
     }
     	]
 }
