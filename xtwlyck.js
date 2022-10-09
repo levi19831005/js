@@ -86,7 +86,7 @@ let xtwlybody = $.getdata('xtwlybody')
 
 //获取ck
 function xtwlyck() {
-    if ($request.url.indexOf("getAdVideoReward") > -1) {
+    if ($request.url.indexOf("get_login_user") > -1) {
    
 
         const xtwlyhd = JSON.stringify($request.headers.user-login-token)
