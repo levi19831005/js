@@ -55,6 +55,23 @@
             "repo": "https://raw.githubusercontent.com/levi19831005/js/main/bgyck.js",
             "icons": ["https://s2.loli.net/2022/10/09/bPK1Jq4rcxMaAQZ.png","https://s2.loli.net/2022/10/09/bPK1Jq4rcxMaAQZ.png"],
             "script": "https://raw.githubusercontent.com/levi19831005/js/main/bgyck.js"
+    },
+      {
+            "id": "xtwly",
+            "name": "新天威旅游",
+            "keys": ["xlwlyhd"],
+            "author": "levi",
+            "settings": [{
+            "id": "xlwlystatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+    }
+             ],
+            "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xlwlyck.js",
+            "icons": ["https://s2.loli.net/2022/10/09/DKfl9JZXvANdExm.png","https://s2.loli.net/2022/10/09/DKfl9JZXvANdExm.png"],
+            "script": "https://raw.githubusercontent.com/levi19831005/js/main/xlwlyck.js"
     }
     	]
 }
