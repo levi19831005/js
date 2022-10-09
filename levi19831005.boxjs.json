@@ -42,7 +42,7 @@
       {
             "id": "bgy",
             "name": "百工驿",
-            "keys": ["bgy_cookie"],
+            "keys": ["bgyck"],
             "author": "levi",
             "settings": [{
             "id": "bgystatus",
