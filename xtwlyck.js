@@ -89,7 +89,7 @@ function xtwlyck() {
     if ($request.url.indexOf("points") > -1) {
    
 
-        const xtwlyhd = JSON.stringify($request.headers.user-login-token)
+        const xtwlyhd = JSON.stringify($request.headers)
         if (xtwlyhd) $.setdata(xtwlyhd, `xtwlyhd${status}`)
         $.log(xtwlyhd)
 
