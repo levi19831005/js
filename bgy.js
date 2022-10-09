@@ -66,7 +66,7 @@ function bgyck() {
     if ($request.url.indexOf("appStartRecord") > -1) {
 
 
-        const bgyhd = JSON.stringify($request.headers.Authentication)
+        const bgyhd = JSON.stringify($request.headers)
         if (bgyhd) $.setdata(bgyhd, `bgyhd${status}`)
         $.log(bgyhd)
 
