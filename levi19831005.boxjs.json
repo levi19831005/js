@@ -44,12 +44,17 @@
             "name": "百工驿",
             "keys": ["bgyhd"],
             "author": "levi",
+         "descs_html": [        
+        "使用方式：自己抓包获取相应的字段。多账号用@连接"
+       ],
             "settings": [{
             "id": "bgystatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+            "name": "CK列表",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 10,
+            "desc": "bgystatus"
     }
              ],
             "repo": "https://raw.githubusercontent.com/levi19831005/js/main/bgyck.js",
