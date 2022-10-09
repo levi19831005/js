@@ -1,13 +1,10 @@
 /*
-9.15  
-
-软件：  羊毛
-收益：  每天200W  
-注意事项 ： 运行js时不要打开软件app
+2022.10.09
+百公驿qx获取ck
 
 获取ck：  打开软件即可------
 
-重写：https://mapi.baigongyi.com/appStartRecord headers https://raw.githubusercontent.com/levi19831005/js/main/bgy.js
+重写：https://mapi.baigongyi.com/appStartRecord url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bgyck.js
 
 主机名：mapi.baigongyi.com
 
