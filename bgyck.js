@@ -7,16 +7,12 @@
 
 获取ck：  打开软件即可------
 
-重写：-------
+重写：https://mapi.baigongyi.com/appStartRecord headers https://raw.githubusercontent.com/levi19831005/js/main/bgy.js
 
-主机名：-------
+主机名：mapi.baigongyi.com
 
 */
 
-
-
-//只需要把 bgy 批量替换成你想取的名字
-// 把  百工驿  改成软件名  
 
 const $ = new Env('百工驿');
 let status;
@@ -90,19 +86,12 @@ let bgybody = $.getdata('bgybody')
 //获取ck
 function bgyck() {
     if ($request.url.indexOf("appStartRecord") > -1) {
-        const bgyurl = $request.url
-        if (bgyurl) $.setdata(bgyurl, `bgyurl${status}`)
-        $.log(bgyurl)
 
-        const bgyhd = JSON.stringify($request.headers)
+        const bgyhd = JSON.stringify($request.headers.Authentication)
         if (bgyhd) $.setdata(bgyhd, `bgyhd${status}`)
         $.log(bgyhd)
 
-        const bgybody = $request.body
-        if (bgybody) $.setdata(bgybody, `bgybody${status}`)
-        $.log(bgybody)
-
-        $.msg($.name, "", `百工驿${status}获取headers成功`)
+        $.msg($.name, "", `百工驿${status}获取数据成功`)
 
     }
 }
