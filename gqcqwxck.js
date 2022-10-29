@@ -4,10 +4,10 @@
 软件：  广汽传祺wx小程序获取ck
 注意事项 ： 运行js时不要打开软件app
 
-获取ck：  
+获取ck： 广汽传祺微信小程序获取CK，进入小程序后点击我的，然后qx的日志里查看 
 
 重写：`https://mall.gacmotor.com/center-current-app/fronted/myHomePage/myInfo
-
+script-request-header
 https://raw.githubusercontent.com/levi19831005/js/main/gqcqwxck.js
 
 主机名：mall.gacmotor.com
