@@ -1,7 +1,6 @@
 /*
 
-服务器闲着也是闲着系列
-注册地址: https://raw.githubusercontent.com/liuqi6968/-/main/cy100.png
+畅意100，植选植物奶，伊利之家积分共享
  
  签到一天10积分 7天额外+30
   
