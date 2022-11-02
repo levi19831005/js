@@ -2,7 +2,7 @@
 2022.10.09
 百公驿qx获取ck
 
-获取ck：  打开软件即可------
+获取ck：  打开软件登录，关闭软即可------
 
 重写：https://mapi.baigongyi.com/appStartRecord url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bgyck.js
 
