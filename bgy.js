@@ -3,7 +3,7 @@
  * ========= 青龙--配置文件 作者HHX=========
  * 百工驿app 只支持青龙。获得青豆换东西，有话费、E卡、视频会员等。进去完善下资料。
  * 9.28更新，完成签到、点赞、分享。审核太严格，发动态、评论、发言大概率都会封号，所以不做了。发布文章和视频不会做。
- * 抓包mapi.baigongyi.com下的Authentication值，放入bgy_cookie中
+ * 抓包mapi.baigongyi.com下的Authentication值，放入bgy_cookie中。
  * cron  0 7 * * *    一天一次，自己定时。
  * 变量格式: export bgy_cookie="Authentication@Authentication"多个账号换行 或用 @ 分割
  * 本脚本只是自己学习js的一个实践，禁止任何公众号、自媒体进行任何形式的转载、发布，感谢kristallsi、心雨、Sky各位大佬心雨的教学指导！
