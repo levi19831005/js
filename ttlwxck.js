@@ -1,7 +1,7 @@
 /*
 2022.11.05
 
-软件：  太太乐领先社小程序获取ck，抓包https://tcapi.totole.com.cn/api/v1/consumer/advertise下的请求头下的apitoken和unique_identity的值
+软件：  太太乐领先社小程序获取ck，抓包https://tcapi.totole.com.cn/api/v1/consumer/advertise下的请求头headers下的apitoken和unique_identity的值
 
 获取ck：  打开太太乐领先社小程序即可------
 
@@ -95,18 +95,12 @@ function ttlwxck() {
         if (ttlwxurl) $.setdata(ttlwxurl, `ttlwxurl${status}`)
         $.log(ttlwxurl)
 
-        const ttlwxhd = JSON.stringify($request.headers.apitoken)
+        const ttlwxhd = JSON.stringify($request.headers)
         if (ttlwxhd) $.setdata(ttlwxhd, `ttlwxhd${status}`)
         $.log(ttlwxhd)
 
-        $.msg($.name, "", `太太乐领先社小程序${status}获取apitoken成功`)
+        $.msg($.name, "", `太太乐领先社小程序${status}获取headers成功`)
 
-
-        const ttlwxhd = JSON.stringify($request.headers.unique_identity)
-        if (ttlwxhd) $.setdata(ttlwxhd, `ttlwxhd${status}`)
-        $.log(ttlwxhd)
-
-        $.msg($.name, "", `太太乐领先社小程序${status}获取unique_identity成功`)
 
     }
 }
