@@ -1,7 +1,7 @@
 /*
 2022.11.05
 
-软件：  太太乐领先社小程序获取ck，抓包https://tcapi.totole.com.cn/api/v1/consumer/advertise下的请求头，
+软件：  太太乐领先社小程序获取ck，抓包https://tcapi.totole.com.cn/api/v1/consumer/advertise下的请求头下的apitoken和unique_identity的值
 
 获取ck：  打开太太乐领先社小程序即可------
 
