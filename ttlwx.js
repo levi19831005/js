@@ -1,5 +1,5 @@
 /*
-微信小程序:太太乐领鲜美社       仅支持qx感谢Lilac大佬的指导！
+微信小程序:太太乐领鲜社       仅支持qx感谢Lilac大佬的指导！
 脚本：https://raw.githubusercontent.com/levi19831005/js/main/ttlwx.js
 重写: https://tcapi.totole.com.cn/api/v1/consumer url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/ttlwx.js
 主机：hostname = tcapi.totole.com.cn
