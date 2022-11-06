@@ -1,18 +1,10 @@
 /*
-微信小程序:太太乐领鲜美社       仅支持qx
-小白制作，如有问题，请多多包涵
-支持功能：1.自动签到，每天签到得现金，可以购物也可以兑换红包
-2.网易农场，自动收取气泡水滴，三餐水滴，免费水滴和自动浇水功能
-3.新增浏览商品获取水滴
-本地重写:
-act/cdn/cloudConfig.json url script-request-header ttlwx.js
-hostname = miniapp.you.163.com
-正常登录后进入小程序首页获取变量，变量名:ttlwxhd
-支持多账号
-boxjs地址: https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/danchaofan.json
+微信小程序:太太乐领鲜美社       仅支持qx感谢Lilac大佬的指导！
+脚本：https://raw.githubusercontent.com/levi19831005/js/main/ttlwx.js
+重写: https://tcapi.totole.com.cn/api/v1/consumer url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/ttlwx.js
+主机：hostname = tcapi.totole.com.cn
+正常登录后进入小程序首页获取变量，变量名:ttlwxhd，因本人小白，每次需要获取ck后立刻跑脚本。
 
-脚本地址: https://raw.githubusercontent.com/danchaofan12138/danchaofan/main/ziyong/wangyi/ttlwx.js
-定时每天5次: 13 8,12,16,18,20 * * *
 */
 
 
