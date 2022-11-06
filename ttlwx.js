@@ -105,7 +105,7 @@ for (let i = 0; i < ttlwxhdArr.length; i++) {
 
 
 function ttlwxck() {
-if($request.url.indexOf("consumer")>=-1)
+if($request.url.indexOf("advertise")>=-1)
 {
    const ttlwxhd = JSON.stringify($request.headers)
    if(ttlwxhd) $.setdata(ttlwxhd,`ttlwxhd${status}`)
@@ -114,21 +114,23 @@ if($request.url.indexOf("consumer")>=-1)
 }
 }
 
-async function ttlwxqd() {
-    let url = {
-        url: `https://tcapi.totole.com.cn/api/v1/sign`,
-        headers: JSON.parse(ttlwxhd)
-        
-    };
-    //console.log(url);
-	let body = `type=0`
-	
-    $.post(url, async (error, response, data) => {
-        try {
 
-          //console.log(data)
-            result = JSON.parse(data);
-            if (result.code == 200) {
+//签到
+
+function ttlwxqd(timeout = 0) {
+  return new Promise((resolve) => {
+      let url = {
+          url: `https://tcapi.totole.com.cn/api/v1/sign`,
+          headers: JSON.parse(ttlwxhd),
+          body: `type=0`,
+      }
+      // console.log(url);
+     $.post(url,async(error, response, data)  => {
+          try {
+              // console.log(`========输出签到 data开始===========`);
+              // console.log(data);
+              // console.log(`========输出签到 data结束=========`);
+              if (result.code == 200) {
 
                 console.log(`\n 🥳签到成功🥳，获得5分\n`);
             } else if (result.code == 500) {
@@ -136,14 +138,17 @@ async function ttlwxqd() {
             } else {
                 console.log(`\n 😡CK失效😡${result.errMsg} \n`);
             }
+          } catch (e) {
+              $.logErr(e, resp);
+          } finally {
+              resolve()
+          }
+      }, timeout)
 
-        } catch (e) {
-            $.logErr(e, resp)
-        } finally {
-            resolve();
-        }
-    }, )
+  })
+
 }
+
 
 
 
