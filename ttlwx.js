@@ -1,5 +1,5 @@
 /*
-微信小程序:太太乐领先社       仅支持qx
+微信小程序:太太乐领鲜美社       仅支持qx
 小白制作，如有问题，请多多包涵
 支持功能：1.自动签到，每天签到得现金，可以购物也可以兑换红包
 2.网易农场，自动收取气泡水滴，三餐水滴，免费水滴和自动浇水功能
@@ -90,6 +90,9 @@ for (let i = 0; i < ttlwxhdArr.length; i++) {
      console.log(`\n📝开始签到📝\n`)
       await ttlwxqd();
       await $.wait(1000);
+      console.log(`\n👀开始浏览👀\n`) 
+      await llswm();
+      await $.wait(15000);
 
 
 
@@ -111,6 +114,7 @@ if($request.url.indexOf("consumer")>=-1)
    if(ttlwxhd) $.setdata(ttlwxhd,`ttlwxhd${status}`)
    $.log(`获取ttlwxhd请求: 成功,ttlwxhd: ${ttlwxhd}`)
     $.msg($.name, "", `${status}` + 'ttlwxhd获取成功！')
+
 }
 }
 
@@ -131,12 +135,11 @@ function ttlwxqd(timeout = 0) {
               // console.log(data);
               // console.log(`========输出签到 data结束=========`);
               if (result.code == 200) {
-
-                console.log(`\n 🥳签到成功🥳，获得5分\n`);
+              console.log(`\n 签到${result.data}\n`);
             } else if (result.code == 500) {
-             console.log(`\n😂当天已签😂\n`);
+             console.log(`\n ${result.msg}\n`);
             } else {
-                console.log(`\n 😡CK失效😡${result.errMsg} \n`);
+                console.log(`\n 😡CK失效😡${result.msg} \n`);
             }
           } catch (e) {
               $.logErr(e, resp);
@@ -149,7 +152,38 @@ function ttlwxqd(timeout = 0) {
 
 }
 
+//浏览十五秒
 
+function llswm(timeout = 0) {
+  return new Promise((resolve) => {
+      let url = {
+          url: `https://tcapi.totole.com.cn/api/v1/consumer/task/article`,
+          headers: JSON.parse(ttlwxhd),
+          body: `{"article_id":"AT202205131405261","id":"8152a856-84be-4964-baea-8e85a0e46667"}`,
+      }
+      // console.log(url);
+     $.post(url,async(error, response, data)  => {
+          try {
+              // console.log(`========输出签到 data开始===========`);
+              // console.log(data);
+              // console.log(`========输出签到 data结束=========`);
+              if (result.code == 200) {
+              console.log(`\n 浏览${result.data}\n`);
+            } else if (result.code == 500) {
+             console.log(`\n ${result.msg}\n`);
+            } else {
+                console.log(`\n 😡CK失效😡${result.msg} \n`);
+            }
+          } catch (e) {
+              $.logErr(e, resp);
+          } finally {
+              resolve()
+          }
+      }, timeout)
+
+  })
+
+}
 
 
 
