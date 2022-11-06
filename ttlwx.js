@@ -111,7 +111,6 @@ if($request.url.indexOf("advertise")>=-1)
    if(ttlwxhd) $.setdata(ttlwxhd,`ttlwxhd${status}`)
    $.log(`获取ttlwxhd请求: 成功,ttlwxhd: ${ttlwxhd}`)
     $.msg($.name, "", `${status}` + 'ttlwxhd获取成功！')
-	await $.wait(5000);
 }
 }
 
