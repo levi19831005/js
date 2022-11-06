@@ -105,7 +105,7 @@ for (let i = 0; i < ttlwxhdArr.length; i++) {
 
 
 function ttlwxck() {
-if($request.url.indexOf("advertise")>=-1)
+if($request.url.indexOf("consumer")>=-1)
 {
    const ttlwxhd = JSON.stringify($request.headers)
    if(ttlwxhd) $.setdata(ttlwxhd,`ttlwxhd${status}`)
