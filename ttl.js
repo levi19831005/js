@@ -91,7 +91,7 @@ class UserInfo {
 
 ////////////////////https://tcapi.totole.com.cn/api/v1/consumer/advertise
 async function GetRewrite() {
-    if($request.url.indexOf(`advertise`) > -1) {
+    if($request.url.indexOf(`addresslist`) > -1) {
         let apitoken = $request.headers.apitoken ? $request.headers.apitoken : $request.headers.apitoken
         let ck = 'token=' + apitoken
         if(!apitoken) return;
