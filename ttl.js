@@ -27,8 +27,30 @@ class UserInfo {
         }
     }
     
-    
     async sign() {
+        try {
+            let url = `https://tcapi.totole.com.cn/api/v1/sign`
+            let body = JSON.stringify({type=0})
+            let token = `${this.param.token}`
+            let urlObject = populateUrlObject(url,token,body)
+            await httpRequest('post',urlObject)
+            let result = httpResult;
+            if(!result) return
+            //console.log(result)
+            if(result.code == 200) {
+            $.logAndNotify(`账号[${this.name}]${result.msg}`)
+                } else {
+                $.logAndNotify(`账号[${this.name}]${result.msg}`)
+            }
+        } catch(e) {
+            console.log(e)
+        } finally {
+            return Promise.resolve(1);
+        }
+    }
+
+
+    async liulan() {
         try {
             let url = `https://tcapi.totole.com.cn/api/v1/consumer/task/article`
             let body = JSON.stringify({"article_id":"AT202205131405261","id":"8152a856-84be-4964-baea-8e85a0e46667"})
@@ -49,6 +71,9 @@ class UserInfo {
             return Promise.resolve(1);
         }
     }
+
+
+
     
    
 }
@@ -75,7 +100,7 @@ class UserInfo {
                 $.logAndNotify('\n-------------- 浏览 --------------')
                 taskall = []
                 for(let user of validList.filter(x => x.canRead)) {
-                    //taskall.push(user.getTaskList())
+                taskall.push(user.liulan())
                 }
                 await Promise.all(taskall)
        
@@ -91,7 +116,7 @@ class UserInfo {
 
 ///////////////////////////////////////////////////////////////////
 async function GetRewrite() {
-    if($request.url.indexOf(`api/v1/consumer/advertise`) > -1) {
+    if($request.url.indexOf(`api/v1/consumer`) > -1) {
         let apitoken = $request.headers.apitoken ? $request.headers.apitoken : $request.headers.apitoken
         let ck = 'token=' + apitoken
         if(!apitoken) return;
