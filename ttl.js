@@ -30,8 +30,8 @@ class UserInfo {
     
     async sign() {
         try {
-            let url = `https://tcapi.totole.com.cn/api/v1/sign`
-            let body = JSON.stringify(type=0)
+            let url = `https://tcapi.totole.com.cn/api/v1/consumer/task/article`
+            let body = JSON.stringify({"article_id":"AT202205131405261","id":"8152a856-84be-4964-baea-8e85a0e46667"})
             let token = `${this.param.token}`
             let urlObject = populateUrlObject(url,token,body)
             await httpRequest('post',urlObject)
@@ -89,9 +89,9 @@ class UserInfo {
 .catch((e) => console.log(e))
 .finally(() => $.done())
 
-///////////////////////////////////////////////////////////////////
+////////////////////https://tcapi.totole.com.cn/api/v1/consumer/advertise
 async function GetRewrite() {
-    if($request.url.indexOf(`api/v1/consumer`) > -1) {
+    if($request.url.indexOf(`advertise`) > -1) {
         let apitoken = $request.headers.apitoken ? $request.headers.apitoken : $request.headers.apitoken
         let ck = 'token=' + apitoken
         if(!apitoken) return;
@@ -109,24 +109,6 @@ async function GetRewrite() {
     }
 }
 
-async function GetRewrite1() {
-    if ($request.url.indexOf("api/v1/consumer") > -1) {
-        let apitoken = $request.headers.apitoken ? $request.headers.apitoken : $request.headers.apitoken
-        let ck = 'token=' + apitoken
-        if(!apitoken) return;
-        if (userCookie) {
-            if (userCookie.indexOf(ck) == -1) {
-                userCookie = userCookie + "\n" + ck;
-                $.setdata(userCookie, "ttl");
-                List = userCookie.split("\n");
-                $.msg(` 获取第${List.length}个 ck 成功: ${ck} ,不用请自行关闭重写!`);
-            }
-        } else {
-            $.setdata(ck, "ttl");
-            $.msg(`获取第1个ck成功: ${ck}`);
-        }
-    }
-}
 
 
 
