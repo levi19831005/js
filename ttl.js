@@ -1,7 +1,7 @@
 /*
 
 */
-const $ = new Env("太太乐领先社");
+const $ = new Env("太太乐领鲜社");
 
 let envSplitor = ['\n']  //多账号隔开方式
 let httpResult, httpReq, httpResp
@@ -32,8 +32,9 @@ class UserInfo {
         try {
             let url = `https://tcapi.totole.com.cn/api/v1/consumer/task/article`
             let body = JSON.stringify({"article_id":"AT202205131405261","id":"8152a856-84be-4964-baea-8e85a0e46667"})
+            let Content = '78'
             let token = `${this.param.token}`
-            let urlObject = populateUrlObject(url,token,body)
+            let urlObject = populateUrlObject(url,token,Content,body)
             await httpRequest('post',urlObject)                            //请求方式是post
             let result = httpResult;
             if(!result) return
@@ -54,10 +55,10 @@ class UserInfo {
     async sign() {
         try {
             let url = `https://tcapi.totole.com.cn/api/v1/sign`
-            let Content-Length = `6`
             let body = `type=0`
             let token = `${this.param.token}`
-            let urlObject = populateUrlObject(url,token,body)
+            let Content = '6'
+            let urlObject = populateUrlObject(url,token,Content,body)
             await httpRequest('post',urlObject)                            //请求方式是post
             let result = httpResult;
             if(!result) return
@@ -173,13 +174,14 @@ async function checkEnv() {
     return true
 }
 ////////////////////////////////////////////////////////////////////
-function populateUrlObject(url,token,body=''){
+function populateUrlObject(url,token,Content,body=''){
     let host = url.replace('//','/').split('/')[1]
     let urlObject = {
         url: url,
         headers: {
             'Host': host,
             'content-type': 'application/x-www-form-urlencoded',
+            'Content-Length': Content,
             'apitoken': token
         },
         timeout: 5000,
