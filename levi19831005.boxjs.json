@@ -63,15 +63,15 @@
     {
                             "id": "ttl",
                             "name": "太太乐领鲜社",
-                            "keys": ["ttlhd"],
+                            "keys": ["ttl"],
                             "settings": [{
-                                    "id": "ttlhd",
+                                    "id": "ttl",
                                     "name": "CK 列表",
                                     "val": "",
                                     "type": "textarea",
                                     "autoGrow": true,
                                     "rows": 8,
-                                    "desc": "ttlhd"
+                                    "desc": "ttl"
                                 }],
                             "author": "@hhx",
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ttlck.js",
