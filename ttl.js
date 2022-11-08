@@ -53,8 +53,8 @@ class UserInfo {
 
     async sign() {
         try {
-            let url = `https://tcapi.totole.com.cn/api/v1/marketcenter/sign/config?type=0`
-            let body = ``
+            let url = `https://tcapi.totole.com.cn/api/v1/sign`
+            let body = `type=0`
             let token = `${this.param.token}`
             let urlObject = populateUrlObject(url,token,body)
             await httpRequest('post',urlObject)                            //请求方式是post
