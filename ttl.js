@@ -54,6 +54,7 @@ class UserInfo {
     async sign() {
         try {
             let url = `https://tcapi.totole.com.cn/api/v1/sign`
+            let Content-Length = `6`
             let body = `type=0`
             let token = `${this.param.token}`
             let urlObject = populateUrlObject(url,token,body)
