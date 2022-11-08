@@ -127,24 +127,7 @@ async function GetRewrite() {
     }
 }
 
-async function GetRewrite1() {
-    if ($request.url.indexOf("api/v1/consumer") > -1) {
-        let apitoken = $request.headers.apitoken ? $request.headers.apitoken : $request.headers.apitoken
-        let ck = 'token=' + apitoken
-        if(!apitoken) return;
-        if (userCookie) {
-            if (userCookie.indexOf(ck) == -1) {
-                userCookie = userCookie + "\n" + ck;
-                $.setdata(userCookie, "ttl");
-                List = userCookie.split("\n");
-                $.msg(` 获取第${List.length}个 ck 成功: ${ck} ,不用请自行关闭重写!`);
-            }
-        } else {
-            $.setdata(ck, "ttl");
-            $.msg(`获取第1个ck成功: ${ck}`);
-        }
-    }
-}
+
 
 
 
