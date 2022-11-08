@@ -89,24 +89,16 @@ class UserInfo {
         let validList = userList.filter(x => x.ckValid)                ////这个不懂
         
         if(validList.length > 0) {
-            $.logAndNotify('\n-------------- 浏览 --------------')
+            $.logAndNotify('\n-------------- 签到浏览 --------------')
             taskall = []
             for(let user of validList) {
-                taskall.push(user.sign())                            ////执行sign任务
+                taskall.push(user.sign()) 
+                taskall.push(user.qd()) 
             }
             await Promise.all(taskall)                               ////等待完成全部sign任务？
             validList = validList.filter(x => x.valid)               ////这个不懂
         }    
-        if(validList.length > 0) {
-                $.logAndNotify('\n-------------- 签到 --------------')
-                taskall = []
-                for(let user of validList) {
-                    taskall.push(user.qd())
-                }
-                await Promise.all(taskall)
-                validList = validList.filter(x => x.valid) 
-                
-            }
+  
         
         
         await $.showmsg();
