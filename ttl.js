@@ -1,7 +1,7 @@
 /*
 
 */
-const $ = new Env("太太乐领鲜社");
+const $ = new Env("太太乐");
 
 let envSplitor = ['\n']  //多账号隔开方式
 let httpResult, httpReq, httpResp
@@ -109,7 +109,7 @@ class UserInfo {
 
 ///////////////////////////////////////////////////////////////////
 async function GetRewrite() {
-    if($request.url.indexOf(`advertise`) > -1) {
+    if($request.url.indexOf(`api/v1/consumer`) > -1) {
         let apitoken = $request.headers.apitoken ? $request.headers.apitoken : $request.headers.apitoken
         let ck = 'token=' + apitoken
         if(!apitoken) return;
@@ -128,7 +128,7 @@ async function GetRewrite() {
 }
 
 async function GetRewrite1() {
-    if ($request.url.indexOf("advertise") > -1) {
+    if ($request.url.indexOf("api/v1/consumer") > -1) {
         let apitoken = $request.headers.apitoken ? $request.headers.apitoken : $request.headers.apitoken
         let ck = 'token=' + apitoken
         if(!apitoken) return;
