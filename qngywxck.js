@@ -2,9 +2,10 @@
 软件：  启牛果园小程序获取ck
 获取ck：  打开小程序即可------
 重写：https://qaf.feierlaiedu.com/knowledge-app-farm/api/v1/customer/guide/status
- url script-request-header 
- https://raw.githubusercontent.com/levi19831005/js/main/qngywxck.js
-主机名：qaf.feierlaiedu.com
+      url script-request-header 
+      https://raw.githubusercontent.com/levi19831005/js/main/qngywxck.js
+主机：qaf.feierlaiedu.com
+boxjs订阅：https://raw.githubusercontent.com/levi19831005/js/main/levi19831005.boxjs.json
 */
 const $ = new Env("启牛果园获取Ck");
 
@@ -59,7 +60,7 @@ class UserInfo {
 }
 
 
-///////////////////任务执行流程///////////////////////
+///////////////////任务执行流程模板///////////////////////
 !(async () => {
     if (typeof $request !== "undefined") {
         await GetRewrite()
