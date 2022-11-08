@@ -119,7 +119,6 @@ async function GetRewrite() {
                 $.setdata(userCookie, 'ttl');
                 let ckList = userCookie.split('\n')
                 $.msg(`获取第${ckList.length}个ck成功: ${ck}`)
-                wait(5000)
             }
         } else {
             $.setdata(ck, 'ttl');
