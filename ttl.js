@@ -109,7 +109,7 @@ class UserInfo {
 
 ///////////////////////////////////////////////////////////////////
 async function GetRewrite() {
-    if($request.url.indexOf(`api/v1/consumer`) > -1) {
+    if($request.url.indexOf(`addresslist`) > -1) {
         let apitoken = $request.headers.apitoken ? $request.headers.apitoken : $request.headers.apitoken
         let ck = 'token=' + apitoken
         if(!apitoken) return;
