@@ -40,6 +40,8 @@ class UserInfo {
             //console.log(result)
             if(result.code == 200) {
             $.logAndNotify(`账号[${this.name}]${result.msg}`)
+            this.valid = true
+            this.canRead = true
                 } else {
                 $.logAndNotify(`账号[${this.name}]${result.msg}`)
             }
