@@ -42,9 +42,9 @@ class UserInfo {
 /////////////////https://hms.cignacmb.com/activity/checkin/dailyCheckin?operateType=0
 async function GetRewrite() {
     if($request.url.indexOf(`checkin`) > -1) {
-        let Authorization = $request.headers.Authorization ? $request.headers.Authorization : $request.headers.Authorization
-        let ck = Authorization
-        if(!Authorization) return;
+        let token = $request.headers.Authorization ? $request.headers.Authorization : $request.headers.Authorization
+        let ck = token
+        if(!token) return;
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
