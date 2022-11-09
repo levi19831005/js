@@ -3,7 +3,7 @@
 
 软件：  太太乐领鲜社小程序获取ck
 
-获取ck：  打开软件即可------
+获取ck：  打开软件即可-----
 
 重写：https://tcapi.totole.com.cn/api/v1/consumer url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/ttlck.js
 
