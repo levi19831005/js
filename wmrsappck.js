@@ -2,12 +2,12 @@
 2022.11.09
 
 软件：  完美人生app获取ck
-获取ck： 进入app后点击中间诺米商城获取，只适配青龙 export wmrs_auth='Authorization',多账号@或换行
+获取ck： 进入app后点击每日签到获取，只适配青龙 export wmrs_auth='Authorization',多账号@或换行
 qx重写：
-https://member.cignacmb.com/shop/member/interface/queryScoreStatisticsMonth
+https://hms.cignacmb.com/activity/checkin/dailyCheckin?operateType=0
 script-request-header
 https://raw.githubusercontent.com/levi19831005/js/main/wmrsappck.js
-主机：member.cignacmb.com
+主机：*.cignacmb.com
 
 */
 const $ = new Env("完美人生");
@@ -39,9 +39,9 @@ class UserInfo {
     
 
 
-/////////////////https://member.cignacmb.com/shop/member/interface/initPageData
+/////////////////https://hms.cignacmb.com/activity/checkin/dailyCheckin?operateType=0
 async function GetRewrite() {
-    if($request.url.indexOf(`initPageData`) > -1) {
+    if($request.url.indexOf(`checkin`) > -1) {
         let Authorization = $request.headers.Authorization ? $request.headers.Authorization : $request.headers.Authorization
         let ck = Authorization
         if(!Authorization) return;
