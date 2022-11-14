@@ -5,7 +5,7 @@ const $ = new Env("猫人");
 
 let envSplitor = ['\n']  //多账号隔开方式
 let httpResult, httpReq, httpResp
-let userCookie = ($.isNode() ? process.env.maoren : $.getdata('maoren')) || '';
+let userCookie = ($.isNode() ? process.env.mrck : $.getdata('mrck')) || '';
 let userList = []
 let userIdx = 0
 let userCount = 0
@@ -28,55 +28,7 @@ class UserInfo {
     }
     
     
-    async article() {
-        try {
-            let url = `https://tcapi.totole.com.cn/api/v1/consumer/task/article`
-            let body = JSON.stringify({"article_id":"AT202205131405261","id":"8152a856-84be-4964-baea-8e85a0e46667"})
-            let Content = '78'
-            let token = `${this.param.token}`
-            let urlObject = populateUrlObject(url,token,Content,body)
-            await httpRequest('post',urlObject)                            //请求方式是post
-            let result = httpResult;
-            if(!result) return
-            //console.log(result)
-            if(result.code == 200) {
-            $.logAndNotify(`账号[${this.name}]${result.msg}`)
-            
-                } else {
-                $.logAndNotify(`账号[${this.name}]${result.msg}`)
-            }
-        } catch(e) {
-            console.log(e)
-        } finally {
-            return Promise.resolve(1);
-        }
-    }
-
-    async sign() {
-        try {
-            let url = `https://tcapi.totole.com.cn/api/v1/sign`
-            let body = `type=0`
-            let token = `${this.param.token}`
-            let Content = '6'
-            let urlObject = populateUrlObject(url,token,Content,body)
-            await httpRequest('post',urlObject)                            //请求方式是post
-            let result = httpResult;
-            if(!result) return
-            //console.log(result)
-            if(result.code == 200) {
-            $.logAndNotify(`账号[${this.name}]${result.msg}`)
-                } else {
-                $.logAndNotify(`账号[${this.name}]${result.msg}`)
-            }
-        } catch(e) {
-            console.log(e)
-        } finally {
-            return Promise.resolve(1);
-        }
-    }
-   
-}
-
+    
 !(async () => {
     if (typeof $request !== "undefined") {
         await GetRewrite1()
@@ -110,8 +62,8 @@ class UserInfo {
 ////////////////////////////////////////////////////https://shopapp.miiow.com.cn/buyer/pageData/getIndex
 async function GetRewrite() {
     if($request.url.indexOf(`getIndex`) > -1) {
-        let accessToken = $request.headers.accessToken ? $request.headers.accessToken : $request.headers.accessToken
-        let ck = accessToken
+        let Token = $request.headers.accessToken ? $request.headers.accessToken : $request.headers.accessToken
+        let ck = Token
         if(!accessToken) return;
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
@@ -130,8 +82,8 @@ async function GetRewrite() {
 
 async function GetRewrite1() {
     if ($request.url.indexOf("getIndex") > -1) {
-        let accessToken = $request.headers.accessToken ? $request.headers.accessToken : $request.headers.accessToken
-        let ck = accessToken
+        let Token = $request.headers.accessToken ? $request.headers.accessToken : $request.headers.accessToken
+        let ck = Token
         if(!accessToken) return;
         if (userCookie) {
             if (userCookie.indexOf(ck) == -1) {
