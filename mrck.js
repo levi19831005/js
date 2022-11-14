@@ -64,7 +64,7 @@ async function GetRewrite() {
     if($request.url.indexOf(`getIndex`) > -1) {
         let Token = $request.headers.accessToken ? $request.headers.accessToken : $request.headers.accessToken
         let ck = Token
-        if(!accessToken) return;
+        if(!Token) return;
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
@@ -84,7 +84,7 @@ async function GetRewrite1() {
     if ($request.url.indexOf("getIndex") > -1) {
         let Token = $request.headers.accessToken ? $request.headers.accessToken : $request.headers.accessToken
         let ck = Token
-        if(!accessToken) return;
+        if(!Token) return;
         if (userCookie) {
             if (userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + "\n" + ck;
