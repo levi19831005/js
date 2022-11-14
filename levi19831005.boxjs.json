@@ -100,15 +100,15 @@
     {
                             "id": "maoren",
                             "name": "猫人",
-                            "keys": ["maoren"],
+                            "keys": ["mrck"],
                             "settings": [{
-                                    "id": "maoren",
+                                    "id": "mrck",
                                     "name": "CK 列表",
                                     "val": "",
                                     "type": "textarea",
                                     "autoGrow": true,
                                     "rows": 8,
-                                    "desc": "maoren"
+                                    "desc": "mrck"
                                 }],
                             "author": "@hhx",
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/mrck.js",
