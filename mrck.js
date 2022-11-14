@@ -68,12 +68,12 @@ async function GetRewrite() {
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
-                $.setdata(userCookie, 'maoren');
+                $.setdata(userCookie, 'mrck');
                 let ckList = userCookie.split('\n')
                 $.msg(`获取第${ckList.length}个ck成功: ${ck}`)
             }
         } else {
-            $.setdata(ck, 'maoren');
+            $.setdata(ck, 'mrck');
             $.msg(`获取第1个ck成功: ${ck}`)
         }
     }
@@ -88,12 +88,12 @@ async function GetRewrite1() {
         if (userCookie) {
             if (userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + "\n" + ck;
-                $.setdata(userCookie, "ttl");
+                $.setdata(userCookie, "mrck");
                 List = userCookie.split("\n");
                 $.msg(` 获取第${List.length}个 ck 成功: ${ck} ,不用请自行关闭重写!`);
             }
         } else {
-            $.setdata(ck, "ttl");
+            $.setdata(ck, "mrck");
             $.msg(`获取第1个ck成功: ${ck}`);
         }
     }
