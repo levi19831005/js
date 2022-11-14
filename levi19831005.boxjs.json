@@ -5,6 +5,8 @@
     "icon": "https://s2.loli.net/2022/09/26/leyBXMwIPs98Ouz.jpg",
     "repo": "https://github.com/levi9831005/js",
     "apps": [
+        
+        
         {
             "id": "kfx",
             "name": "卡夫享",
@@ -94,7 +96,31 @@
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/wmrsappck.js",
                                                           "icons": ["https://s2.loli.net/2022/11/09/4JIfYcACUdNVeK8.jpg","https://s2.loli.net/2022/11/09/4JIfYcACUdNVeK8.jpg"],
                                                               "script": "https://raw.githubusercontent.com/levi19831005/js/main/wmrsappck.js"
-                                 }             
+                                 } ,
+    {
+                            "id": "maoren",
+                            "name": "猫人",
+                            "keys": ["maoren"],
+                            "settings": [{
+                                    "id": "maoren",
+                                    "name": "CK 列表",
+                                    "val": "",
+                                    "type": "textarea",
+                                    "autoGrow": true,
+                                    "rows": 8,
+                                    "desc": "maoren"
+                                }],
+                            "author": "@hhx",
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/mrck.js",
+                                                          "icons": ["https://s2.loli.net/2022/11/14/2BTkGgrSnoq6aEs.jpg","https://s2.loli.net/2022/11/14/2BTkGgrSnoq6aEs.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/mrck.js"
+                                 }     
+        
+        
+        
+        
+        
+        
         
           ]
   }
