@@ -100,9 +100,9 @@ class UserInfo {
 ////////////////////qx获取重写的链接中的关键词 https://m.jissbon.com/index.php?s=/api/setting/data
 async function GetRewrite() {
     if($request.url.indexOf(`index`) > -1) {
-        let token = $request.headers.Access-Token ? $request.headers.Access-Token : $request.headers.Access-Token
-        let ck = token
-        if(!token) return;
+        let accesstoken = $request.headers.Access-Token ? $request.headers.Access-Token : $request.headers.Access-Token
+        let ck = accesstoken
+        if(!accesstoken) return;
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
