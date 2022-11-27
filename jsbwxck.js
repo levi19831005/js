@@ -100,7 +100,7 @@ class UserInfo {
 ////////////////////qx获取重写的链接中的关键词 https://m.jissbon.com/mp/page
 async function GetRewrite() {
     if($request.url.indexOf(`page`) > -1) {
-        let accesstoken = $request.headers.Access-Token ? $request.headers.Access-Token : $request.headers.Access-Token
+        let accesstoken = $request.headers.'Access-Token' ? $request.headers.'Access-Token' : $request.headers.'Access-Token'
         let ck = accesstoken
         if(!accesstoken) return;
         if(userCookie) {
