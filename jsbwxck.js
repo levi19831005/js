@@ -1,7 +1,7 @@
 /*
 软件：  杰士邦小程序获取ck
 获取ck：  打开小程序即可------
-重写：https://m.jissbon.com/index.php?s=/api/setting/data
+重写：https://m.jissbon.com/index
       url script-request-header 
       https://raw.githubusercontent.com/levi19831005/js/main/jsbwxck.js
 主机：m.jissbon.com
@@ -99,7 +99,7 @@ class UserInfo {
 
 ////////////////////qx获取重写的链接中的关键词 https://m.jissbon.com/index.php?s=/api/setting/data
 async function GetRewrite() {
-    if($request.url.indexOf(`api/setting/data`) > -1) {
+    if($request.url.indexOf(`index`) > -1) {
         let token = $request.headers.Access-Token ? $request.headers.Access-Token : $request.headers.Access-Token
         let ck = token
         if(!token) return;
