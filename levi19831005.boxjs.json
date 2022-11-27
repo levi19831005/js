@@ -150,7 +150,25 @@
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/jsbwxck.js",
                                                           "icons": ["https://s2.loli.net/2022/11/27/8BnS7iovDhHpNXE.jpg","https://s2.loli.net/2022/11/27/8BnS7iovDhHpNXE.jpg"],
                                                               "script": "https://raw.githubusercontent.com/levi19831005/js/main/jsbwxck.js"
-                                 }     
+                                 } ,
+    {
+                            "id": "kfx2",
+                            "name": "卡夫享2",
+                            "keys": ["kfxck"],
+                            "settings": [{
+                                    "id": "kfxck",
+                                    "name": "CK 列表",
+                                    "val": "",
+                                    "type": "textarea",
+                                    "autoGrow": true,
+                                    "rows": 8,
+                                    "desc": "kfxck"
+                                }],
+                            "author": "@hhx",
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/kfxck.js",
+                                                          "icons": ["https://s2.loli.net/2022/11/08/KkvRaUljT9LSoyZ.jpg","https://s2.loli.net/2022/11/08/KkvRaUljT9LSoyZ.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/kfxck.js"
+                                 }    
         
         
         
