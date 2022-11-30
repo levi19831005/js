@@ -1,5 +1,5 @@
 /*
-软件：  姿昧健康获取ck
+软件：  姿美健康获取ck
 获取ck：  打开app即可------
 重写：https://jk-agw-m.simeitol.com/api/account/apiLogin/isWelcomePage
       url script-request-header 
@@ -7,7 +7,7 @@
 主机：jk-agw-m.simeitol.com
 boxjs订阅：https://raw.githubusercontent.com/levi19831005/js/main/levi19831005.boxjs.json
 */
-const $ = new Env("姿昧健康获取Ck");
+const $ = new Env("姿美健康获取Ck");
 
 let envSplitor = ['\n']  //多账号隔开方式
 let httpResult, httpReq, httpResp                                                                   ////这个不懂
