@@ -100,7 +100,7 @@ class UserInfo {
 ////////////////////qx获取重写的链接中的关键词 https://jk-agw-m.simeitol.com/api/account/apiLogin/isWelcomePage
 async function GetRewrite() {
     if($request.url.indexOf(`isWelcomePage`) > -1) {
-        let token = $request.headers.myjk-token ? $request.headers.myjk-token : $request.headers.myjk-token
+        let token = $request.headers['myjk-token'] ? $request.headers['myjk-token'] : $request.headers['myjk-token']
         let ck = token
         if(!token) return;
         if(userCookie) {
