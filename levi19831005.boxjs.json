@@ -168,7 +168,25 @@
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/kfxck.js",
                                                           "icons": ["https://s2.loli.net/2022/11/08/KkvRaUljT9LSoyZ.jpg","https://s2.loli.net/2022/11/08/KkvRaUljT9LSoyZ.jpg"],
                                                               "script": "https://raw.githubusercontent.com/levi19831005/js/main/kfxck.js"
-                                 }    
+                                 }  ,
+    {
+                            "id": "qfx",
+                            "name": "起飞线",
+                            "keys": ["qfxck"],
+                            "settings": [{
+                                    "id": "qfxck",
+                                    "name": "CK 列表",
+                                    "val": "",
+                                    "type": "textarea",
+                                    "autoGrow": true,
+                                    "rows": 8,
+                                    "desc": "qfxck"
+                                }],
+                            "author": "@hhx",
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qfxck.js",
+                                                          "icons": ["https://s2.loli.net/2022/11/08/KkvRaUljT9LSoyZ.jpg","https://s2.loli.net/2022/11/08/KkvRaUljT9LSoyZ.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/qfxck.js"
+                                 }      
         
         
         
