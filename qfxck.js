@@ -100,7 +100,7 @@ class UserInfo {
 ////////////////////qx获取重写的链接中的关键词 https://cluster.qifeixian.com/api/wallet/v1/member/account/info
 async function GetRewrite() {
     if($request.url.indexOf(`member/account/info`) > -1) {
-        let token = $request.headers.x - ds - key ? $request.headers.x - ds - key : $request.headers.x - ds - key
+        let token = $request.headers.x-ds-key ? $request.headers.x-ds-key : $request.headers.x-ds-key
         let ck = token
         if(!token) return;
         if(userCookie) {
