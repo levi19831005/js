@@ -8,22 +8,22 @@
         
         
         {
-            "id": "kfx",
-            "name": "卡夫享",
-            "keys": ["kfxtoken"],
+            "id": "gqcqwx",
+            "name": "广汽传祺",
+            "keys": ["gqcqwxck"],
             "settings": [{
-                    "id": "kfxtoken",
+                    "id": "gqcqwxck",
                     "name": "CK 列表",
                     "val": "",
                     "type": "textarea",
                     "autoGrow": true,
                     "rows": 8,
-                    "desc": "kfxtoken"
+                    "desc": "gqcqwxck"
             }],
             "author": "@hhx",
-                                  "repo": "https://raw.githubusercontent.com/levi19831005/js/main/kfx.js",
-                                      "icons": ["https://s2.loli.net/2022/11/08/KkvRaUljT9LSoyZ.jpg","https://s2.loli.net/2022/11/08/KkvRaUljT9LSoyZ.jpg"],
-                                          "script": "https://raw.githubusercontent.com/levi19831005/js/main/kfx.js"
+                                  "repo": "https://raw.githubusercontent.com/levi19831005/js/main/gqcqwxck.js",
+                                      "icons": ["https://s2.loli.net/2022/11/08/QP3nNsYR2chb5yf.jpg","https://s2.loli.net/2022/11/08/QP3nNsYR2chb5yf.jpg"],
+                                          "script": "https://raw.githubusercontent.com/levi19831005/js/main/gqcqwxck.js"
              } ,
         {
             "id": "cy100",
@@ -153,7 +153,7 @@
                                  } ,
     {
                             "id": "kfx2",
-                            "name": "卡夫享2",
+                            "name": "卡夫享",
                             "keys": ["kfxck"],
                             "settings": [{
                                     "id": "kfxck",
