@@ -186,7 +186,25 @@
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qfxck.js",
                                                           "icons": ["https://s2.loli.net/2022/11/30/IUVrdTsWzEP6mZO.jpg","https://s2.loli.net/2022/11/30/IUVrdTsWzEP6mZO.jpg"],
                                                               "script": "https://raw.githubusercontent.com/levi19831005/js/main/qfxck.js"
-                                 }      
+                                 }   ,
+    {
+                            "id": "zxzwn",
+                            "name": "植选植物奶",
+                            "keys": ["zxzwnwxck"],
+                            "settings": [{
+                                    "id": "zxzwnwxck",
+                                    "name": "CK 列表",
+                                    "val": "",
+                                    "type": "textarea",
+                                    "autoGrow": true,
+                                    "rows": 8,
+                                    "desc": "zxzwnwxck"
+                                }],
+                            "author": "@hhx",
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zxzwnwxck.js",
+                                                          "icons": ["https://s2.loli.net/2022/12/02/pWmaifJhbLkrAxZ.jpg","https://s2.loli.net/2022/12/02/pWmaifJhbLkrAxZ.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/zxzwnwxck.js"
+                                 }    
         
         
         
