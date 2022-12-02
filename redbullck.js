@@ -100,7 +100,7 @@ class UserInfo {
 ////////////////////qx获取重写的链接中的关键词 https://redbullapi.rrfenwo.com/wechat/getUserInfo
 async function GetRewrite() {
     if($request.url.indexOf(`getUserInfo`) > -1) {
-        let token = $request.headers[x-token] ? $request.headers[x-token] : $request.headers[x-token]
+        let token = $request.headers['x-token'] ? $request.headers['x-token'] : $request.headers['x-token']
         let ck = token
         if(!token) return;
         if(userCookie) {
