@@ -9,7 +9,7 @@
         
         {
             "id": "gqcqwx",
-            "name": "广汽传祺",
+            "name": "广汽传祺wx",
             "keys": ["gqcqwxck"],
             "settings": [{
                     "id": "gqcqwxck",
@@ -222,7 +222,25 @@
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/redbullck.js",
                                                           "icons": ["https://s2.loli.net/2022/12/02/a8l9MYZEsq5UyIg.jpg","https://s2.loli.net/2022/12/02/a8l9MYZEsq5UyIg.jpg"],
                                                               "script": "https://raw.githubusercontent.com/levi19831005/js/main/redbullck.js"
-                                 }      
+                                 } ,
+    {
+                            "id": "gqcqapp",
+                            "name": "广汽传祺app",
+                            "keys": ["gqcqappck"],
+                            "settings": [{
+                                    "id": "gqcqappck",
+                                    "name": "CK 列表",
+                                    "val": "",
+                                    "type": "textarea",
+                                    "autoGrow": true,
+                                    "rows": 40,
+                                    "desc": "gqcqappck"
+                                }],
+                            "author": "@hhx",
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/gqcqappck.js",
+                                                          "icons": ["https://s2.loli.net/2022/11/08/QP3nNsYR2chb5yf.jpg","https://s2.loli.net/2022/11/08/QP3nNsYR2chb5yf.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/gqcqappck.js"
+                                 }     
         
         
         
