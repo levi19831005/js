@@ -258,7 +258,25 @@
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zmjkck.js",
                                                           "icons": ["https://s2.loli.net/2022/12/17/S2BZQmX3jOzgeF6.jpg","https://s2.loli.net/2022/12/17/S2BZQmX3jOzgeF6.jpg"],
                                                               "script": "https://raw.githubusercontent.com/levi19831005/js/main/zmjkck.js"
-                                 }     
+                                 }   ,
+    {
+                            "id": "yqy",
+                            "name": "优企盈",
+                            "keys": ["yqyck"],
+                            "settings": [{
+                                    "id": "yqyck",
+                                    "name": "CK 列表",
+                                    "val": "",
+                                    "type": "textarea",
+                                    "autoGrow": true,
+                                    "rows": 20,
+                                    "desc": "yqyck"
+                                }],
+                            "author": "@hhx",
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/yqyck.js",
+                                                          "icons": ["https://s2.loli.net/2022/12/26/xQpWFr2GZde8wNJ.jpg","https://s2.loli.net/2022/12/26/xQpWFr2GZde8wNJ.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/yqyck.js"
+                                 }  
         
         
         
