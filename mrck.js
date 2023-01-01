@@ -1,7 +1,7 @@
 /*
 软件：  猫人小程序获取ck
 获取ck：  打开小程序即可------
-重写：https://shopapp.miiow.com.cn/buyer
+重写：https://shopapp.miiow.com.cn/buyer/promotion/coupon
       url script-request-header 
       https://raw.githubusercontent.com/levi19831005/js/main/mrck.js
 主机：shopapp.miiow.com.cn
@@ -99,7 +99,7 @@ class UserInfo {
 
 ////////////////////qx获取重写的链接中的关键词 buyer
 async function GetRewrite() {
-    if($request.url.indexOf(`buyer`) > -1) {
+    if($request.url.indexOf(`promotion/coupon`) > -1) {
         let token = $request.headers.accessToken ? $request.headers.accessToken : $request.headers.accessToken
         let ck = token
         if(!token) return;
