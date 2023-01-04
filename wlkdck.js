@@ -2,7 +2,7 @@
 2023.1.3
 软件：  文旅看点签到获取ck
 获取ck：  打开app------
-重写：https://wlkdapi.zhongchuanjukan.com/login/appOpen url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/wlkdck.js
+重写：https://wlkdapi.zhongchuanjukan.com/type/list url script-request-body https://raw.githubusercontent.com/levi19831005/js/main/wlkdck.js
 主机名：wlkdapi.zhongchuanjukan.com
 */
 const $ = new Env("文旅看点获取Ck");
@@ -71,9 +71,9 @@ class UserInfo {
 .catch((e) => console.log(e))
 .finally(() => $.done())
 
-////////////////////qx获取重写的链接中的关键词 https://wlkdapi.zhongchuanjukan.com/login/appOpen
+////////////////////qx获取重写的链接中的关键词 https://wlkdapi.zhongchuanjukan.com/type/list
 async function GetRewrite() {
-    if($request.url.indexOf(`login/appOpen`) > -1) {
+    if($request.url.indexOf(`list`) > -1) {
         let token = $request.body ? $request.body : $request.body
         let ck = token
         if(!token) return;
