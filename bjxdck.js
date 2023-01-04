@@ -2,7 +2,7 @@
 2023.1.3
 软件：  北京现代获取ck
 获取ck：  打开app------
-重写：https://bm2-api.bluemembers.com.cn/v1/app/account/users/info url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js
+重写：https://bm2-api.bluemembers.com.cn/v1/app/white/lovecar/banner url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js
 主机名：bm2-api.bluemembers.com.cn
 */
 const $ = new Env("北京现代获取Ck");
@@ -73,7 +73,7 @@ class UserInfo {
 
 ////////////////////qx获取重写的链接中的关键词 https://wlkdapi.zhongchuanjukan.com/login/appOpen
 async function GetRewrite() {
-    if($request.url.indexOf(`users/info`) > -1) {
+    if($request.url.indexOf(`lovecar/banner`) > -1) {
         let token = $request.headers.token ? $request.headers.token : $request.headers.token
         let ck = token
         if(!token) return;
