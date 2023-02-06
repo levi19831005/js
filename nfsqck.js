@@ -101,7 +101,7 @@ class UserInfo {
 ////////////////////qx获取重写的链接中的关键词 举例（request.headers[x-token]） https://nfsq.lookcharm.cn/game1/getaddr
 async function GetRewrite() {
     if($request.url.indexOf(`game1/getaddr`) > -1) {
-        let token = $request.headers ? $request.headers  : $request.headers
+        let token = $request.headers.token ? $request.headers.token  : $request.headers.token
         let ck = token
         if(!token) return;
         if(userCookie) {
