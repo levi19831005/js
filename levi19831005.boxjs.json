@@ -26,22 +26,22 @@
                                           "script": "https://raw.githubusercontent.com/levi19831005/js/main/gqcqwxck.js"
              } ,
         {
-            "id": "jdqd",
-            "name": "金典SATINE",
-            "keys": ["jdqdck"],
+            "id": "nfsq",
+            "name": "农夫山泉",
+            "keys": ["nfsqck"],
             "settings": [{
-                    "id": "jdqdck",
+                    "id": "nfsqck",
                     "name": "CK 列表",
                     "val": "",
                     "type": "textarea",
                     "autoGrow": true,
-                    "rows": 8,
-                    "desc": "jdqdck"
+                    "rows": 9,
+                    "desc": "nfsqck"
                 }],
             "author": "@hhx",
-                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/jdqdck.js",
-                                          "icons": ["https://s2.loli.net/2023/01/03/LelgBVEwqk5Yn1b.jpg","https://s2.loli.net/2023/01/03/LelgBVEwqk5Yn1b.jpg"],
-                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/jdqdck.js"
+                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/nfsqck.js",
+                                          "icons": ["https://s2.loli.net/2023/02/06/Eia85jPtX2fNbxp.jpg","https://s2.loli.net/2023/02/06/Eia85jPtX2fNbxp.jpg"],
+                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/nfsqck.js"
                  } ,
         {
                     "id": "qngyck",
