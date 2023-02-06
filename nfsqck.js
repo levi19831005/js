@@ -102,7 +102,8 @@ class UserInfo {
 async function GetRewrite() {
     if($request.url.indexOf(`game1/getaddr`) > -1) {
         let token = $request.headers.token ? $request.headers.token  : $request.headers.token
-        let ck = token
+        let uid = $request.headers.uid ? $request.headers.uid  : $request.headers.uid
+        let ck = token + `#` +uid
         if(!token) return;
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
