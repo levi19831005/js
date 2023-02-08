@@ -1,9 +1,11 @@
-﻿/*
-2023.1.3
-软件：  北京现代获取ck
-获取ck：  打开app------
-重写：https://bm2-api.bluemembers.com.cn/v1/car/white/style/push_material url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js
-主机名：bm2-api.bluemembers.com.cn
+/*
+软件：  北京现代app获取ck
+获取ck：  打开即可------
+重写：https://bm2-api.bluemembers.com.cn/v1/app/white
+      url script-request-header 
+      https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js
+主机：bm2-api.bluemembers.com.cn
+boxjs订阅：https://raw.githubusercontent.com/levi19831005/js/main/levi19831005.boxjs.json
 */
 const $ = new Env("北京现代获取Ck");
 
@@ -31,7 +33,31 @@ class UserInfo {
         }
     }
     
-
+////////////////封装任务模板/////////
+    async sign() {
+        try {
+            let url = `https://tcapi.totole.com.cn/api/v1/consumer/task/article`
+            let body = JSON.stringify({"article_id":"AT202205131405261","id":"8152a856-84be-4964-baea-8e85a0e46667"})
+            let token = `${this.param.token}`
+            let urlObject = populateUrlObject(url,token,body)
+            await httpRequest('post',urlObject)                            //请求方式是post
+            let result = httpResult;
+            if(!result) return
+            //console.log(result)
+            if(result.code == 200) {
+            $.logAndNotify(`账号[${this.name}]${result.msg}`)
+                } else {
+                $.logAndNotify(`账号[${this.name}]${result.msg}`)
+            }
+        } catch(e) {
+            console.log(e)
+        } finally {
+            return Promise.resolve(1);
+        }
+    }
+    
+   
+}
 
 
 ///////////////////任务执行流程模板///////////////////////
@@ -71,9 +97,9 @@ class UserInfo {
 .catch((e) => console.log(e))
 .finally(() => $.done())
 
-////////////////////qx获取重写的链接中的关键词 https://wlkdapi.zhongchuanjukan.com/login/appOpen
+////////////////////qx获取重写的链接中的关键词 https://bm2-api.bluemembers.com.cn/v1/app/white
 async function GetRewrite() {
-    if($request.url.indexOf(`push_material`) > -1) {
+    if($request.url.indexOf(`app/white`) > -1) {
         let token = $request.headers.token ? $request.headers.token : $request.headers.token
         let ck = token
         if(!token) return;
