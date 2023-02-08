@@ -330,6 +330,42 @@
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/yilick.js",
                                                           "icons": ["https://s2.loli.net/2023/01/20/GKrOS1kgRwznt6o.jpg","https://s2.loli.net/2023/01/20/GKrOS1kgRwznt6o.jpg"],
                                                               "script": "https://raw.githubusercontent.com/levi19831005/js/main/yilick.js"
+                                 }  ,
+    {
+                            "id": "bjxd",
+                            "name": "北京现代",
+                            "keys": ["bjxdck"],
+                            "settings": [{
+                                    "id": "bjxdck",
+                                    "name": "CK 列表",
+                                    "val": "",
+                                    "type": "textarea",
+                                    "autoGrow": true,
+                                    "rows": 20,
+                                    "desc": "bjxdck"
+                                }],
+                            "author": "@hhx",
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js",
+                                                          "icons": ["https://s2.loli.net/2023/02/08/zPFtgGqNI6BYa3c.jpg","https://s2.loli.net/2023/02/08/zPFtgGqNI6BYa3c.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js"
+                                 }  ,
+    {
+                            "id": "heji",
+                            "name": "合集",
+                            "keys": ["hejick"],
+                            "settings": [{
+                                    "id": "hejick",
+                                    "name": "CK 列表",
+                                    "val": "",
+                                    "type": "textarea",
+                                    "autoGrow": true,
+                                    "rows": 20,
+                                    "desc": "hejick"
+                                }],
+                            "author": "@hhx",
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hejick.js",
+                                                          "icons": ["https://s2.loli.net/2023/02/08/GOirVoQwL7uXZvx.jpg","https://s2.loli.net/2023/02/08/GOirVoQwL7uXZvx.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/hejick.js"
                                  }  
         
         
