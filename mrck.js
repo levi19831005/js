@@ -103,7 +103,6 @@ async function GetRewrite() {
         const ck1 = $response.body
         ck2=JSON.parse(ck1)
         ck=ck2.result['refreshToken']
-        log(ck)
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
