@@ -1,8 +1,8 @@
 /*
 软件：  猫人小程序获取ck
 获取ck：  打开小程序即可------
-重写：https://shopapp.miiow.com.cn/buyer/promotion/coupon
-      url script-request-header 
+重写：https://shopapp.miiow.com.cn/buyer/mini-program/auto-login
+      url script-response-body 
       https://raw.githubusercontent.com/levi19831005/js/main/mrck.js
 主机：shopapp.miiow.com.cn
 boxjs订阅：https://raw.githubusercontent.com/levi19831005/js/main/levi19831005.boxjs.json
@@ -99,8 +99,8 @@ class UserInfo {
 
 ////////////////////qx获取重写的链接中的关键词 buyer
 async function GetRewrite() {
-    if($request.url.indexOf(`promotion/coupon`) > -1) {
-        let token = $request.headers.accessToken ? $request.headers.accessToken : $request.headers.accessToken
+    if($request.url.indexOf(`login`) > -1) {
+        let token = $request.body.result.refreshToken ? $request.body.result.refreshToken : $request.body.result.refreshToken
         let ck = token
         if(!token) return;
         if(userCookie) {
