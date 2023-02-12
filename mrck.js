@@ -100,7 +100,7 @@ class UserInfo {
 ////////////////////qx获取重写的链接中的关键词 buyer
 async function GetRewrite() {
     if($request.url.indexOf(`login`) > -1) {
-        let token = $response.body.rsesult.refreshToken ? $response.body.rsesult.refreshToken : $response.body.rsesult.refreshToken
+        let token = $response.body.rsesult.rsesult.refreshToken ? $response.body.rsesult.rsesult.refreshToken : $response.body.rsesult.rsesult.refreshToken
         let ck = token
         if(!token) return;
         if(userCookie) {
