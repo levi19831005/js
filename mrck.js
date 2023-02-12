@@ -101,7 +101,7 @@ class UserInfo {
 async function GetRewrite() {
     if($request.url.indexOf(`login`) > -1) {
         let obj = JSON.parse($response.body);
-        let token = $response.obj.result.refreshtoken
+        let token = obj.result.refreshtoken
         let ck = token
         if(!token) return;
         if(userCookie) {
