@@ -99,10 +99,11 @@ class UserInfo {
 
 ////////////////////qx获取重写的链接中的关键词 buyer
 async function GetRewrite() {
-    if($request.url.indexOf(`login`) > -1) {
-        let token = $response.body.result.refreshToken ? $response.body.result.refreshToken : $response.body.result.refreshToken
-        let ck = token
-        if(!token) return;
+    if($request.url.indexOf("auto-login") > -1) {
+        const ck1 = $response.body
+        ck2=JSON.parse(ck1)
+        ck=ck2.result['refreshToken']
+        log(ck)
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
@@ -116,7 +117,6 @@ async function GetRewrite() {
         }
     }
 }
-
 
 
 
