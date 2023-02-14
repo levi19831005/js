@@ -1,14 +1,20 @@
 /*
-
+软件：  太太乐领鲜社小程序获取ck
+获取ck：  打开即可------
+重写：https://tcapi.totole.com.cn/api/v1/consumer/location
+      url script-request-header 
+      https://raw.githubusercontent.com/levi19831005/js/main/qxttl.js
+主机：tcapi.totole.com.cn
+boxjs订阅：https://raw.githubusercontent.com/levi19831005/js/main/levi19831005.boxjs.json
 */
-const $ = new Env("太太乐");
+const $ = new Env("太太乐领鲜社小程序获取ck");
 
 let envSplitor = ['\n']  //多账号隔开方式
-let httpResult, httpReq, httpResp
-let userCookie = ($.isNode() ? process.env.ttl : $.getdata('ttl')) || '';
-let userList = []
-let userIdx = 0
-let userCount = 0
+let httpResult, httpReq, httpResp                                                                   ////这个不懂
+let userCookie = ($.isNode() ? process.env.ttl : $.getdata('ttl')) || '';  //设定变量名称ttl
+let userList = []                                                                                   ////这个不懂
+let userIdx = 0                                                                                     ////这个不懂
+let userCount = 0                                                                                   ////这个不懂
 
 ///////////////////////////////////////////////////////////////////
 class UserInfo {
@@ -27,38 +33,13 @@ class UserInfo {
         }
     }
     
-    
-    async article() {
+////////////////封装任务模板，不做任务不要管/////////开始《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《《
+    async sign() {
         try {
             let url = `https://tcapi.totole.com.cn/api/v1/consumer/task/article`
             let body = JSON.stringify({"article_id":"AT202205131405261","id":"8152a856-84be-4964-baea-8e85a0e46667"})
-            let Content = '78'
             let token = `${this.param.token}`
-            let urlObject = populateUrlObject(url,token,Content,body)
-            await httpRequest('post',urlObject)                            //请求方式是post
-            let result = httpResult;
-            if(!result) return
-            //console.log(result)
-            if(result.code == 200) {
-            $.logAndNotify(`账号[${this.name}]${result.msg}`)
-            
-                } else {
-                $.logAndNotify(`账号[${this.name}]${result.msg}`)
-            }
-        } catch(e) {
-            console.log(e)
-        } finally {
-            return Promise.resolve(1);
-        }
-    }
-
-    async sign() {
-        try {
-            let url = `https://tcapi.totole.com.cn/api/v1/sign`
-            let body = `type=0`
-            let token = `${this.param.token}`
-            let Content = '6'
-            let urlObject = populateUrlObject(url,token,Content,body)
+            let urlObject = populateUrlObject(url,token,body)
             await httpRequest('post',urlObject)                            //请求方式是post
             let result = httpResult;
             if(!result) return
@@ -74,31 +55,40 @@ class UserInfo {
             return Promise.resolve(1);
         }
     }
+    
    
 }
 
+
+///////////////////任务执行流程模板///////////////////////
 !(async () => {
     if (typeof $request !== "undefined") {
-        await GetRewrite1()
+        await GetRewrite()
     }else {
         if(!(await checkEnv())) return;
         
-        let taskall = []
-        let validList = userList.filter(x => x.ckValid)
+        let taskall = []                                               ////这个不懂           
+        let validList = userList.filter(x => x.ckValid)                ////这个不懂
         
         if(validList.length > 0) {
-            $.logAndNotify('\n-------------- 每日任务 --------------')
+            $.logAndNotify('\n-------------- 签到 --------------')
             taskall = []
             for(let user of validList) {
-                taskall.push(user.sign())
-                await $.wait(3000);
-                taskall.push(user.article())
+                taskall.push(user.sign())                            ////执行sign任务
+            }
+            await Promise.all(taskall)                               ////等待完成全部sign任务？
+            validList = validList.filter(x => x.valid)               ////这个不懂
+            
+        if(validList.length > 0) {
+                $.logAndNotify('\n-------------- 浏览 --------------')
+                taskall = []
+                for(let user of validList.filter(x => x.canRead)) {
+                    //taskall.push(user.getTaskList())
+                }
+                await Promise.all(taskall)
+       
                 
             }
-            await Promise.all(taskall)
-            validList = validList.filter(x => x.valid)
-            
-        
         }
         
         await $.showmsg();
@@ -106,13 +96,21 @@ class UserInfo {
 })()
 .catch((e) => console.log(e))
 .finally(() => $.done())
+////////////////封装任务模板，不做任务不要管/////////结束/////////////》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》》
 
-///////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+////////////////////qx获取重写的链接中的关键词 https://tcapi.totole.com.cn/api/v1/consumer/location
 async function GetRewrite() {
     if($request.url.indexOf(`location`) > -1) {
-        let apitoken = $request.headers.apitoken ? $request.headers.apitoken : $request.headers.apitoken
-        let ck = 'token=' + apitoken
-        if(!apitoken) return;
+        let token = $request.headers.apitoken ? $request.headers.apitoken : $request.headers.apitoken
+        let ck = token
+        if(!token) return;
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
@@ -127,30 +125,12 @@ async function GetRewrite() {
     }
 }
 
-async function GetRewrite1() {
-    if ($request.url.indexOf("location") > -1) {
-        let apitoken = $request.headers.apitoken ? $request.headers.apitoken : $request.headers.apitoken
-        let ck = 'token=' + apitoken
-        if(!apitoken) return;
-        if (userCookie) {
-            if (userCookie.indexOf(ck) == -1) {
-                userCookie = userCookie + "\n" + ck;
-                $.setdata(userCookie, "ttl");
-                List = userCookie.split("\n");
-                $.msg(` 获取第${List.length}个 ck 成功: ${ck} ,不用请自行关闭重写!`);
-            }
-        } else {
-            $.setdata(ck, "ttl");
-            $.msg(`获取第1个ck成功: ${ck}`);
-        }
-    }
-}
 
 
 
 
 
-
+//////////////////////////下面的都不用去管它/////////////////
 
 async function checkEnv() {
     if(userCookie) {
@@ -173,16 +153,15 @@ async function checkEnv() {
     console.log(`共找到${userCount}个账号`)
     return true
 }
-////////////////////////////////////////////////////////////////////
-function populateUrlObject(url,token,Content,body=''){
+//////////////////////////////////封装的基本函数//////////////////////////////////
+function populateUrlObject(url,token,body=''){
     let host = url.replace('//','/').split('/')[1]
     let urlObject = {
         url: url,
         headers: {
             'Host': host,
             'content-type': 'application/x-www-form-urlencoded',
-            'Content-Length': Content,
-            'apitoken': token
+            'token': token
         },
         timeout: 5000,
     }
