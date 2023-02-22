@@ -102,7 +102,8 @@ async function GetRewrite() {
     if($request.url.indexOf("auto-login") > -1) {
         const ck1 = $response.body
         ck2=JSON.parse(ck1)
-        ck=ck2.result['refreshToken']
+        ck3=ck2.result['refreshToken']
+        let ck = 'refreshToken=' + ck3 +'#'
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
