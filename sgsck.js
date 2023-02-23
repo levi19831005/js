@@ -2,7 +2,7 @@
 2023.2.23
 软件：  申工社获取ck
 获取ck：  打开申工社
-重写：https://fwdt.shengongshe.org/sgsWchartApi/api/User/getUserInfoForApp url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/sgsck.js
+重写：https://fwdt.shengongshe.org/sgsWchartApi/weather/getToday url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/sgsck.js
 主机名：fwdt.shengongshe.org
 */
 const $ = new Env("申工社获取Ck");
@@ -71,9 +71,9 @@ class UserInfo {
 .catch((e) => console.log(e))
 .finally(() => $.done())
 
-////////////////////qx获取重写的链接中的关键词 https://fwdt.shengongshe.org/sgsWchartApi/api/User/getUserInfoForApp
+////////////////////qx获取重写的链接中的关键词 https://fwdt.shengongshe.org/sgsWchartApi/weather/getToday
 async function GetRewrite() {
-    if($request.url.indexOf(`getUserInfoForApp`) > -1) {
+    if($request.url.indexOf(`getToday`) > -1) {
         let token = $request.headers.Token ? $request.headers.Token : $request.headers.Token
         let ck = token
         if(!token) return;
