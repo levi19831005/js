@@ -366,6 +366,24 @@
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hejick.js",
                                                           "icons": ["https://s2.loli.net/2023/02/08/GOirVoQwL7uXZvx.jpg","https://s2.loli.net/2023/02/08/GOirVoQwL7uXZvx.jpg"],
                                                               "script": "https://raw.githubusercontent.com/levi19831005/js/main/hejick.js"
+                                 }  ,
+    {
+                            "id": "hxek",
+                            "name": "鸿星尔克",
+                            "keys": ["hxekck"],
+                            "settings": [{
+                                    "id": "hxekck",
+                                    "name": "CK 列表",
+                                    "val": "",
+                                    "type": "textarea",
+                                    "autoGrow": true,
+                                    "rows": 20,
+                                    "desc": "hxekck"
+                                }],
+                            "author": "@hhx",
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hxekck.js",
+                                                          "icons": ["https://s2.loli.net/2023/02/25/Av7pCKQLrkfJxdM.jpg","https://s2.loli.net/2023/02/25/Av7pCKQLrkfJxdM.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/hxekck.js"
                                  }  
         
         
