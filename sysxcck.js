@@ -10,7 +10,7 @@ boxjs订阅：https://raw.githubusercontent.com/levi19831005/js/main/levi1983100
 const $ = new Env("书亦烧仙草获取Ck");
 
 let envSplitor = ['\n']  //多账号隔开方式
-let httpResult, httpReq, httpResp                                                                   ////这个不懂
+let httpResult, httpReq, httpResp                                                                   ////这个不懂，
 let userCookie = ($.isNode() ? process.env.sysxcck : $.getdata('sysxcck')) || '';  //设定变量名称sysxcck
 let userList = []                                                                                   ////这个不懂
 let userIdx = 0                                                                                     ////这个不懂
