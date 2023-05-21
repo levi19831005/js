@@ -8,7 +8,7 @@
 const $ = new Env("申工社获取Ck");
 
 let envSplitor = ['\n']  //多账号隔开方式
-let httpResult, httpReq, httpResp                                                                   ////这个不懂
+let httpResult, httpReq, httpResp                                                                   ////这个不懂。
 let userCookie = ($.isNode() ? process.env.sgsck : $.getdata('sgsck')) || '';  //设定变量名称sgsck
 let userList = []                                                                                   ////这个不懂
 let userIdx = 0                                                                                     ////这个不懂
