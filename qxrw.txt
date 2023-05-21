@@ -1,5 +1,5 @@
 #qx自用抓ck
-hostname = bm2-api.bluemembers.com.cn,fwdt.shengongshe.org
+hostname = bm2-api.bluemembers.com.cn,fwdt.shengongshe.org,appapi.changan-mazda.com.cn
 
 #北京现代app
 https:\/\/bm2-api\.bluemembers\.com\.cn\/v1\/app\/white url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js
