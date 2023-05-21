@@ -1,0 +1,3 @@
+hostname = bm2-api.bluemembers.com.cn
+
+https:\/\/bm2-api\.bluemembers\.com\.cn\/v1\/app\/white url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js
