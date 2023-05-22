@@ -62,22 +62,22 @@
                                                       "script": "https://raw.githubusercontent.com/levi19831005/js/main/shappck.js"
                          },
     {
-                            "id": "ttl",
-                            "name": "太太乐领鲜社",
-                            "keys": ["ttl"],
+                            "id": "yyq",
+                            "name": "悦野圈",
+                            "keys": ["yyqck"],
                             "settings": [{
-                                    "id": "ttl",
+                                    "id": "yyqck",
                                     "name": "CK 列表",
                                     "val": "",
                                     "type": "textarea",
                                     "autoGrow": true,
-                                    "rows": 8,
-                                    "desc": "ttl"
+                                    "rows": 20,
+                                    "desc": "yyqck"
                                 }],
                             "author": "@hhx",
-                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qxttl.js",
-                                                          "icons": ["https://s2.loli.net/2022/11/08/a5k7U4DGCerj1th.jpg","https://s2.loli.net/2022/11/08/a5k7U4DGCerj1th.jpg"],
-                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/qxttl.js"
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/yyqck.js",
+                                                          "icons": ["https://s2.loli.net/2023/05/22/KlQyaq4NJ1zriMd.jpg","https://s2.loli.net/2023/05/22/KlQyaq4NJ1zriMd.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/yyqck.js"
                                  }   ,
     {
                             "id": "wmrs",
