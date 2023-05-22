@@ -99,7 +99,7 @@ class UserInfo {
 
 ////////////////////qx获取重写的链接中的关键词 https://customer.yueyequan.cn/comu-opt/opt/v1.0/boot/up/getOne
 async function GetRewrite() {
-    if($request.url.indexOf(`getOne`) > -1) {
+    if($request.url.indexOf(`isFirstLogin`) > -1) {
         let token = $request.headers.Cookie ? $request.headers.Cookie  : $request.headers.Cookie 
         let ck = token
         if(!token) return;
