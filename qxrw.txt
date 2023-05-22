@@ -5,6 +5,8 @@ hostname = bm2-api.bluemembers.com.cn,fwdt.shengongshe.org,appapi.changan-mazda.
 https:\/\/bm2-api\.bluemembers\.com\.cn\/v1\/app\/white url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js
 #悦马星空app
 https:\/\/appapi\.changan-mazda\.com\.cn\/api-user\/openPage\/app\/openPage url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/ymxkck.js
+#悦野圈app
+^v1/account/sec/isFirstLogin url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/yyqck.js
 #饿了么
 https:\/\/h5\.ele\.me\/crossdomainstorage\.html url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/elmall.js
 #广汽传祺app
