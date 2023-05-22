@@ -152,22 +152,22 @@
                                                               "script": "https://raw.githubusercontent.com/levi19831005/js/main/jsbwxck.js"
                                  } ,
     {
-                            "id": "kfx2",
-                            "name": "卡夫享",
-                            "keys": ["kfxck"],
+                            "id": "ymxk",
+                            "name": "悦马星空",
+                            "keys": ["ymxkck"],
                             "settings": [{
-                                    "id": "kfxck",
+                                    "id": "ymxkck",
                                     "name": "CK 列表",
                                     "val": "",
                                     "type": "textarea",
                                     "autoGrow": true,
-                                    "rows": 8,
-                                    "desc": "kfxck"
+                                    "rows": 20,
+                                    "desc": "ymxkck"
                                 }],
                             "author": "@hhx",
-                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/kfxck.js",
-                                                          "icons": ["https://s2.loli.net/2022/11/08/KkvRaUljT9LSoyZ.jpg","https://s2.loli.net/2022/11/08/KkvRaUljT9LSoyZ.jpg"],
-                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/kfxck.js"
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ymxkck.js",
+                                                          "icons": ["https://s2.loli.net/2023/05/22/yq5OlL1XxaBHFDf.jpg","https://s2.loli.net/2023/05/22/yq5OlL1XxaBHFDf.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/ymxkck.js"
                                  }  ,
     {
                             "id": "qfx",
