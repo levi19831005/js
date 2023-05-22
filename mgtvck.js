@@ -1,6 +1,6 @@
 /*
 软件：  芒果TV获取ck
-获取ck：  打开即可------
+获取ck：  打开进入果园即可------
 重写：https://api-farm.game.mgtv.com/api/login
       url script-request-body
       https://raw.githubusercontent.com/levi19831005/js/main/mgtvck.js
