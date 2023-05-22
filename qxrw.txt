@@ -10,7 +10,7 @@ https:\/\/h5\.ele\.me\/crossdomainstorage\.html url script-request-header https:
 #广汽传祺app
 https:\/\/gsp\.gacmotor\.com\/gateway\/app-api\/my\/message\/myeachnumv2 url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/gqcqappck.js
 #广汽传祺小程序
-https:\/\/mall\.gacmotor\.com\/center-current-app\/fronted\/myHomePage\/myInfo script-request-header https://raw.githubusercontent.com/levi19831005/js/main/gqcqwxck.js
+#https:\/\/mall\.gacmotor\.com\/center-current-app\/fronted\/myHomePage\/myInfo script-request-header https://raw.githubusercontent.com/levi19831005/js/main/gqcqwxck.js
 #鸿星尔克小程序
 https:\/\/hope\.demogic\.com\/gic-wx-app\/member_sign\.json url script-request-body https://raw.githubusercontent.com/levi19831005/js/main/hxekck.js
 #杰士邦小程序
