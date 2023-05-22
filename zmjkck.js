@@ -1,7 +1,7 @@
 /*
 软件：  姿美健康获取ck
 获取ck：  打开app即可------
-重写：https://jk-agw-m.simeitol.com/api/account/apiLogin/isWelcomePage
+重写：https://jk-agw-m.simeitol.com/api/common/appVersion/force/update/V2
       url script-request-header 
       https://raw.githubusercontent.com/levi19831005/js/main/zmjkck.js
 主机：jk-agw-m.simeitol.com
@@ -97,9 +97,9 @@ class UserInfo {
 .catch((e) => console.log(e))
 .finally(() => $.done())
 
-////////////////////qx获取重写的链接中的关键词 https://jk-agw-m.simeitol.com/api/account/apiLogin/isWelcomePage
+////////////////////qx获取重写的链接中的关键词 https://jk-agw-m.simeitol.com/api/common/appVersion/force/update/V2
 async function GetRewrite() {
-    if($request.url.indexOf(`isWelcomePage`) > -1) {
+    if($request.url.indexOf(`update/V2`) > -1) {
         let token = $request.headers['myjk-token'] ? $request.headers['myjk-token'] : $request.headers['myjk-token']
         let ck = token
         if(!token) return;
