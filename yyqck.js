@@ -1,17 +1,17 @@
 /*
 软件：  悦野圈获取ck
 获取ck：  打开app即可------
-重写：https://z1.yyyy.run/api/index/bannerData
+重写：v1/account/sec/isFirstLogin
       url script-request-header 
-      https://raw.githubusercontent.com/levi19831005/js/main/qdck.js
-主机：z1.yyyy.run
+      https://raw.githubusercontent.com/levi19831005/js/main/yyqck.js
+主机：customer.yueyequan.cn
 boxjs订阅：https://raw.githubusercontent.com/levi19831005/js/main/levi19831005.boxjs.json
 */
 const $ = new Env("悦野圈获取Ck");
 
 let envSplitor = ['\n']  //多账号隔开方式
 let httpResult, httpReq, httpResp                                                                   ////这个不懂
-let userCookie = ($.isNode() ? process.env.qdck : $.getdata('qdck')) || '';  //设定变量名称qdck
+let userCookie = ($.isNode() ? process.env.yyqck : $.getdata('yyqck')) || '';  //设定变量名称yyqck
 let userList = []                                                                                   ////这个不懂
 let userIdx = 0                                                                                     ////这个不懂
 let userCount = 0                                                                                   ////这个不懂
@@ -106,12 +106,12 @@ async function GetRewrite() {
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
-                $.setdata(userCookie, 'qdck');
+                $.setdata(userCookie, 'yyqck');
                 let ckList = userCookie.split('\n')
                 $.msg(`获取第${ckList.length}个token成功: ${ck}`)
             }
         } else {
-            $.setdata(ck, 'qdck');
+            $.setdata(ck, 'yyqck');
             $.msg(`获取第1个ck成功: ${ck}`)
         }
     }
