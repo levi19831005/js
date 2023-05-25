@@ -1,5 +1,5 @@
 /*
-软件：  悦野圈获取ck
+软件：  悦野圈获取ck2
 获取ck：  打开app即可------
 重写：https://z1.yyyy.run/api/index/bannerData
       url script-request-header 
