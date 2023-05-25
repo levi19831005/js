@@ -5,8 +5,6 @@ hostname = bm2-api.bluemembers.com.cn,fwdt.shengongshe.org,appapi.changan-mazda.
 https:\/\/bm2-api\.bluemembers\.com\.cn\/v1\/app\/white url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js
 #悦马星空app
 https:\/\/appapi\.changan-mazda\.com\.cn\/api-user\/openPage\/app\/openPage url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/ymxkck.js
-#悦野圈app
-^v1\/account\/sec\/isFirstLogin url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/yyqck.js
 #饿了么
 https:\/\/h5\.ele\.me\/crossdomainstorage\.html url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/elmall.js
 #广汽传祺app
@@ -19,8 +17,6 @@ https:\/\/hope\.demogic\.com\/gic-wx-app\/member_sign\.json url script-request-b
 https:\/\/m\.jissbon\.com\/mp\/page url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/jsbwxck.js
 #申工社公众号
 https:\/\/fwdt.shengongshe\.org\/sgsWchartApi\/api\/Share\/getShareConfig url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/sgsck.js
-#上海类app(宝山汇、绿色青浦、美谷奉贤、上海长宁、虹口、黄埔、静安、普陀)
-^media-basic-port\/api\/app\/sys\/billboard url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/shappck.js
 #猫人小程序
 https:\/\/shopapp\.miiow\.com\.cn\/buyer\/mini-program url script-response-body https://raw.githubusercontent.com/levi19831005/js/main/mrck.js
 #值选植物奶
