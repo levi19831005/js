@@ -296,22 +296,22 @@
                                                               "script": "https://raw.githubusercontent.com/levi19831005/js/main/riock.js"
                                  }   ,
     {
-                            "id": "xtwly",
-                            "name": "新天威旅游",
-                            "keys": ["xtwlyck"],
+                            "id": "zxlh",
+                            "name": "掌心临海",
+                            "keys": ["zxlhck"],
                             "settings": [{
-                                    "id": "xtwlyck",
+                                    "id": "zxlhck",
                                     "name": "CK 列表",
                                     "val": "",
                                     "type": "textarea",
                                     "autoGrow": true,
-                                    "rows": 10,
-                                    "desc": "xtwlyck"
+                                    "rows": 20,
+                                    "desc": "zxlhck"
                                 }],
                             "author": "@hhx",
-                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xtwlyck.js",
-                                                          "icons": ["https://s2.loli.net/2023/01/20/vljN9OC6FwEkWpP.jpg","https://s2.loli.net/2023/01/20/vljN9OC6FwEkWpP.jpg"],
-                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/xtwlyck.js"
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zxlhck.js",
+                                                          "icons": ["https://s2.loli.net/2023/05/25/b3cVueAGpS172yP.jpg","https://s2.loli.net/2023/05/25/b3cVueAGpS172yP.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/zxlhck.js"
                                  }   ,
     {
                             "id": "yili",
