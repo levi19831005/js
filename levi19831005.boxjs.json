@@ -438,6 +438,24 @@
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/bshck.js",
                                                           "icons": ["https://s2.loli.net/2023/05/06/noxudAipMQGVelK.jpg","https://s2.loli.net/2023/05/06/noxudAipMQGVelK.jpg"],
                                                               "script": "https://raw.githubusercontent.com/levi19831005/js/main/bshck.js"
+                                 },
+    {
+                            "id": "sgs",
+                            "name": "申工社",
+                            "keys": ["sgsck"],
+                            "settings": [{
+                                    "id": "sgsck",
+                                    "name": "CK 列表",
+                                    "val": "",
+                                    "type": "textarea",
+                                    "autoGrow": true,
+                                    "rows": 20,
+                                    "desc": "sgsck"
+                                }],
+                            "author": "@hhx",
+                                                      "repo": "https://raw.githubusercontent.com/levi19831005/js/main/sgsck.js",
+                                                          "icons": ["https://s2.loli.net/2023/05/28/7JxPmfsTdkYKXbe.jpg","https://s2.loli.net/2023/05/28/7JxPmfsTdkYKXbe.jpg"],
+                                                              "script": "https://raw.githubusercontent.com/levi19831005/js/main/sgsck.js"
                                  }
         
         
