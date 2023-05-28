@@ -1,15 +1,18 @@
-﻿/*
-2023.2.23
+/*
+2023.05.28
 软件：  申工社获取ck
-获取ck：  打开申工社
-重写：https://fwdt.shengongshe.org/sgsWchartApi/api/Share/getShareConfig url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/sgsck.js
-主机名：fwdt.shengongshe.org
+获取ck：  打开公众号-服务大厅即可------
+重写：https://fwdt.shengongshe.org/sgsWchartApi/api/ServiceHall/showBirthdayWindow
+      url script-request-header 
+      https://raw.githubusercontent.com/levi19831005/js/main/sgsck.js
+主机：fwdt.shengongshe.org
+boxjs订阅：https://raw.githubusercontent.com/levi19831005/js/main/levi19831005.boxjs.json
 */
 const $ = new Env("申工社获取Ck");
 
 let envSplitor = ['\n']  //多账号隔开方式
-let httpResult, httpReq, httpResp                                                                   ////这个不懂。
-let userCookie = ($.isNode() ? process.env.sgsck : $.getdata('sgsck')) || '';  //设定变量名称sgsck
+let httpResult, httpReq, httpResp                                                                   ////这个不懂
+let userCookie = ($.isNode() ? process.env.qdck : $.getdata('sgsck')) || '';  //设定变量名称qdck
 let userList = []                                                                                   ////这个不懂
 let userIdx = 0                                                                                     ////这个不懂
 let userCount = 0                                                                                   ////这个不懂
@@ -31,7 +34,31 @@ class UserInfo {
         }
     }
     
-
+////////////////封装任务模板/////////
+    async sign() {
+        try {
+            let url = `https://tcapi.totole.com.cn/api/v1/consumer/task/article`
+            let body = JSON.stringify({"article_id":"AT202205131405261","id":"8152a856-84be-4964-baea-8e85a0e46667"})
+            let token = `${this.param.token}`
+            let urlObject = populateUrlObject(url,token,body)
+            await httpRequest('post',urlObject)                            //请求方式是post
+            let result = httpResult;
+            if(!result) return
+            //console.log(result)
+           if(result.code == 200) {
+            $.logAndNotify(`账号[${this.name}]${result.msg}`)
+                } else {
+                $.logAndNotify(`账号[${this.name}]${result.msg}`)
+            }
+        } catch(e) {
+            console.log(e)
+        } finally {
+            return Promise.resolve(1);
+        }
+    }
+    
+   
+}
 
 
 ///////////////////任务执行流程模板///////////////////////
@@ -71,10 +98,10 @@ class UserInfo {
 .catch((e) => console.log(e))
 .finally(() => $.done())
 
-////////////////////qx获取重写的链接中的关键词 fwdt.shengongshe.org/sgsWchartApi/api/Share/getShareConfig
+////////////////////qx获取重写的链接中的关键词 https://fwdt.shengongshe.org/sgsWchartApi/api/ServiceHall/showBirthdayWindow
 async function GetRewrite() {
-    if($request.url.indexOf(`getShareConfig`) > -1) {
-        let token = $request.headers.Token ? $request.headers.Token : $request.headers.Token
+    if($request.url.indexOf(`showBirthdayWindow`) > -1) {
+        let token = $request.headers.token ? $request.headers.token  : $request.headers.token 
         let ck = token
         if(!token) return;
         if(userCookie) {
@@ -82,7 +109,7 @@ async function GetRewrite() {
                 userCookie = userCookie + '\n' + ck
                 $.setdata(userCookie, 'sgsck');
                 let ckList = userCookie.split('\n')
-                $.msg(`获取第${ckList.length}个ck成功: ${ck}`)
+                $.msg(`获取第${ckList.length}个token成功: ${ck}`)
             }
         } else {
             $.setdata(ck, 'sgsck');
@@ -96,25 +123,7 @@ async function GetRewrite() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//////////////////////////下面的都不用去管它/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////下面的都不用去管它/////////////////
 
 async function checkEnv() {
     if(userCookie) {
