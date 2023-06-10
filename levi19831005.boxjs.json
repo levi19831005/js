@@ -406,15 +406,15 @@
     {
                             "id": "kxz",
                             "name": "开小灶",
-                            "keys": ["kxzck"],
+                            "keys": ["S_kxxzflncCk"],
                             "settings": [{
-                                    "id": "kxzck",
+                                    "id": "S_kxxzflncCk",
                                     "name": "CK 列表",
                                     "val": "",
                                     "type": "textarea",
                                     "autoGrow": true,
                                     "rows": 20,
-                                    "desc": "kxzck"
+                                    "desc": "S_kxxzflncCk"
                                 }],
                             "author": "@hhx",
                                                       "repo": "https://raw.githubusercontent.com/levi19831005/js/main/S_kxxzflncCk.js",
