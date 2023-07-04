@@ -1,17 +1,17 @@
 /*
 软件：  网易严选获取ck
-获取ck：  打开app即可------
-重写：https://app.dewu.com/api/v1/app/
+获取ck：  打开小程序即可------
+重写：https://miniapp.you.163.com/xhr/front/trade/cart/getMiniCartNum
       url script-request-header 
-      https://raw.githubusercontent.com/levi19831005/js/main/hejick.js
-主机：z1.yyyy.run
+      https://raw.githubusercontent.com/levi19831005/js/main/wyyxck.js
+主机：miniapp.you.163.com
 boxjs订阅：https://raw.githubusercontent.com/levi19831005/js/main/levi19831005.boxjs.json
 */
 const $ = new Env("网易严选Ck");
 
 let envSplitor = ['\n']  //多账号隔开方式
 let httpResult, httpReq, httpResp                                                                   ////这个不懂
-let userCookie = ($.isNode() ? process.env.hejick : $.getdata('hejick')) || '';  //设定变量名称hejick
+let userCookie = ($.isNode() ? process.env.hejick : $.getdata('wyyxck')) || '';  //wyyxck
 let userList = []                                                                                   ////这个不懂
 let userIdx = 0                                                                                     ////这个不懂
 let userCount = 0                                                                                   ////这个不懂
@@ -106,12 +106,12 @@ async function GetRewrite() {
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
-                $.setdata(userCookie, 'hejick');
+                $.setdata(userCookie, 'wyyxck');
                 let ckList = userCookie.split('\n')
                 $.msg(`获取第${ckList.length}ck: ${ck}`)
             }
         } else {
-            $.setdata(ck, 'hejick');
+            $.setdata(ck, 'wyyxck');
             $.msg(`获取第1个ck成功: ${ck}`)
         }
     }
