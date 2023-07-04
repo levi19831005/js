@@ -7,7 +7,7 @@
 https://raw.githubusercontent.com/levi19831005/js/main/zxzwnwxck.js
 主机名：zxapi.yili.com
 */
-const $ = new Env("广汽传祺wx获取Ck");
+const $ = new Env("植选植物奶wx小程序获取ck");
 
 let envSplitor = ['\n']  //多账号隔开方式
 let httpResult, httpReq, httpResp                                                                   ////这个不懂
