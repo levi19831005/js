@@ -40,8 +40,6 @@ https:\/\/msmarket\.msx\.digitalyili\.com\/gateway url script-request-header htt
 https:\/\/202210kaixiaozao\.iwxapi\.com\/api\/activity\/Index\/lists url script-request-body https://raw.githubusercontent.com/levi19831005/js/main/kxzck.js
 #屈臣氏qcsck
 https:\/\/mystore-01api\.watsonsvip\.com\.cn\/cloudapi\/v2\/users\/tasks url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/qcsck.js
-#锐澳riock
-https:\/\/club\.rioalc\.com\/api\/miniprogram\/points-goods\/recommended url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/riock.js
 #书亦烧仙草sysxcck
 https:\/\/scrm-prod\.shuyi\.org\.cn\/saas-gateway\/api\/agg-trade\/v1\/alipay\/student\/queryCertification\/info url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/sysxcck.js
 #网易严选wyyxck
