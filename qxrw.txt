@@ -1,36 +1,57 @@
 #qx自用抓ck
-hostname = bm2-api.bluemembers.com.cn,fwdt.shengongshe.org,appapi.changan-mazda.com.cn,h5.ele.me,gsp.gacmotor.com,hope.demogic.com,m.jissbon.com,*.shmedia.tech,customer.yueyequan.cn,shopapp.miiow.com.cn,zxapi.yili.com,msmarket.msx.digitalyili.com,jk-agw-m.simeitol.com,mid.huaruntong.cn,202210kaixiaozao.iwxapi.com,/*.watsonsvip.com.cn,club.rioalc.com,fwdt.shengongshe.org
+hostname = bm2-api.bluemembers.com.cn,fwdt.shengongshe.org,appapi.changan-mazda.com.cn,h5.ele.me,gsp.gacmotor.com,hope.demogic.com,m.jissbon.com,*.shmedia.tech,customer.yueyequan.cn,shopapp.miiow.com.cn,zxapi.yili.com,msmarket.msx.digitalyili.com,jk-agw-m.simeitol.com,mid.huaruntong.cn,202210kaixiaozao.iwxapi.com,/*.watsonsvip.com.cn,club.rioalc.com,*.shmedia.tech,scrm-prod.shuyi.org.cn,hms.cignacmb.com,miniapp.you.163.com,api1.fjdaily.com,api.jinantimes.com.cn,app.mixcapp.com
 
+#上海类app 宝山汇、绿色青浦、美谷奉贤、上海长宁、虹口、黄埔、静安、普陀、嘉定、杨浦
+https:\/\/*.shmedia.tech\/media-basic-port\/api\/app\/sys\/billboard url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/shappck.js
 
 #北京现代app
 https:\/\/bm2-api\.bluemembers\.com\.cn\/v1\/app\/white url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js
 #悦马星空app
 https:\/\/appapi\.changan-mazda\.com\.cn\/api-user\/openPage\/app\/openPage url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/ymxkck.js
-#饿了么
-https:\/\/h5\.ele\.me\/crossdomainstorage\.html url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/elmall.js
 #广汽传祺app
 https:\/\/gsp\.gacmotor\.com\/gateway\/app-api\/my\/message\/myeachnumv2 url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/gqcqappck.js
+#姿美健康app
+https:\/\/jk-agw-m\.simeitol\.com\/api\/common\/appVersion\/force\/update\/V2 url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/zmjkck.js
+#华润通
+https:\/\/mid\.huaruntong\.cn\/api\/user\/memberinfo\/appBootstarp url script-response-body https://raw.githubusercontent.com/levi19831005/js/main/hrtck.js
+#一点万象
+https:\/\/app\.mixcapp\.com\/mixc\/gateway url script-body https://raw.githubusercontent.com/levi19831005/js/main/ydwxck.js
+#饿了么
+https:\/\/h5\.ele\.me\/crossdomainstorage\.html url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/elmall.js
+#完美人生
+https:\/\/hms\.cignacmb\.com\/activity\/cignaInvestment\/getUserTaskList url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/wmrsck.js
+#新福建获取authtoken
+https:\/\/api1\.fjdaily\.com\/app_if\/MobileApp url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/xfjck.js
+#新黄河
+https:\/\/api\.jinantimes\.com\.cn\/index url script-request-body https://raw.githubusercontent.com/levi19831005/js/main/xhhck.js
+
+
 #鸿星尔克小程序
 https:\/\/hope\.demogic\.com\/gic-wx-app\/member_sign\.json url script-request-body https://raw.githubusercontent.com/levi19831005/js/main/hxekck.js
 #杰士邦小程序
 https:\/\/m\.jissbon\.com\/api\/setting\/data url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/jsbwxck.js
-#申工社公众号
-https:\/\/fwdt.shengongshe\.org\/sgsWchartApi\/api\/Share\/getShareConfig url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/sgsck.js
 #猫人小程序
 https:\/\/shopapp\.miiow\.com\.cn\/buyer\/mini-program url script-response-body https://raw.githubusercontent.com/levi19831005/js/main/mrck.js
 #值选植物奶
 https:\/\/zxapi\.yili\.com\/api\/order\/getCount url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/zxzwnwxck.js
 #伊利牛奶小程序
 https:\/\/msmarket\.msx\.digitalyili\.com\/gateway url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/yilick.js
-#姿美健康app
-https:\/\/jk-agw-m\.simeitol\.com\/api\/common\/appVersion\/force\/update\/V2 url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/zmjkck.js
-#华润通
-https:\/\/mid\.huaruntong\.cn\/api\/user\/memberinfo\/appBootstarp url script-response-body https://raw.githubusercontent.com/levi19831005/js/main/hrtck.js
 #统一开小灶
 https:\/\/202210kaixiaozao\.iwxapi\.com\/api\/activity\/Index\/lists url script-request-body https://raw.githubusercontent.com/levi19831005/js/main/kxzck.js
 #屈臣氏
 https:\/\/mystore-01api\.watsonsvip\.com\.cn\/cloudapi\/v2\/users\/tasks url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/qcsck.js
 #锐澳
 https:\/\/club\.rioalc\.com\/api\/miniprogram\/points-goods\/recommended url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/riock.js
+#书亦烧仙草
+https:\/\/scrm-prod\.shuyi\.org\.cn\/saas-gateway\/api\/agg-trade\/v1\/alipay\/student\/queryCertification\/info url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/sysxcck.js
+#网易严选
+https:\/\/miniapp\.you\.163\.com\/xhr\/front\/trade\/cart\/getMiniCartNum url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/wyyxck.js
+
+
 #申工社
 https:\/\/fwdt\.shengongshe\.org\/sgsWchartApi\/api\/ServiceHall\/showBirthdayWindow url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/sgsck.js
+
+
+
+
+
