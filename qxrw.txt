@@ -15,7 +15,7 @@ https:\/\/jk-agw-m\.simeitol\.com\/api\/common\/appVersion\/force\/update\/V2 ur
 #华润通hrtck
 https:\/\/mid\.huaruntong\.cn\/api\/user\/memberinfo\/appBootstarp url script-response-body https://raw.githubusercontent.com/levi19831005/js/main/hrtck.js
 #一点万象ydwxck
-https:\/\/app\.mixcapp\.com\/mixc\/gateway url script-body https://raw.githubusercontent.com/levi19831005/js/main/ydwxck.js
+https:\/\/app\.mixcapp\.com\/mixc\/gateway url script-request-body https://raw.githubusercontent.com/levi19831005/js/main/ydwxck.js
 #饿了么elmallck
 https:\/\/h5\.ele\.me\/crossdomainstorage\.html url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/elmall.js
 #完美人生wmrsck
