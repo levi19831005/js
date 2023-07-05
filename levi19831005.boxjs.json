@@ -382,6 +382,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/wyyxck.js",
     "icons": ["https://s2.loli.net/2023/07/04/OtBiq1LaGJnVx9e.jpg","https://s2.loli.net/2023/07/04/OtBiq1LaGJnVx9e.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/wyyxck.js"
+    },
+ {
+    "id": "szw",
+    "name": " 深圳湾春茧未来荟",
+    "keys": ["szwck"],
+    "settings": [{
+                                                        "id": "szwck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 20,
+                                                        "desc": "szwck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/szwck.js",
+    "icons": ["https://s2.loli.net/2023/07/05/e9Rw4i5GnrkXsD7.jpg","https://s2.loli.net/2023/07/05/e9Rw4i5GnrkXsD7.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/szwck.js"
     }
         
         
