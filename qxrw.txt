@@ -44,7 +44,8 @@ https:\/\/mystore-01api\.watsonsvip\.com\.cn\/cloudapi\/v2\/users\/tasks url scr
 https:\/\/scrm-prod\.shuyi\.org\.cn\/saas-gateway\/api\/agg-trade\/v1\/alipay\/student\/queryCertification\/info url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/sysxcck.js
 #网易严选wyyxck
 https:\/\/miniapp\.you\.163\.com\/xhr\/front\/trade\/cart\/getMiniCartNum url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/wyyxck.js
-
+#深圳湾春茧未来荟
+https:\/\/program\.springcocoon\.com\/szbay\/api\/services\/app\/banner\/GetBannerByNameAsync url script-request-hearder https://raw.githubusercontent.com/levi19831005/js/main/szwck.js
 
 #申工社sgsck
 https:\/\/fwdt\.shengongshe\.org\/sgsWchartApi\/api\/ServiceHall\/showBirthdayWindow url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/sgsck.js
