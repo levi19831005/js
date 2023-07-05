@@ -3,7 +3,7 @@
 获取ck：  打开小程序即可------
 重写：https://program.springcocoon.com/szbay/api/services/app/banner/GetBannerByNameAsync
       url script-request-hearder
-      szwck.js
+      https://raw.githubusercontent.com/levi19831005/js/main/szwck.js
 主机：program.springcocoon.com
 boxjs订阅：https://raw.githubusercontent.com/levi19831005/js/main/levi19831005.boxjs.json
 */
