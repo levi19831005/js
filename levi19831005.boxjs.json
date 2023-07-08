@@ -438,6 +438,24 @@
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/missck.js"
     },
  {
+    "id": "lbxbb",
+    "name": "立白小白白",
+    "keys": ["lbxbbck"],
+    "settings": [{
+                                                        "id": "lbxbbck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 20,
+                                                        "desc": "lbxbbck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/lbxbbck.js",
+    "icons": ["https://s2.loli.net/2023/07/08/yzpxrKC98mYRIEv.jpg","https://s2.loli.net/2023/07/08/yzpxrKC98mYRIEv.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/lbxbbck.js"
+    },
+ {
     "id": "cll",
     "name": "厂拉拉",
     "keys": ["cllck"],
