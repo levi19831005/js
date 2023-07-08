@@ -2,7 +2,7 @@
 hostname = bm2-api.bluemembers.com.cn,fwdt.shengongshe.org,appapi.changan-mazda.com.cn,h5.ele.me,gsp.gacmotor.com,hope.demogic.com,m.jissbon.com,*.shmedia.tech,customer.yueyequan.cn,shopapp.miiow.com.cn,zxapi.yili.com,msmarket.msx.digitalyili.com,jk-agw-m.simeitol.com,mid.huaruntong.cn,202210kaixiaozao.iwxapi.com,/*.watsonsvip.com.cn,club.rioalc.com,*.shmedia.tech,scrm-prod.shuyi.org.cn,hms.cignacmb.com,miniapp.you.163.com,api1.fjdaily.com,api.jinantimes.com.cn,app.mixcapp.com,program.springcocoon.com,clubwx.hm.liby.com.cn,changlala.zbyjkj.com
 
 #上海类app 宝山汇、绿色青浦、美谷奉贤、上海长宁、虹口、黄埔、静安、普陀、嘉定、杨浦
-https:\/\/*.shmedia.tech\/media-basic-port\/api\/app\/sys\/billboard url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/shappck.js
+https:\/\/.*\.shmedia.tech\/media-basic-port\/api\/app\/sys\/billboard url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/shappck.js
 
 #北京现代bjxdck
 https:\/\/bm2-api\.bluemembers\.com\.cn\/v1\/app\/white url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bjxdck.js
