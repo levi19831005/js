@@ -418,6 +418,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/lljck.js",
     "icons": ["https://s2.loli.net/2023/07/05/GkV46e5uAzOnLjE.jpg","https://s2.loli.net/2023/07/05/GkV46e5uAzOnLjE.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/lljck.js"
+    },
+ {
+    "id": "cll",
+    "name": "厂拉拉",
+    "keys": ["cllck"],
+    "settings": [{
+                                                        "id": "cllck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 20,
+                                                        "desc": "cllck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/cllck.js",
+    "icons": ["https://s2.loli.net/2023/07/08/Y5HPE28OL7sMB1J.jpg","https://s2.loli.net/2023/07/08/Y5HPE28OL7sMB1J.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/cllck.js"
     }
         
         
