@@ -1,7 +1,7 @@
 ﻿/*
 软件：   立白小白白ck（积分通立乐家）
 获取ck：  打开小程序即可------
-重写：https://clubwx.hm.liby.com.cn/miniprogram/commonmodule
+重写：https://clubwx.hm.liby.com.cn/miniprogram/mini
       url script-request-header
       https://raw.githubusercontent.com/levi19831005/js/main/lbxbbck.js
 主机：clubwx.hm.liby.com.cn
@@ -99,7 +99,7 @@ class UserInfo {
 
 ////////////////////qx获取重写的链接中的关键词 https://clubwx.hm.liby.com.cn/miniprogram/mini
 async function GetRewrite() {
-    if($request.url.indexOf(`commonmodule`) > -1) {
+    if($request.url.indexOf(`miniprogram/mini`) > -1) {
         let token = $request.headers['X-wxde54fd27cb59db51-Token'] ? $request.headers['X-wxde54fd27cb59db51-Token'] : $request.headers['X-wxde54fd27cb59db51-Token']
         let token1 = $request.headers.unionId ? $request.headers.unionId : $request.headers.unionId
         let ck = token + '&' + token1
