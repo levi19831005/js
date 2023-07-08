@@ -50,7 +50,7 @@ https:\/\/program\.springcocoon\.com\/szbay\/api\/services\/app\/banner\/GetBann
 #立乐家
 https:\/\/clubwx\.hm\.liby\.com\.cn\/b2cMiniApi\/subscribe url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/lljck.js
 #蜜丝Miss（积分通立乐家）
-https:\/\/clubwx\.hm\.liby\.com\.cn\/b2cMiniApi\/subscribe url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/missck.js
+https:\/\/clubwx\.hm\.liby\.com\.cn\/b2cMiniApi\/appEventRecord url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/missck.js
 
 
 #申工社sgsck
