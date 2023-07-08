@@ -1,7 +1,7 @@
 ﻿/*
 软件：   蜜丝Missck（积分通立乐家）
 获取ck：  打开小程序即可------
-重写：https://clubwx.hm.liby.com.cn/b2cMiniApi/appEventRecord
+重写：https://clubwx.hm.liby.com.cn/miniprogram/commonmodule
       url script-request-header
       missck.js
 主机：clubwx.hm.liby.com.cn
@@ -99,7 +99,7 @@ class UserInfo {
 
 ////////////////////qx获取重写的链接中的关键词 https://clubwx.hm.liby.com.cn/b2cMiniApi/appEventRecord
 async function GetRewrite() {
-    if($request.url.indexOf(`subscribe`) > -1) {
+    if($request.url.indexOf(`commonmodule`) > -1) {
         let token = $request.headers['X-wx8465e1173d1e11b0-Token'] ? $request.headers['X-wx8465e1173d1e11b0-Token'] : $request.headers['X-wx8465e1173d1e11b0-Token']
         let token1 = $request.headers.unionId ? $request.headers.unionId : $request.headers.unionId
         let ck = token + '&' + token1
