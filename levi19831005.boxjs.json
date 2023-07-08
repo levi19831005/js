@@ -422,7 +422,7 @@
  {
     "id": "miss",
     "name": "蜜丝miss",
-    "keys": ["lljck"],
+    "keys": ["missck"],
     "settings": [{
                                                         "id": "missck",
                                                         "name": "CK 列表",
