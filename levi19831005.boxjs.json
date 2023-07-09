@@ -61,7 +61,7 @@
  },  
 {
   "id": "gqcqapp",
-  "name": "广汽传祺app",
+  "name": "广汽传祺",
   "keys": ["gqcqappck"],
   "settings": [{
                         "id": "gqcqappck",
@@ -76,7 +76,43 @@
   "repo": "https://raw.githubusercontent.com/levi19831005/js/main/gqcqappck.js",
   "icons": ["https://s2.loli.net/2022/11/08/QP3nNsYR2chb5yf.jpg","https://s2.loli.net/2022/11/08/QP3nNsYR2chb5yf.jpg"],
   "script": "https://raw.githubusercontent.com/levi19831005/js/main/gqcqappck.js"
-   } ,
+   } ,  
+{
+  "id": "bjqc",
+  "name": "北京汽车",
+  "keys": ["bjqcck"],
+  "settings": [{
+                        "id": "bjqcck",
+                        "name": "CK 列表",
+                        "val": "",
+                        "type": "textarea",
+                        "autoGrow": true,
+                        "rows": 40,
+                        "desc": "bjqcck"
+                                        }],
+  "author": "@hhx",
+  "repo": "https://raw.githubusercontent.com/levi19831005/js/main/bjqcck.js",
+  "icons": ["https://s2.loli.net/2023/07/09/XCNMRg7m3kBGQU4.jpg","https://s2.loli.net/2023/07/09/XCNMRg7m3kBGQU4.jpg"],
+  "script": "https://raw.githubusercontent.com/levi19831005/js/main/bjqcck.js"
+   } ,  
+{
+  "id": "gqftbz",
+  "name": "广汽丰田bz",
+  "keys": ["gqftbzck"],
+  "settings": [{
+                        "id": "gqftbzck",
+                        "name": "CK 列表",
+                        "val": "",
+                        "type": "textarea",
+                        "autoGrow": true,
+                        "rows": 40,
+                        "desc": "gqftbzck"
+                                        }],
+  "author": "@hhx",
+  "repo": "https://raw.githubusercontent.com/levi19831005/js/main/gqftbzck.js",
+  "icons": ["https://s2.loli.net/2023/07/09/YgMd3ztSb9WF8Pw.jpg","https://s2.loli.net/2023/07/09/YgMd3ztSb9WF8Pw.jpg"],
+  "script": "https://raw.githubusercontent.com/levi19831005/js/main/gqftbzck.js"
+   },
 {
     "id": "zmjk",
     "name": "姿美健康",
