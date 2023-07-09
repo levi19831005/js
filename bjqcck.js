@@ -1,7 +1,7 @@
 ﻿/*
 软件：   北京现代ck
 获取ck：  打开小程序即可------
-重写：https://api.smartservice.bjev.com.cn/gateway-api//v1/notice/user
+重写：https://api.smartservice.bjev.com.cn/gateway-api/v1/notice/user
       url script-request-header
       https://raw.githubusercontent.com/levi19831005/js/main/bjqcck.js
 主机：api.smartservice.bjev.com.cn
