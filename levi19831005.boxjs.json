@@ -472,6 +472,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/cllck.js",
     "icons": ["https://s2.loli.net/2023/07/08/Y5HPE28OL7sMB1J.jpg","https://s2.loli.net/2023/07/08/Y5HPE28OL7sMB1J.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/cllck.js"
+    },
+ {
+    "id": "ybjk",
+    "name": "益宝健康",
+    "keys": ["ybjkck"],
+    "settings": [{
+                                                        "id": "ybjkck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 20,
+                                                        "desc": "ybjkck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ybjkck.js",
+    "icons": ["https://s2.loli.net/2023/07/09/PMpt4oaYcxw18fy.jpg","https://s2.loli.net/2023/07/09/PMpt4oaYcxw18fy.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ybjkck.js"
     }
         
         
