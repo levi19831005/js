@@ -16,7 +16,7 @@ https:\/\/appapi\.changan-mazda\.com\.cn\/api-user\/openPage\/app\/openPage url 
 #广汽传祺gqcqappck
 https:\/\/gsp\.gacmotor\.com\/gateway\/app-api\/my\/message\/myeachnumv2 url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/gqcqappck.js
 #北京汽车
-https:\/\/api\.smartservice\.bjev\.com\.cn\/gateway-api\/v1\/notice\/user url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bjqcck.js
+https:\/\/api\.smartservice\.bjev\.com\.cn\/gateway-api\/\/v1\/notice\/user url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/bjqcck.js
 #广汽丰田bz
 https:\/\/gw\.nevapp\.gtmc\.com\.cn\/time url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/gqftbzck.js
 #姿美健康zmjkck
