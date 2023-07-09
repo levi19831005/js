@@ -490,6 +490,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ybjkck.js",
     "icons": ["https://s2.loli.net/2023/07/09/PMpt4oaYcxw18fy.jpg","https://s2.loli.net/2023/07/09/PMpt4oaYcxw18fy.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/ybjkck.js"
+    },
+ {
+    "id": "kfsc",
+    "name": "卡夫商城",
+    "keys": ["kfscck"],
+    "settings": [{
+                                                        "id": "kfscck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 20,
+                                                        "desc": "kfscck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/kfscck.js",
+    "icons": ["https://s2.loli.net/2023/07/09/NtXlAkJezfpMRs5.jpg","https://s2.loli.net/2023/07/09/NtXlAkJezfpMRs5.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/kfscck.js"
     }
         
         
