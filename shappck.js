@@ -108,11 +108,11 @@ let ck = token
                 userCookie = userCookie + '\n' + ck
                 $.setdata(userCookie, 'shappck');
                 let ckList = userCookie.split('\n')
-                $.msg(`获取第${ckList.length}个ck成功: ${ck}`)
+                $.msg(`上海类获取第${ckList.length}个ck成功: ${ck}`)
             }
         } else {
             $.setdata(ck, 'shappck');
-            $.msg(`获取第1个ck成功: ${ck}`)
+            $.msg(`上海类获取第1个ck成功: ${ck}`)
         }
     }
 }
