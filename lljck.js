@@ -109,11 +109,11 @@ async function GetRewrite() {
                 userCookie = userCookie + '\n' + ck
                 $.setdata(userCookie, 'lljck');
                 let ckList = userCookie.split('\n')
-                $.msg(`获取第${ckList.length}个Cookie成功: ${ck}`)
+                $.msg(`立乐家获取第${ckList.length}个Cookie成功: ${ck}`)
             }
         } else {
             $.setdata(ck, 'lljck');
-            $.msg(`获取第1个Cookie成功: ${ck}`)
+            $.msg(`立乐家获取第1个Cookie成功: ${ck}`)
         }
     }
 }
