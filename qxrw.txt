@@ -42,7 +42,7 @@ https:\/\/app\.ai-emma\.com\/app\/system\/messageRed url script-request-header h
 #我德清
 http:\/\/mapi\.yingxi\.tv\/api\/v1 url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/wdqck.js
 #掌上金东
-https:\/\/jdcliser\.jhnews\.com\.cn\/b-app\/c\/channels url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/zsjdck.js
+https:\/\/jdcliser\.jhnews\.com\.cn\/b-app\/c\/pgcs url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/zsjdck.js
 
 
 
