@@ -108,11 +108,11 @@ let ck = token
                 userCookie = userCookie + '\n' + ck
                 $.setdata(userCookie, 'ymxkck');
                 let ckList = userCookie.split('\n')
-                $.msg(`获取第${ckList.length}个ck成功: ${ck}`)
+                $.msg(`悦马星空获取第${ckList.length}个ck成功: ${ck}`)
             }
         } else {
             $.setdata(ck, 'ymxkck');
-            $.msg(`获取第1个ck成功: ${ck}`)
+            $.msg(`悦马星空获取第1个ck成功: ${ck}`)
         }
     }
 }
