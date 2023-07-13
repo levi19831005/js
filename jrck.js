@@ -99,7 +99,7 @@ class UserInfo {
 
 ////////////////////qx获取重写的链接中的关键词 https://xapi.weimob.com/fe/mapi/user/loginX
 async function GetRewrite() {
-    if($request.url.indexOf(`furnish/homePage`) > -1) {
+    if($request.url.indexOf(`loginX`) > -1) {
         let token = $response.body.token ? $response.body.token : $response.body.token
         let token1 = $response.body.wid ? $response.body.wid : $response.body.wid
         let token2 = $response.body.data.openid ? $response.body.data.openid : $response.body.data.openid
