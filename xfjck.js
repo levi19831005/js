@@ -108,11 +108,11 @@ let ck = token
                 userCookie = userCookie + '\n' + ck
                 $.setdata(userCookie, 'xfjck');
                 let ckList = userCookie.split('\n')
-                $.msg(`获取第${ckList.length}个ck成功: ${ck}`)
+                $.msg(`新福建获取第${ckList.length}个auth成功: ${ck}`)
             }
         } else {
             $.setdata(ck, 'xfjck');
-            $.msg(`获取第1个ck成功: ${ck}`)
+            $.msg(`新福建获取第1个auth成功: ${ck}`)
         }
     }
 }
