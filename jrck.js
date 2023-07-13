@@ -104,7 +104,7 @@ async function GetRewrite() {
         ck2=JSON.parse(ck1)
         ck3=ck2.result.token
         ck4=ck2.result.wid
-        ck5=ck2.result.data.openid
+        ck5=ck2.result.openid
         let ck = ck3 + '&' + ck4 + '&' + ck5
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
