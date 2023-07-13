@@ -108,11 +108,11 @@ async function GetRewrite() {
                 userCookie = userCookie + '\n' + ck
                 $.setdata(userCookie, 'sysxcck');
                 let ckList = userCookie.split('\n')
-                $.msg(`获取第${ckList.length}个myjk-token成功: ${ck}`)
+                $.msg(`书亦烧仙草获取第${ckList.length}个myjk-token成功: ${ck}`)
             }
         } else {
             $.setdata(ck, 'sysxcck');
-            $.msg(`获取第1个ck成功: ${ck}`)
+            $.msg(`书亦烧仙草获取第1个ck成功: ${ck}`)
         }
     }
 }
