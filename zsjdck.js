@@ -1,7 +1,7 @@
 ﻿/*
 软件：   掌上金东ck
 获取ck：  打开小程序即可------
-重写：https://jdcliser.jhnews.com.cn/b-app/c/channels
+重写：https://jdcliser.jhnews.com.cn/b-app/c/pgcs
       url script-request-header
       https://raw.githubusercontent.com/levi19831005/js/main/zsjdck.js
 主机：jdcliser.jhnews.com.cn
@@ -99,7 +99,7 @@ class UserInfo {
 
 ////////////////////qx获取重写的链接中的关键词 https://jdcliser.jhnews.com.cn/b-app/c/channels
 async function GetRewrite() {
-    if($request.url.indexOf(`c/channels`) > -1) {
+    if($request.url.indexOf(`c/pgcs`) > -1) {
         let token = $request.url.match(/userId=(.*)/)[1] ? $request.url.match(/userId=(.*)/)[1] : $request.url.match(/userId=(.*)/)[1]
         let token1 = $request.headers['X-SESSION-ID'] ? $request.headers['X-SESSION-ID'] : $request.headers['X-SESSION-ID']
         let ck = token1 + '&' + token
