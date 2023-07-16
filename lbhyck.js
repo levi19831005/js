@@ -1,7 +1,7 @@
 /*
 软件：   立白会员俱乐部ck（积分通立乐家）
 获取ck：  打开小程序即可------
-重写：https://clubwx.hm.liby.com.cn/miniprogram/mini
+重写：https://clubwx.hm.liby.com.cn/b2cMiniApi/coupon
       url script-request-header
       https://raw.githubusercontent.com/levi19831005/js/main/lbhyck.js
 主机：clubwx.hm.liby.com.cn
@@ -97,9 +97,9 @@ class UserInfo {
 .catch((e) => console.log(e))
 .finally(() => $.done())
 
-////////////////////qx获取重写的链接中的关键词 https://clubwx.hm.liby.com.cn/miniprogram/mini
+////////////////////qx获取重写的链接中的关键词 https://clubwx.hm.liby.com.cn/b2cMiniApi/coupon
 async function GetRewrite() {
-    if($request.url.indexOf(`miniprogram/mini`) > -1) {
+    if($request.url.indexOf(`b2cMiniApi/coupon`) > -1) {
         let token = $request.headers['X-wxc503ab22be5af334-Token'] ? $request.headers['X-wxc503ab22be5af334-Token'] : $request.headers['X-wxc503ab22be5af334-Token']
         let token1 = $request.headers.unionId ? $request.headers.unionId : $request.headers.unionId
         let ck = token + '&' + token1
