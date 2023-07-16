@@ -101,8 +101,8 @@ class UserInfo {
 async function GetRewrite() {
     if($request.url.indexOf(`homepage`) > -1) {
         let token1 = $request.headers.Authorization ? $request.headers.Authorization  : $request.headers.Authorization 
-        let token2 = $request.headers.openid ? $request.headers.openid  : $request.headers.openid 
-        let token3 = $request.headers.unionid ? $request.headers.unionid  : $request.headers.unionid 
+        let token2 = $request.headers.openId ? $request.headers.openId  : $request.headers.openId 
+        let token3 = $request.headers.unionId ? $request.headers.unionId  : $request.headers.unionId 
         let ck = token1 + "&" + token2 + "&" + token3
         if(!token1) return;
         if(userCookie) {
