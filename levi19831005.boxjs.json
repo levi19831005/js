@@ -420,6 +420,24 @@
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/qcsck.js"
     },
  {
+    "id": "qcslm",
+    "name": " 屈臣氏撸猫",
+    "keys": ["qcslmck"],
+    "settings": [{
+                                                    "id": "qcslmck",
+                                                    "name": "CK 列表",
+                                                    "val": "",
+                                                    "type": "textarea",
+                                                    "autoGrow": true,
+                                                    "rows": 20,
+                                                    "desc": "qcslmck"
+                                                }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qcslmck.js",
+    "icons": ["https://s2.loli.net/2023/07/16/wUenJuBH9Nh4Czy.jpg","https://s2.loli.net/2023/07/16/wUenJuBH9Nh4Czy.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/qcslmck.js"
+    },       
+ {
     "id": "wyyx",
     "name": " 网易严选果园",
     "keys": ["wyyxck"],
