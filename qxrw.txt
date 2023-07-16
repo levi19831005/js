@@ -75,6 +75,10 @@ https:\/\/clubwx\.hm\.liby\.com\.cn\/b2cMiniApi\/subscribe url script-request-he
 https:\/\/clubwx\.hm\.liby\.com\.cn\/miniprogram\/commonmodule url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/missck.js
 #立白小白白（积分通立乐家）
 https:\/\/clubwx\.hm\.liby\.com\.cn\/miniprogram\/mini url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/lbxbbck.js
+#立白好爸爸（积分通立乐家）
+https:\/\/clubwx\.hm\.liby\.com\.cn\/miniprogram\/mini url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/lbhbbck.js
+#立白会员俱乐部（积分通立乐家）
+https:\/\/clubwx\.hm\.liby\.com\.cn\/miniprogram\/mini url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/lbhyck.js
 #卡夫商城
 https:\/\/mapi-ec\.weimob\.com\/api3\/ec\/mbp\/card\/queryUserOpenIdInfo url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/kfscck.js
 #飞利浦健康生活Lab
