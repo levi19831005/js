@@ -1,7 +1,7 @@
 /*
 软件：  屈臣氏获取ck
 获取ck：  打开app-我的------
-重写：https://mystore-01api.watsonsvip.com.cn/cloudapi/v2/users/tasks
+重写：https://mystore-01api.watsonsvip.com.cn/cloudapi/v2/browse/components/homepage
       url script-request-header 
       https://raw.githubusercontent.com/levi19831005/js/main/qcsck.js
 主机：mystore-01api.watsonsvip.com.cn
@@ -97,9 +97,9 @@ class UserInfo {
 .catch((e) => console.log(e))
 .finally(() => $.done())
 
-////////////////////qx获取重写的链接中的关键词 https://mystore-01api.watsonsvip.com.cn/cloudapi/v2/users/tasks
+////////////////////qx获取重写的链接中的关键词 https://mystore-01api.watsonsvip.com.cn/cloudapi/v2/browse/components/homepage
 async function GetRewrite() {
-    if($request.url.indexOf(`users/tasks`) > -1) {
+    if($request.url.indexOf(`homepage`) > -1) {
         let token1 = $request.headers.Authorization ? $request.headers.Authorization  : $request.headers.Authorization 
         let token2 = $request.headers.openid ? $request.headers.openid  : $request.headers.openid 
         let token3 = $request.headers.unionid ? $request.headers.unionid  : $request.headers.unionid 
