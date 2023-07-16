@@ -100,7 +100,7 @@ class UserInfo {
 ////////////////////qx获取重写的链接中的关键词 https://clubwx.hm.liby.com.cn/miniprogram/mini
 async function GetRewrite() {
     if($request.url.indexOf(`miniprogram/mini`) > -1) {
-        let token = $request.headers['X-wx872a12ca93eeba47-Token'] ? $request.headers['X-wx872a12ca93eeba47-Token'] : $request.headers['X-wx872a12ca93eeba47-Token1']
+        let token = $request.headers['X-wx872a12ca93eeba47-Token'] ? $request.headers['X-wx872a12ca93eeba47-Token'] : $request.headers['X-wx872a12ca93eeba47-Token']
         let token1 = $request.headers.unionId ? $request.headers.unionId : $request.headers.unionId
         let ck = token + '&' + token1
         if(!token) return;
