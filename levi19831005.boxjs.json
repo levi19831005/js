@@ -706,6 +706,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/rdxkck.js",
     "icons": ["https://s2.loli.net/2023/07/17/OPKQi46TNuwpqt3.jpg","https://s2.loli.net/2023/07/17/OPKQi46TNuwpqt3.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/rdxkck.js"
+    },
+ {
+    "id": "xhhy",
+    "name": "雪花会员",
+    "keys": ["xhhyck"],
+    "settings": [{
+                                                        "id": "xhhyck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 20,
+                                                        "desc": "xhhyck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xhhyck.js",
+    "icons": ["https://s2.loli.net/2023/07/19/Y8kphOLrlFayPiN.jpg","https://s2.loli.net/2023/07/19/Y8kphOLrlFayPiN.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/xhhyck.js"
     }
         
         
