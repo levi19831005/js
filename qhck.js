@@ -99,7 +99,7 @@ class UserInfo {
 
 ////////////////////qx获取重写的链接中的关键词 https://qiehuang-apig.xiaoyisz.com/qiehuangsecond/ga/public/api/login
 async function GetRewrite() {
-    if($request.url.indexOf(`furnish/homePage`) > -1) {
+    if($request.url.indexOf(`api/login`) > -1) {
         let token = $request.body ? $request.body : $request.body
         let ck = token
         if(!token) return;
