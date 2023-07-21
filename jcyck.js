@@ -103,7 +103,8 @@ class UserInfo {
 
 async function GetRewrite() {
     if($request.url.indexOf("m_get_member") > -1) {
-        let token1 = $response.body.split("id")[1].split(",")[0] ? $response.body.split("id")[1].split(",")[0] : $response.body.split("id")[1].split(",")[0]
+        let token = $response.body.split("id")[1].split(",")[0] ? $response.body.split("id")[1].split(",")[0] : $response.body.split("id")[1].split(",")[0]
+        let token1 = token.replace('":','')
         let token2 = $request.headers['x-token'] ? $request.headers['x-token'] : $request.headers['x-token']
         let token3 = $request.headers['push_device'] ? $request.headers['push_device'] : $request.headers['push_device']
         let token4 = $request.headers['x-ip'] ? $request.headers['x-ip'] : $request.headers['x-ip']
