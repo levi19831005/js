@@ -1,7 +1,7 @@
 ﻿/*
 软件：   中健365达人ck
 获取ck：  打开小程序即可------
-重写：https://dc.zhongjian365.com/api/user/getUserInfo
+重写：https://dc.zhongjian365.com/api/notice/getBannerList
       url script-request-header
       https://raw.githubusercontent.com/levi19831005/js/main/zjdrck.js
 主机：dc.zhongjian365.com
@@ -97,9 +97,9 @@ class UserInfo {
 .catch((e) => console.log(e))
 .finally(() => $.done())
 
-////////////////////qx获取重写的链接中的关键词 https://dc.zhongjian365.com/api/user/getUserInfo
+////////////////////qx获取重写的链接中的关键词 https://dc.zhongjian365.com/api/notice/getBannerList
 async function GetRewrite() {
-    if($request.url.indexOf(`suser/getUserInfo`) > -1) {
+    if($request.url.indexOf(`getBannerList`) > -1) {
         let token = $request.headers['X-Auth-Key'] ? $request.headers['X-Auth-Key'] : $request.headers['X-Auth-Key']
         let ck = token
         if(!token) return;
