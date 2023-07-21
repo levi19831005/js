@@ -728,7 +728,7 @@
  {
     "id": "tyqh",
     "name": "统一茄皇",
-    "keys": ["tyqhck"],
+    "keys": ["qhck"],
     "settings": [{
                                                         "id": "tyqhck",
                                                         "name": "CK 列表",
@@ -739,9 +739,9 @@
                                                         "desc": "tyqhck"
                                                     }],
     "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/tyqhck.js",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qhck.js",
     "icons": ["https://s2.loli.net/2023/07/21/cuprBxfaeigtwsS.jpg","https://s2.loli.net/2023/07/21/cuprBxfaeigtwsS.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/tyqhck.js"
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/qhck.js"
     }
         
         
