@@ -11,7 +11,7 @@ const $ = new Env(" 中健365达人ck");
 
 let envSplitor = ['\n']  //多账号隔开方式
 let httpResult, httpReq, httpResp                                                                   ////这个不懂
-let userCookie = ($.isNode() ? process.env.lzjdrck : $.getdata('lzjdrck')) || '';  //设定变量名称lzjdrck
+let userCookie = ($.isNode() ? process.env.lzjdrck : $.getdata('zjdrck')) || '';  //设定变量名称lzjdrck
 let userList = []                                                                                   ////这个不懂
 let userIdx = 0                                                                                     ////这个不懂
 let userCount = 0                                                                                   ////这个不懂
@@ -106,12 +106,12 @@ async function GetRewrite() {
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
-                $.setdata(userCookie, 'lzjdrck');
+                $.setdata(userCookie, 'zjdrck');
                 let ckList = userCookie.split('\n')
                 $.msg(`中健365达人获取第${ckList.length}个Cookie成功: ${ck}`)
             }
         } else {
-            $.setdata(ck, 'lzjdrck');
+            $.setdata(ck, 'zjdrck');
             $.msg(`中健365达人获取第1个Cookie成功: ${ck}`)
         }
     }
