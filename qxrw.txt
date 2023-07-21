@@ -97,7 +97,7 @@ https:\/\/scrm-kp-event\.crb\.cn\/member-system-api\/api\/positionRenovationPage
 #统一茄皇
 https:\/\/qiehuang-apig\.xiaoyisz\.com/qiehuangsecond\/ga\/public\/api\/login url script-request-body https://raw.githubusercontent.com/levi19831005/js/main/qhck.js
 #中健365达人zjdrck
-https:\/\/dc\.zhongjian365\.com\/api\/user\/getUserInfo url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/zjdrck.js
+https:\/\/dc\.zhongjian365\.com\/api\/notice\/getBannerList url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/zjdrck.js
 
 
 
