@@ -778,6 +778,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zjdrck.js",
     "icons": ["https://s2.loli.net/2023/07/21/lwXHM1F2YejE5GT.jpg","https://s2.loli.net/2023/07/21/lwXHM1F2YejE5GT.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/zjdrck.js"
+    },
+ {
+    "id": "dewu",
+    "name": "得物森林",
+    "keys": ["dewuck"],
+    "settings": [{
+                                                        "id": "dewuck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 20,
+                                                        "desc": "dewuck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/dewuck.js",
+    "icons": ["https://s2.loli.net/2023/08/16/6HxZsv5rRw8SAW1.jpg","https://s2.loli.net/2023/08/16/6HxZsv5rRw8SAW1.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/dewuck.js"
     }
         
         
