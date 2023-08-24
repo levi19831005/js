@@ -1,5 +1,5 @@
 #qx自用抓ck
-hostname = bm2-api.bluemembers.com.cn,fwdt.shengongshe.org,appapi.changan-mazda.com.cn,h5.ele.me,gsp.gacmotor.com,hope.demogic.com,m.jissbon.com,*.shmedia.tech,customer.yueyequan.cn,shopapp.miiow.com.cn,zxapi.yili.com,msmarket.msx.digitalyili.com,jk-agw-m.simeitol.com,mid.huaruntong.cn,202210kaixiaozao.iwxapi.com,/*.watsonsvip.com.cn,club.rioalc.com,*.shmedia.tech,scrm-prod.shuyi.org.cn,hms.cignacmb.com,miniapp.you.163.com,api1.fjdaily.com,api.jinantimes.com.cn,app.mixcapp.com,program.springcocoon.com,clubwx.hm.liby.com.cn,changlala.zbyjkj.com,app.ai-emma.com,mapi-ec.weimob.com,api.smartservice.bjev.com.cn,gw.nevapp.gtmc.com.cn,hqapp.faw.cn,mapi.yingxi.tv,www.phlab.philips.com.cn,jdcliser.jhnews.com.cn,xapi.weimob.com,vapp.tmuyun.com,lyyx-online.watsonsvip.com.cn,m.reduxingke.com,*.crb.cn,qiehuang-apig.xiaoyisz.com,mapi.jcy.jinhua.com.cn,*.zhongjian365.com,app.dewu.com
+hostname = bm2-api.bluemembers.com.cn,fwdt.shengongshe.org,appapi.changan-mazda.com.cn,h5.ele.me,gsp.gacmotor.com,hope.demogic.com,m.jissbon.com,*.shmedia.tech,customer.yueyequan.cn,shopapp.miiow.com.cn,zxapi.yili.com,msmarket.msx.digitalyili.com,jk-agw-m.simeitol.com,mid.huaruntong.cn,202210kaixiaozao.iwxapi.com,/*.watsonsvip.com.cn,club.rioalc.com,*.shmedia.tech,scrm-prod.shuyi.org.cn,hms.cignacmb.com,miniapp.you.163.com,api1.fjdaily.com,api.jinantimes.com.cn,app.mixcapp.com,program.springcocoon.com,clubwx.hm.liby.com.cn,changlala.zbyjkj.com,app.ai-emma.com,mapi-ec.weimob.com,api.smartservice.bjev.com.cn,gw.nevapp.gtmc.com.cn,hqapp.faw.cn,mapi.yingxi.tv,www.phlab.philips.com.cn,jdcliser.jhnews.com.cn,xapi.weimob.com,vapp.tmuyun.com,lyyx-online.watsonsvip.com.cn,m.reduxingke.com,*.crb.cn,qiehuang-apig.xiaoyisz.com,mapi.jcy.jinhua.com.cn,*.zhongjian365.com,app.dewu.com,watsonscat.watsonsvip.com.cn
 
 #上海类app 宝山汇、绿色青浦、美谷奉贤、上海长宁、虹口、黄埔、静安、普陀、嘉定、杨浦
 https:\/\/.*\.shmedia.tech\/media-basic-port\/api\/app\/sys\/billboard url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/shappck.js
@@ -74,6 +74,8 @@ https:\/\/202210kaixiaozao\.iwxapi\.com\/api\/activity\/Index\/lists url script-
 https:\/\/mystore-01api\.watsonsvip\.com\.cn\/cloudapi\/v2\/browse\/components\/homepage url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/qcsck.js
 #屈臣氏撸猫qcslmck
 https:\/\/lyyx-online\.watsonsvip\.com.cn\/watsons\/qulucat_prd url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/qcslmck.js
+##屈臣氏撸猫合成游戏qcshcck
+https:\/\/watsonscat\.watsonsvip\.com\.cn\/prd\/api\/configs url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/qcshcck.js
 #书亦烧仙草sysxcck
 https:\/\/scrm-prod\.shuyi\.org\.cn\/saas-gateway\/api\/agg-trade\/v1\/alipay\/student\/queryCertification\/info url script-request-header https://raw.githubusercontent.com/levi19831005/js/main/sysxcck.js
 #网易严选wyyxck
