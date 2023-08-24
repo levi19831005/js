@@ -436,6 +436,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qcslmck.js",
     "icons": ["https://s2.loli.net/2023/07/16/wUenJuBH9Nh4Czy.jpg","https://s2.loli.net/2023/07/16/wUenJuBH9Nh4Czy.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/qcslmck.js"
+    },
+ {
+    "id": "qcshc",
+    "name": " 屈臣氏合成",
+    "keys": ["qcshcck"],
+    "settings": [{
+                                                    "id": "qcshcck",
+                                                    "name": "CK 列表",
+                                                    "val": "",
+                                                    "type": "textarea",
+                                                    "autoGrow": true,
+                                                    "rows": 20,
+                                                    "desc": "qcshcck"
+                                                }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qcshcck.js",
+    "icons": ["https://s2.loli.net/2023/07/16/wUenJuBH9Nh4Czy.jpg","https://s2.loli.net/2023/07/16/wUenJuBH9Nh4Czy.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/qcshcck.js"
     },       
  {
     "id": "wyyx",
