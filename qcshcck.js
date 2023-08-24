@@ -100,9 +100,10 @@ class UserInfo {
 ////////////////////qx获取重写的链接中的关键词 https://watsonscat.watsonsvip.com.cn/prd/api/configs
 async function GetRewrite() {
     if($request.url.indexOf(`api/configs`) > -1) {
-        let token = $request.headers.Authorization ? $request.headers.Authorization  : $request.headers.Authorization
-        let ck = token
-        if(!token) return;
+        let token1 = $request.headers.Authorization ? $request.headers.Authorization  : $request.headers.Authorization
+        let token2 = token1.replace(/Bearer /g, "").replace(/\s+/g, "")
+        let ck = token2
+        if(!token1) return;
         if(userCookie) {
             if(userCookie.indexOf(ck) == -1) {
                 userCookie = userCookie + '\n' + ck
