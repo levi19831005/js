@@ -826,12 +826,30 @@
                                                         "type": "zbsck",
                                                         "autoGrow": true,
                                                         "rows": 20,
-                                                        "desc": "dewuck"
+                                                        "desc": "zbsck"
                                                     }],
     "author": "@hhx",
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zbsck.js",
     "icons": ["https://s2.loli.net/2023/08/29/8pVCEw7bjhGoO1u.jpg","https://s2.loli.net/2023/08/29/8pVCEw7bjhGoO1u.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/zbsck.js"
+    },
+ {
+    "id": "fy",
+    "name": "福域",
+    "keys": ["zbsck"],
+    "settings": [{
+                                                        "id": "fyck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "fyck",
+                                                        "autoGrow": true,
+                                                        "rows": 20,
+                                                        "desc": "fyck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/fyck.js",
+    "icons": ["https://s2.loli.net/2023/08/29/zOf5XhBL8MIE9wx.jpg","https://s2.loli.net/2023/08/29/zOf5XhBL8MIE9wx.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/fyck.js"
     }
         
         
