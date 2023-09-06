@@ -850,6 +850,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/fyck.js",
     "icons": ["https://s2.loli.net/2023/08/29/zOf5XhBL8MIE9wx.jpg","https://s2.loli.net/2023/08/29/zOf5XhBL8MIE9wx.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/fyck.js"
+    },
+ {
+    "id": "xx",
+    "name": "心喜",
+    "keys": ["xxck"],
+    "settings": [{
+                                                        "id": "xxck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "xxck",
+                                                        "autoGrow": true,
+                                                        "rows": 20,
+                                                        "desc": "xxck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xxck.js",
+    "icons": ["https://s2.loli.net/2023/09/06/a2pIYoiHXcDCtbs.jpg","https://s2.loli.net/2023/09/06/a2pIYoiHXcDCtbs.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/xxck.js"
     }
         
         
