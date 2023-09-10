@@ -868,6 +868,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xxck.js",
     "icons": ["https://s2.loli.net/2023/09/06/a2pIYoiHXcDCtbs.jpg","https://s2.loli.net/2023/09/06/a2pIYoiHXcDCtbs.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/xxck.js"
+    },
+ {
+    "id": "zsplus",
+    "name": "中山plus",
+    "keys": ["zsplusck"],
+    "settings": [{
+                                                        "id": "zsplusck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "zsplusck",
+                                                        "autoGrow": true,
+                                                        "rows": 20,
+                                                        "desc": "zsplusck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zsplusck.js",
+    "icons": ["https://s2.loli.net/2023/09/10/KOqSX169rRlvH3P.jpg","https://s2.loli.net/2023/09/10/KOqSX169rRlvH3P.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/zsplusck.js"
     }
         
         
