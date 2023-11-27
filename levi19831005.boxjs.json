@@ -886,6 +886,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zsplusck.js",
     "icons": ["https://s2.loli.net/2023/09/10/KOqSX169rRlvH3P.jpg","https://s2.loli.net/2023/09/10/KOqSX169rRlvH3P.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/zsplusck.js"
+    },
+ {
+    "id": "dls",
+    "name": "杜蕾斯",
+    "keys": ["dlsck"],
+    "settings": [{
+                                                        "id": "dlsck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "dlsck",
+                                                        "autoGrow": true,
+                                                        "rows": 10,
+                                                        "desc": "dlsck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/dlsck.js",
+    "icons": ["https://s2.loli.net/2023/11/27/NOrXvc9BYteA8EU.jpg","https://s2.loli.net/2023/11/27/NOrXvc9BYteA8EU.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/dlsck.js"
     }
         
         
