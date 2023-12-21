@@ -904,6 +904,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/dlsck.js",
     "icons": ["https://s2.loli.net/2023/11/27/NOrXvc9BYteA8EU.jpg","https://s2.loli.net/2023/11/27/NOrXvc9BYteA8EU.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/dlsck.js"
+    },
+ {
+    "id": "hrj",
+    "name": "好人家美味生活馆",
+    "keys": ["hrjck"],
+    "settings": [{
+                                                        "id": "hrjck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "hrjck",
+                                                        "autoGrow": true,
+                                                        "rows": 10,
+                                                        "desc": "hrjck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hrjck.js",
+    "icons": ["https://s2.loli.net/2023/12/21/eDBC38KHgVhf4Op.jpg","https://s2.loli.net/2023/12/21/eDBC38KHgVhf4Op.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/hrjck.js"
     }
         
         
