@@ -643,7 +643,7 @@
                                                         "id": "zbsck",
                                                         "name": "CK 列表",
                                                         "val": "",
-                                                        "type": "zbsck",
+                                                        "type": "textarea",
                                                         "autoGrow": true,
                                                         "rows": 20,
                                                         "desc": "zbsck"
@@ -661,7 +661,7 @@
                                                         "id": "fyck",
                                                         "name": "CK 列表",
                                                         "val": "",
-                                                        "type": "fyck",
+                                                        "type": "textarea",
                                                         "autoGrow": true,
                                                         "rows": 20,
                                                         "desc": "fyck"
@@ -679,7 +679,7 @@
                                                         "id": "xxck",
                                                         "name": "CK 列表",
                                                         "val": "",
-                                                        "type": "xxck",
+                                                        "type": "textarea",
                                                         "autoGrow": true,
                                                         "rows": 20,
                                                         "desc": "xxck"
@@ -697,7 +697,7 @@
                                                         "id": "dlsck",
                                                         "name": "CK 列表",
                                                         "val": "",
-                                                        "type": "dlsck",
+                                                        "type": "textarea",
                                                         "autoGrow": true,
                                                         "rows": 10,
                                                         "desc": "dlsck"
@@ -715,7 +715,7 @@
                                                         "id": "hrjck",
                                                         "name": "CK 列表",
                                                         "val": "",
-                                                        "type": "hrjck",
+                                                        "type": "textarea",
                                                         "autoGrow": true,
                                                         "rows": 8,
                                                         "desc": "hrjck"
@@ -733,7 +733,7 @@
                                                         "id": "nfsqck",
                                                         "name": "CK 列表",
                                                         "val": "",
-                                                        "type": "nfsqck",
+                                                        "type": "textarea",
                                                         "autoGrow": true,
                                                         "rows": 8,
                                                         "desc": "hrjck"
@@ -742,9 +742,25 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/nfsqck.js",
     "icons": ["https://s2.loli.net/2024/01/10/XMHkofPc1VGgb3K.jpg","https://s2.loli.net/2024/01/10/XMHkofPc1VGgb3K.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/nfsqck.js"
-    }
-        
-        
+    },
+ {
+    "id": "cz",
+    "name": "纯甄",
+    "keys": ["czck"],
+    "settings": [{
+                                                        "id": "czck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "czck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/czck.js",
+    "icons": ["https://s2.loli.net/2024/01/26/JETer6wcxv3bYS1.jpg","https://s2.loli.net/2024/01/26/JETer6wcxv3bYS1.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/czck.js"
+    } 
         
         
         
