@@ -832,6 +832,24 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/bbbck.js",
     "icons": ["https://s2.loli.net/2024/05/21/2DLlpsbH6F3BZvh.jpg","https://s2.loli.net/2024/05/21/2DLlpsbH6F3BZvh.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/bbbck.js"
+    } ,
+ {
+    "id": "jph",
+    "name": "君品荟",
+    "keys": ["jphck"],
+    "settings": [{
+                                                        "id": "jphck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "jphck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/jphck.js",
+    "icons": ["https://s2.loli.net/2024/05/21/KcblPSRiGeYdkT4.jpg","https://s2.loli.net/2024/05/21/KcblPSRiGeYdkT4.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/jphck.js"
     } 
         
         
