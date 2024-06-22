@@ -886,6 +886,60 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/drwxck.js",
     "icons": ["https://s2.loli.net/2024/06/14/waHDbj8gX9dRctr.jpg","https://s2.loli.net/2024/06/14/waHDbj8gX9dRctr.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/drwxck.js"
+    } ,
+ {
+    "id": "snjk",
+    "name": "三诺健康",
+    "keys": ["snjkck"],
+    "settings": [{
+                                                        "id": "snjkck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "snjkck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/snjkck.js",
+    "icons": ["https://s2.loli.net/2024/06/22/FmIhuEvVRoiPLbC.jpg","https://s2.loli.net/2024/06/22/FmIhuEvVRoiPLbC.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/snjkck.js"
+    } ,
+ {
+    "id": "hxpro",
+    "name": "海星pro",
+    "keys": ["hxprock"],
+    "settings": [{
+                                                        "id": "hxprock",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "hxprock"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hxprock.js",
+    "icons": ["https://s2.loli.net/2024/06/22/IZOH4RXGYk6mNut.jpg","https://s2.loli.net/2024/06/22/IZOH4RXGYk6mNut.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/hxprock.js"
+    } ,
+ {
+    "id": "fxsh",
+    "name": "粉象生活",
+    "keys": ["fxshck"],
+    "settings": [{
+                                                        "id": "fxshck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "fxshck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/fxshck.js",
+    "icons": ["https://s2.loli.net/2024/06/22/oDytfQUiGxNJHTh.jpg","https://s2.loli.net/2024/06/22/oDytfQUiGxNJHTh.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/fxshck.js"
     } 
         
         
