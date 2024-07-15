@@ -958,6 +958,42 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/amhyck.js",
     "icons": ["https://s2.loli.net/2024/06/28/g1mblWT9wRYi8BL.jpg","https://s2.loli.net/2024/06/28/g1mblWT9wRYi8BL.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/amhyck.js"
+    } ,
+ {
+    "id": "kdkf",
+    "name": "库迪咖啡",
+    "keys": ["kdck"],
+    "settings": [{
+                                                        "id": "kdck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "kdck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/kdck.js",
+    "icons": ["https://s2.loli.net/2024/07/15/HDABizGXbKNLpEy.jpg","https://s2.loli.net/2024/07/15/HDABizGXbKNLpEy.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/kdck.js"
+    }  ,
+ {
+    "id": "smzdm",
+    "name": "什么值得买",
+    "keys": ["smzdmck"],
+    "settings": [{
+                                                        "id": "smzdmck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "smzdmck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/smzdmck.js",
+    "icons": ["https://s2.loli.net/2024/07/15/nJw4YXrqPR9UMaN.jpg","https://s2.loli.net/2024/07/15/nJw4YXrqPR9UMaN.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/smzdmck.js"
     } 
         
         
