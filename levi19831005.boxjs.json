@@ -994,7 +994,43 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/smzdmck.js",
     "icons": ["https://s2.loli.net/2024/07/15/nJw4YXrqPR9UMaN.jpg","https://s2.loli.net/2024/07/15/nJw4YXrqPR9UMaN.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/smzdmck.js"
-    } 
+    } ,
+ {
+    "id": "wc",
+    "name": "望潮",
+    "keys": ["wcck"],
+    "settings": [{
+                                                        "id": "wcck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "wcck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/wcck.js",
+    "icons": ["https://s2.loli.net/2024/07/23/T6ExYMwh7z1dUuV.jpg","https://s2.loli.net/2024/07/23/T6ExYMwh7z1dUuV.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/wcck.js"
+    },
+ {
+    "id": "xstl",
+    "name": "潇洒桐庐",
+    "keys": ["xstlck"],
+    "settings": [{
+                                                        "id": "xstlck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "xstlck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xstlck.js",
+    "icons": ["https://s2.loli.net/2024/07/23/uWEpBLCNA6t9R8r.jpg","https://s2.loli.net/2024/07/23/uWEpBLCNA6t9R8r.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/xstlck.js"
+    }
         
         
         
