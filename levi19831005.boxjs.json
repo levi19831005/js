@@ -1030,6 +1030,60 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xstlck.js",
     "icons": ["https://s2.loli.net/2024/07/23/uWEpBLCNA6t9R8r.jpg","https://s2.loli.net/2024/07/23/uWEpBLCNA6t9R8r.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/xstlck.js"
+    },
+ {
+    "id": "zxjl",
+    "name": "尊享金陵",
+    "keys": ["zxjlck"],
+    "settings": [{
+                                                        "id": "zxjlck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "zxjlck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zxjlck.js",
+    "icons": ["https://s2.loli.net/2024/08/05/M9IXhro2ARVW364.jpg","https://s2.loli.net/2024/08/05/M9IXhro2ARVW364.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/zxjlck.js"
+    },
+ {
+    "id": "zsjd",
+    "name": "掌上金东",
+    "keys": ["zsjdck"],
+    "settings": [{
+                                                        "id": "zsjdck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "zsjdck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zsjdck.js",
+    "icons": ["https://s2.loli.net/2024/08/05/ZnmNEeISljMsy6L.png","https://s2.loli.net/2024/08/05/ZnmNEeISljMsy6L.png"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/zsjdck.js"
+    },
+ {
+    "id": "gjjj",
+    "name": "顾家家居",
+    "keys": ["gjjjck"],
+    "settings": [{
+                                                        "id": "gjjjck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "gjjjck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/gjjjck.js",
+    "icons": ["https://s2.loli.net/2024/08/05/FbCmxp6rn28fHvJ.jpg","https://s2.loli.net/2024/08/05/FbCmxp6rn28fHvJ.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/gjjjck.js"
     }
         
         
