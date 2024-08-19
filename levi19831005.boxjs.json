@@ -1084,6 +1084,42 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/gjjjck.js",
     "icons": ["https://s2.loli.net/2024/08/05/FbCmxp6rn28fHvJ.jpg","https://s2.loli.net/2024/08/05/FbCmxp6rn28fHvJ.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/gjjjck.js"
+    },
+ {
+    "id": "jja",
+    "name": "久久爱",
+    "keys": ["jjack"],
+    "settings": [{
+                                                        "id": "jjack",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "jjack"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/jjack.js",
+    "icons": ["https://s2.loli.net/2024/08/19/yXTEnml276qYS8B.jpg","https://s2.loli.net/2024/08/19/yXTEnml276qYS8B.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/jjack.js"
+    },
+ {
+    "id": "ddjz",
+    "name": "点点兼职",
+    "keys": ["ddjzck"],
+    "settings": [{
+                                                        "id": "ddjzck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "ddjzck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ddjzck.js",
+    "icons": ["https://s2.loli.net/2024/08/19/loabfysgxT4eGO8.jpg","https://s2.loli.net/2024/08/19/loabfysgxT4eGO8.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ddjzck.js"
     }
         
         
