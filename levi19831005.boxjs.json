@@ -1120,6 +1120,42 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ddjzck.js",
     "icons": ["https://s2.loli.net/2024/08/19/loabfysgxT4eGO8.jpg","https://s2.loli.net/2024/08/19/loabfysgxT4eGO8.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/ddjzck.js"
+    },
+ {
+    "id": "ymsc",
+    "name": "夜猫商城",
+    "keys": ["ymscck"],
+    "settings": [{
+                                                        "id": "ymscck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "ymscck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ymscck.js",
+    "icons": ["https://s2.loli.net/2024/09/05/8xrKiNLHFuckYoJ.jpg","https://s2.loli.net/2024/09/05/8xrKiNLHFuckYoJ.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ymscck.js"
+    },
+ {
+    "id": "ybs",
+    "name": "牙博士口腔",
+    "keys": ["ybsck"],
+    "settings": [{
+                                                        "id": "ybsck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "ybsck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ybsck.js",
+    "icons": ["https://s2.loli.net/2024/09/05/uxKRMCoejbd634E.jpg","https://s2.loli.net/2024/09/05/uxKRMCoejbd634E.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ybsck.js"
     }
         
         
