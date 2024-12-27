@@ -1156,6 +1156,78 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ybsck.js",
     "icons": ["https://s2.loli.net/2024/09/05/uxKRMCoejbd634E.jpg","https://s2.loli.net/2024/09/05/uxKRMCoejbd634E.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/ybsck.js"
+    },
+ {
+    "id": "ztkd",
+    "name": "中通快递",
+    "keys": ["ztkdck"],
+    "settings": [{
+                                                        "id": "ztkdck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "ztkdck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ztkdck.js",
+    "icons": ["https://s2.loli.net/2024/12/27/wkujDpQC5VNKSyO.jpg","https://s2.loli.net/2024/12/27/wkujDpQC5VNKSyO.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ztkdck.js"
+    },
+ {
+    "id": "fyh",
+    "name": "复游会",
+    "keys": ["fyhck"],
+    "settings": [{
+                                                        "id": "fyhck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "fyhck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/fyhck.js",
+    "icons": ["https://s2.loli.net/2024/12/27/alXk4L3ZbOCQzP8.jpg","https://s2.loli.net/2024/12/27/alXk4L3ZbOCQzP8.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/fyhck.js"
+    },
+ {
+    "id": "add",
+    "name": "爱多多",
+    "keys": ["addck"],
+    "settings": [{
+                                                        "id": "addck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "addck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/addck.js",
+    "icons": ["https://s2.loli.net/2024/12/27/ah4X8GEYrCblDUd.jpg","https://s2.loli.net/2024/12/27/ah4X8GEYrCblDUd.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/addck.js"
+    },
+ {
+    "id": "ajjk",
+    "name": "高济健康",
+    "keys": ["ajjkck"],
+    "settings": [{
+                                                        "id": "ajjkck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "ajjkck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ajjkck.js",
+    "icons": ["https://s2.loli.net/2024/12/27/SEaCzhAmyYXRxbV.jpg","https://s2.loli.net/2024/12/27/SEaCzhAmyYXRxbV.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ajjkck.js"
     }
         
         
