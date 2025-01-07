@@ -1212,22 +1212,22 @@
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/addck.js"
     },
  {
-    "id": "ajjk",
+    "id": "gjjk",
     "name": "高济健康",
-    "keys": ["ajjkck"],
+    "keys": ["gjjkck"],
     "settings": [{
-                                                        "id": "ajjkck",
+                                                        "id": "gjjkck",
                                                         "name": "CK 列表",
                                                         "val": "",
                                                         "type": "textarea",
                                                         "autoGrow": true,
                                                         "rows": 8,
-                                                        "desc": "ajjkck"
+                                                        "desc": "gjjkck"
                                                     }],
     "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ajjkck.js",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/gjjkck.js",
     "icons": ["https://s2.loli.net/2024/12/27/SEaCzhAmyYXRxbV.jpg","https://s2.loli.net/2024/12/27/SEaCzhAmyYXRxbV.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ajjkck.js"
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/gjjkck.js"
     }
         
         
