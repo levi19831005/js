@@ -59,114 +59,7 @@
  "icons": ["https://s2.loli.net/2023/05/22/yq5OlL1XxaBHFDf.jpg","https://s2.loli.net/2023/05/22/yq5OlL1XxaBHFDf.jpg"],
  "script": "https://raw.githubusercontent.com/levi19831005/js/main/ymxkck.js"
  },  
-{
-  "id": "bjqc",
-  "name": "北京汽车",
-  "keys": ["bjqcck"],
-  "settings": [{
-                        "id": "bjqcck",
-                        "name": "CK 列表",
-                        "val": "",
-                        "type": "textarea",
-                        "autoGrow": true,
-                        "rows": 40,
-                        "desc": "bjqcck"
-                                        }],
-  "author": "@hhx",
-  "repo": "https://raw.githubusercontent.com/levi19831005/js/main/bjqcck.js",
-  "icons": ["https://s2.loli.net/2023/07/09/XCNMRg7m3kBGQU4.jpg","https://s2.loli.net/2023/07/09/XCNMRg7m3kBGQU4.jpg"],
-  "script": "https://raw.githubusercontent.com/levi19831005/js/main/bjqcck.js"
-   } ,  
-{
-  "id": "gqftbz",
-  "name": "广汽丰田bz",
-  "keys": ["gqftbzck"],
-  "settings": [{
-                        "id": "gqftbzck",
-                        "name": "CK 列表",
-                        "val": "",
-                        "type": "textarea",
-                        "autoGrow": true,
-                        "rows": 40,
-                        "desc": "gqftbzck"
-                                        }],
-  "author": "@hhx",
-  "repo": "https://raw.githubusercontent.com/levi19831005/js/main/gqftbzck.js",
-  "icons": ["https://s2.loli.net/2023/07/09/YgMd3ztSb9WF8Pw.jpg","https://s2.loli.net/2023/07/09/YgMd3ztSb9WF8Pw.jpg"],
-  "script": "https://raw.githubusercontent.com/levi19831005/js/main/gqftbzck.js"
-   },  
-{
-  "id": "hqzl",
-  "name": "红旗智联",
-  "keys": ["hqzlck"],
-  "settings": [{
-                        "id": "hqzlck",
-                        "name": "CK 列表",
-                        "val": "",
-                        "type": "textarea",
-                        "autoGrow": true,
-                        "rows": 40,
-                        "desc": "hqzlck"
-                                        }],
-  "author": "@hhx",
-  "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hqzlck.js",
-  "icons": ["https://s2.loli.net/2023/07/09/Ss6zanMXKjtJxUD.jpg","https://s2.loli.net/2023/07/09/Ss6zanMXKjtJxUD.jpg"],
-  "script": "https://raw.githubusercontent.com/levi19831005/js/main/hqzlck.js"
-   },
-{
-    "id": "yyq",
-    "name": "悦野圈",
-    "keys": ["yyqck"],
-    "settings": [{
-                "id": "yyqck",
-                "name": "CK 列表",
-                "val": "",
-                "type": "textarea",
-                "autoGrow": true,
-                "rows": 20,
-                "desc": "yyqck"
-                                }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/yyqck.js",
-    "icons": ["https://s2.loli.net/2023/05/22/KlQyaq4NJ1zriMd.jpg","https://s2.loli.net/2023/05/22/KlQyaq4NJ1zriMd.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/yyqck.js"
-     }   ,
-{
-    "id": "wmrs",
-    "name": "完美人生",
-    "keys": ["wmrsck"],
-    "settings": [{
-                                    "id": "wmrsck",
-                                    "name": "CK 列表",
-                                    "val": "",
-                                    "type": "textarea",
-                                    "autoGrow": true,
-                                    "rows": 8,
-                                    "desc": "wmrsck"
-                                }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/wmrsappck.js",
-    "icons": ["https://s2.loli.net/2022/11/09/4JIfYcACUdNVeK8.jpg","https://s2.loli.net/2022/11/09/4JIfYcACUdNVeK8.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/wmrsappck.js"
-    } ,
-{
-    "id": "maoren",
-    "name": "猫人",
-    "keys": ["mrck"],
-    "settings": [{
-                                    "id": "mrck",
-                                    "name": "CK 列表",
-                                    "val": "",
-                                    "type": "textarea",
-                                    "autoGrow": true,
-                                    "rows": 8,
-                                    "desc": "mrck"
-                                }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/mrck.js",
-    "icons": ["https://s2.loli.net/2022/11/14/2BTkGgrSnoq6aEs.jpg","https://s2.loli.net/2022/11/14/2BTkGgrSnoq6aEs.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/mrck.js"
-     }   ,
+
 {
     "id": "elm",
     "name": "饿了么",
@@ -185,60 +78,7 @@
     "icons": ["https://s2.loli.net/2022/11/24/Glw5uTNJtcXsknU.jpg","https://s2.loli.net/2022/11/24/Glw5uTNJtcXsknU.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/elmall.js"
     }  ,
-{
-    "id": "jsb",
-    "name": "杰士邦",
-    "keys": ["jsbck"],
-                            "settings": [{
-                                    "id": "jsbck",
-                                    "name": "CK 列表",
-                                    "val": "",
-                                    "type": "textarea",
-                                    "autoGrow": true,
-                                    "rows": 8,
-                                    "desc": "jsbck"
-                                }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/jsbwxck.js",
-    "icons": ["https://s2.loli.net/2022/11/27/8BnS7iovDhHpNXE.jpg","https://s2.loli.net/2022/11/27/8BnS7iovDhHpNXE.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/jsbwxck.js"
-     }  ,
-{
-    "id": "zxzwn",
-    "name": "植选植物奶",
-    "keys": ["zxzwnwxck"],
-    "settings": [{
-                                    "id": "zxzwnwxck",
-                                    "name": "CK 列表",
-                                    "val": "",
-                                    "type": "textarea",
-                                    "autoGrow": true,
-                                    "rows": 8,
-                                    "desc": "zxzwnwxck"
-                                }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zxzwnwxck.js",
-    "icons": ["https://s2.loli.net/2022/12/02/pWmaifJhbLkrAxZ.jpg","https://s2.loli.net/2022/12/02/pWmaifJhbLkrAxZ.jpg"],
-     "script": "https://raw.githubusercontent.com/levi19831005/js/main/zxzwnwxck.js"
-     }  ,
-{
-    "id": "xhh",
-    "name": "新黄河",
-    "keys": ["xhhck"],
-    "settings": [{
-                                    "id": "xhhck",
-                                    "name": "CK 列表",
-                                    "val": "",
-                                    "type": "textarea",
-                                    "autoGrow": true,
-                                    "rows": 100,
-                                    "desc": "xhhck"
-                                }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xhhck.js",
-    "icons": ["https://s2.loli.net/2023/06/11/6HVUnW5Bla19iKp.jpg","https://s2.loli.net/2023/06/11/6HVUnW5Bla19iKp.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/xhhck.js"
-     }   ,
+
 {
     "id": "yili",
     "name": "伊利牛奶",
@@ -293,96 +133,6 @@
     "icons": ["https://s2.loli.net/2023/05/28/7JxPmfsTdkYKXbe.jpg","https://s2.loli.net/2023/05/28/7JxPmfsTdkYKXbe.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/sgsck.js"
     },
-{
-    "id": "hrt",
-    "name": " 华润通",
-    "keys": ["hrtck"],
-    "settings": [{
-                                        "id": "hrtck",
-                                        "name": "CK 列表",
-                                        "val": "",
-                                        "type": "textarea",
-                                        "autoGrow": true,
-                                        "rows": 20,
-                                        "desc": "hrtck"
-                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hrtck.js",
-    "icons": ["https://s2.loli.net/2023/07/04/tqdFE86g3sDpQxT.jpg","https://s2.loli.net/2023/07/04/tqdFE86g3sDpQxT.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/hrtck.js"
-    },
-{
-    "id": "ydwx",
-    "name": " 一点万象",
-    "keys": ["ydwxck"],
-    "settings": [{
-                                                "id": "ydwxck",
-                                                "name": "CK 列表",
-                                                "val": "",
-                                                "type": "textarea",
-                                                "autoGrow": true,
-                                                "rows": 20,
-                                                "desc": "ydwxck"
-                                            }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ydwxck.js",
-    "icons": ["https://s2.loli.net/2023/07/04/PX7gSOtzuRqx96l.jpg","https://s2.loli.net/2023/07/04/PX7gSOtzuRqx96l.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ydwxck.js"
-    },
-{
-    "id": "qcs",
-    "name": " 屈臣氏",
-    "keys": ["qcsck"],
-    "settings": [{
-                                                    "id": "qcsck",
-                                                    "name": "CK 列表",
-                                                    "val": "",
-                                                    "type": "textarea",
-                                                    "autoGrow": true,
-                                                    "rows": 20,
-                                                    "desc": "qcsck"
-                                                }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qcsck.js",
-    "icons": ["https://s2.loli.net/2023/07/04/s4T5J8YOZgvhtej.jpg","https://s2.loli.net/2023/07/04/s4T5J8YOZgvhtej.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/qcsck.js"
-    },
- {
-    "id": "qcslm",
-    "name": " 屈臣氏撸猫",
-    "keys": ["qcslmck"],
-    "settings": [{
-                                                    "id": "qcslmck",
-                                                    "name": "CK 列表",
-                                                    "val": "",
-                                                    "type": "textarea",
-                                                    "autoGrow": true,
-                                                    "rows": 20,
-                                                    "desc": "qcslmck"
-                                                }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qcslmck.js",
-    "icons": ["https://s2.loli.net/2023/07/16/wUenJuBH9Nh4Czy.jpg","https://s2.loli.net/2023/07/16/wUenJuBH9Nh4Czy.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/qcslmck.js"
-    },
- {
-    "id": "qcshc",
-    "name": " 屈臣氏合成",
-    "keys": ["qcshcck"],
-    "settings": [{
-                                                    "id": "qcshcck",
-                                                    "name": "CK 列表",
-                                                    "val": "",
-                                                    "type": "textarea",
-                                                    "autoGrow": true,
-                                                    "rows": 20,
-                                                    "desc": "qcshcck"
-                                                }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qcshcck.js",
-    "icons": ["https://s2.loli.net/2023/07/16/wUenJuBH9Nh4Czy.jpg","https://s2.loli.net/2023/07/16/wUenJuBH9Nh4Czy.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/qcshcck.js"
-    },       
  {
     "id": "szw",
     "name": " 深圳湾春茧未来荟",
@@ -401,262 +151,11 @@
     "icons": ["https://s2.loli.net/2023/07/05/e9Rw4i5GnrkXsD7.jpg","https://s2.loli.net/2023/07/05/e9Rw4i5GnrkXsD7.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/szwck.js"
     },
- {
-    "id": "llj",
-    "name": "立乐家",
-    "keys": ["lljck"],
-    "settings": [{
-                                                        "id": "lljck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "lljck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/lljck.js",
-    "icons": ["https://s2.loli.net/2023/07/05/GkV46e5uAzOnLjE.jpg","https://s2.loli.net/2023/07/05/GkV46e5uAzOnLjE.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/lljck.js"
-    },
- {
-    "id": "miss",
-    "name": "蜜丝miss",
-    "keys": ["missck"],
-    "settings": [{
-                                                        "id": "missck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "missck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/missck.js",
-    "icons": ["https://s2.loli.net/2023/07/08/kaTX8GN9F7436gO.jpg","https://s2.loli.net/2023/07/08/kaTX8GN9F7436gO.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/missck.js"
-    },
- {
-    "id": "lbxbb",
-    "name": "立白小白白",
-    "keys": ["lbxbbck"],
-    "settings": [{
-                                                        "id": "lbxbbck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "lbxbbck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/lbxbbck.js",
-    "icons": ["https://s2.loli.net/2023/07/08/yzpxrKC98mYRIEv.jpg","https://s2.loli.net/2023/07/08/yzpxrKC98mYRIEv.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/lbxbbck.js"
-    },
- {
-    "id": "cll",
-    "name": "厂拉拉",
-    "keys": ["cllck"],
-    "settings": [{
-                                                        "id": "cllck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "cllck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/cllck.js",
-    "icons": ["https://s2.loli.net/2023/07/08/Y5HPE28OL7sMB1J.jpg","https://s2.loli.net/2023/07/08/Y5HPE28OL7sMB1J.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/cllck.js"
-    },
- {
-    "id": "ybjk",
-    "name": "益宝健康",
-    "keys": ["ybjkck"],
-    "settings": [{
-                                                        "id": "ybjkck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "ybjkck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ybjkck.js",
-    "icons": ["https://s2.loli.net/2023/07/09/PMpt4oaYcxw18fy.jpg","https://s2.loli.net/2023/07/09/PMpt4oaYcxw18fy.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ybjkck.js"
-    },
- {
-    "id": "wdq",
-    "name": "我德清",
-    "keys": ["wdqck"],
-    "settings": [{
-                                                        "id": "wdqck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "wdqck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/wdqck.js",
-    "icons": ["https://s2.loli.net/2023/07/09/b7qVRWzZ5Yl3I8h.jpg","https://s2.loli.net/2023/07/09/b7qVRWzZ5Yl3I8h.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/wdqck.js"
-    },
- {
-    "id": "flp",
-    "name": "飞利浦健康生活",
-    "keys": ["flpck"],
-    "settings": [{
-                                                        "id": "flpck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "flpck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/flpck.js",
-    "icons": ["https://s2.loli.net/2023/07/13/Gd7se1JBLTI8uFM.jpg","https://s2.loli.net/2023/07/13/Gd7se1JBLTI8uFM.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/flpck.js"
-    },
- {
-    "id": "lbhbb",
-    "name": "立白好爸爸",
-    "keys": ["lbhbbck"],
-    "settings": [{
-                                                        "id": "lbhbbck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "lbhbbck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/lbhbbck.js",
-    "icons": ["https://s2.loli.net/2023/07/16/vIOYnNZd6MlPxKp.jpg","https://s2.loli.net/2023/07/16/vIOYnNZd6MlPxKp.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/lbhbbck.js"
-    },
- {
-    "id": "lbhy",
-    "name": "立白会员俱乐部",
-    "keys": ["lbhyck"],
-    "settings": [{
-                                                        "id": "lbhyck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "lbhyck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/lbhyck.js",
-    "icons": ["https://s2.loli.net/2023/07/16/Hzexc4yAtPpYIM8.jpg","https://s2.loli.net/2023/07/16/Hzexc4yAtPpYIM8.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/lbhyck.js"
-    },
- {
-    "id": "rdxk",
-    "name": "热度星客",
-    "keys": ["rdxkck"],
-    "settings": [{
-                                                        "id": "rdxkck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "rdxkck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/rdxkck.js",
-    "icons": ["https://s2.loli.net/2023/07/17/OPKQi46TNuwpqt3.jpg","https://s2.loli.net/2023/07/17/OPKQi46TNuwpqt3.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/rdxkck.js"
-    },
- {
-    "id": "xhhy",
-    "name": "雪花会员",
-    "keys": ["xhhyck"],
-    "settings": [{
-                                                        "id": "xhhyck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "xhhyck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xhhyck.js",
-    "icons": ["https://s2.loli.net/2023/07/19/Y8kphOLrlFayPiN.jpg","https://s2.loli.net/2023/07/19/Y8kphOLrlFayPiN.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/xhhyck.js"
-    },
- {
-    "id": "tyqh",
-    "name": "统一茄皇",
-    "keys": ["qhck"],
-    "settings": [{
-                                                        "id": "tyqhck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "tyqhck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qhck.js",
-    "icons": ["https://s2.loli.net/2023/07/21/cuprBxfaeigtwsS.jpg","https://s2.loli.net/2023/07/21/cuprBxfaeigtwsS.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/qhck.js"
-    },
- {
-    "id": "jcy",
-    "name": "金彩云",
-    "keys": ["jcyck"],
-    "settings": [{
-                                                        "id": "jcyck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "jcyck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/jcyck.js",
-    "icons": ["https://s2.loli.net/2023/07/21/zvBgDrqdtCmU7p8.jpg","https://s2.loli.net/2023/07/21/zvBgDrqdtCmU7p8.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/jcyck.js"
-    },
- {
-    "id": "zbs",
-    "name": "植白说",
-    "keys": ["zbsck"],
-    "settings": [{
-                                                        "id": "zbsck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 20,
-                                                        "desc": "zbsck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zbsck.js",
-    "icons": ["https://s2.loli.net/2023/08/29/8pVCEw7bjhGoO1u.jpg","https://s2.loli.net/2023/08/29/8pVCEw7bjhGoO1u.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/zbsck.js"
-    },
+
  {
     "id": "fy",
     "name": "福域",
-    "keys": ["zbsck"],
+    "keys": ["fyck"],
     "settings": [{
                                                         "id": "fyck",
                                                         "name": "CK 列表",
@@ -725,42 +224,7 @@
     "icons": ["https://s2.loli.net/2023/12/21/eDBC38KHgVhf4Op.jpg","https://s2.loli.net/2023/12/21/eDBC38KHgVhf4Op.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/hrjck.js"
     },
- {
-    "id": "nfsq",
-    "name": "农夫山泉",
-    "keys": ["nfsqck"],
-    "settings": [{
-                                                        "id": "nfsqck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "hrjck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/nfsqck.js",
-    "icons": ["https://s2.loli.net/2024/01/10/XMHkofPc1VGgb3K.jpg","https://s2.loli.net/2024/01/10/XMHkofPc1VGgb3K.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/nfsqck.js"
-    },
- {
-    "id": "cz",
-    "name": "纯甄",
-    "keys": ["czck"],
-    "settings": [{
-                                                        "id": "czck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "czck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/czck.js",
-    "icons": ["https://s2.loli.net/2024/01/26/JETer6wcxv3bYS1.jpg","https://s2.loli.net/2024/01/26/JETer6wcxv3bYS1.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/czck.js"
-    } ,
+
  {
     "id": "qqm",
     "name": "情趣猫",
@@ -851,24 +315,7 @@
     "icons": ["https://s2.loli.net/2024/05/21/KcblPSRiGeYdkT4.jpg","https://s2.loli.net/2024/05/21/KcblPSRiGeYdkT4.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/jphck.js"
     } ,
- {
-    "id": "xclx",
-    "name": "携程",
-    "keys": ["xclxck"],
-    "settings": [{
-                                                        "id": "xclxck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "xclxck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xclxck.js",
-    "icons": ["https://s2.loli.net/2024/05/21/KcblPSRiGeYdkT4.jpg","https://s2.loli.net/2024/05/21/KcblPSRiGeYdkT4.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/xclxck.js"
-    } ,
+
  {
     "id": "drwx",
     "name": "电热蚊香",
@@ -905,42 +352,7 @@
     "icons": ["https://s2.loli.net/2024/06/22/FmIhuEvVRoiPLbC.jpg","https://s2.loli.net/2024/06/22/FmIhuEvVRoiPLbC.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/snjkck.js"
     } ,
- {
-    "id": "hxpro",
-    "name": "海星pro",
-    "keys": ["hxprock"],
-    "settings": [{
-                                                        "id": "hxprock",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "hxprock"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hxprock.js",
-    "icons": ["https://s2.loli.net/2024/06/22/IZOH4RXGYk6mNut.jpg","https://s2.loli.net/2024/06/22/IZOH4RXGYk6mNut.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/hxprock.js"
-    } ,
- {
-    "id": "fxsh",
-    "name": "粉象生活",
-    "keys": ["fxshck"],
-    "settings": [{
-                                                        "id": "fxshck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "fxshck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/fxshck.js",
-    "icons": ["https://s2.loli.net/2024/06/22/oDytfQUiGxNJHTh.jpg","https://s2.loli.net/2024/06/22/oDytfQUiGxNJHTh.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/fxshck.js"
-    } ,
+
  {
     "id": "amhy",
     "name": "爱玛会员",
@@ -959,42 +371,7 @@
     "icons": ["https://s2.loli.net/2024/06/28/g1mblWT9wRYi8BL.jpg","https://s2.loli.net/2024/06/28/g1mblWT9wRYi8BL.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/amhyck.js"
     } ,
- {
-    "id": "kdkf",
-    "name": "库迪咖啡",
-    "keys": ["kdck"],
-    "settings": [{
-                                                        "id": "kdck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "kdck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/kdck.js",
-    "icons": ["https://s2.loli.net/2024/07/15/HDABizGXbKNLpEy.jpg","https://s2.loli.net/2024/07/15/HDABizGXbKNLpEy.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/kdck.js"
-    }  ,
- {
-    "id": "smzdm",
-    "name": "什么值得买",
-    "keys": ["smzdmck"],
-    "settings": [{
-                                                        "id": "smzdmck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "smzdmck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/smzdmck.js",
-    "icons": ["https://s2.loli.net/2024/07/15/nJw4YXrqPR9UMaN.jpg","https://s2.loli.net/2024/07/15/nJw4YXrqPR9UMaN.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/smzdmck.js"
-    } ,
+
  {
     "id": "wc",
     "name": "望潮",
@@ -1049,24 +426,7 @@
     "icons": ["https://s2.loli.net/2024/08/05/M9IXhro2ARVW364.jpg","https://s2.loli.net/2024/08/05/M9IXhro2ARVW364.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/zxjlck.js"
     },
- {
-    "id": "zsjd",
-    "name": "掌上金东",
-    "keys": ["zsjdck"],
-    "settings": [{
-                                                        "id": "zsjdck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "zsjdck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zsjdck.js",
-    "icons": ["https://s2.loli.net/2024/08/05/ZnmNEeISljMsy6L.png","https://s2.loli.net/2024/08/05/ZnmNEeISljMsy6L.png"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/zsjdck.js"
-    },
+
  {
     "id": "gjjj",
     "name": "顾家家居",
@@ -1103,42 +463,7 @@
     "icons": ["https://s2.loli.net/2024/08/19/yXTEnml276qYS8B.jpg","https://s2.loli.net/2024/08/19/yXTEnml276qYS8B.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/jjack.js"
     },
- {
-    "id": "ddjz",
-    "name": "点点兼职",
-    "keys": ["ddjzck"],
-    "settings": [{
-                                                        "id": "ddjzck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "ddjzck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ddjzck.js",
-    "icons": ["https://s2.loli.net/2024/08/19/loabfysgxT4eGO8.jpg","https://s2.loli.net/2024/08/19/loabfysgxT4eGO8.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ddjzck.js"
-    },
- {
-    "id": "ymsc",
-    "name": "夜猫商城",
-    "keys": ["ymscck"],
-    "settings": [{
-                                                        "id": "ymscck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "ymscck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ymscck.js",
-    "icons": ["https://s2.loli.net/2024/09/05/8xrKiNLHFuckYoJ.jpg","https://s2.loli.net/2024/09/05/8xrKiNLHFuckYoJ.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ymscck.js"
-    },
+
  {
     "id": "ybs",
     "name": "牙博士口腔",
@@ -1193,24 +518,7 @@
     "icons": ["https://s2.loli.net/2024/12/27/alXk4L3ZbOCQzP8.jpg","https://s2.loli.net/2024/12/27/alXk4L3ZbOCQzP8.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/fyhck.js"
     },
- {
-    "id": "add",
-    "name": "爱多多",
-    "keys": ["addck"],
-    "settings": [{
-                                                        "id": "addck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "addck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/addck.js",
-    "icons": ["https://s2.loli.net/2024/12/27/ah4X8GEYrCblDUd.jpg","https://s2.loli.net/2024/12/27/ah4X8GEYrCblDUd.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/addck.js"
-    },
+
  {
     "id": "gjjk",
     "name": "高济健康",
