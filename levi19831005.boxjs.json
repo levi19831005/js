@@ -536,6 +536,44 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/gjjkck.js",
     "icons": ["https://s2.loli.net/2024/12/27/SEaCzhAmyYXRxbV.jpg","https://s2.loli.net/2024/12/27/SEaCzhAmyYXRxbV.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/gjjkck.js"
+    },
+
+ {
+    "id": "tongcheng",
+    "name": "同程",
+    "keys": ["tcck"],
+    "settings": [{
+                                                        "id": "tcck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "tcck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/tcck.js",
+    "icons": ["https://s2.loli.net/2025/03/11/lgAaDHBxpCXSsiU.png","https://s2.loli.net/2025/03/11/lgAaDHBxpCXSsiU.png"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/tcck.js"
+    },
+
+ {
+    "id": "jingcai",
+    "name": "鲸才招聘",
+    "keys": ["jczpck"],
+    "settings": [{
+                                                        "id": "jczpck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "jczpck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/jczpck.js",
+    "icons": ["https://s2.loli.net/2025/03/11/Ez9iZd1krfupFWn.png","https://s2.loli.net/2025/03/11/Ez9iZd1krfupFWn.png"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/jczpck.js"
     }
         
         
