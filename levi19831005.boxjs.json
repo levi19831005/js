@@ -631,6 +631,25 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/piccck.js",
     "icons": ["https://s2.loli.net/2025/03/15/ANJWYSRUnqGVovc.jpg","https://s2.loli.net/2025/03/15/ANJWYSRUnqGVovc.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/piccck.js"
+    },
+
+ {
+    "id": "xmyx",
+    "name": "星妈优选",
+    "keys": ["xmyxck"],
+    "settings": [{
+                                                        "id": "xmyxck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "xmyxck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xmyxck.js",
+    "icons": ["https://s2.loli.net/2025/03/15/cRSMiO73npE9bva.jpg","https://s2.loli.net/2025/03/15/cRSMiO73npE9bva.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/xmyxck.js"
     }
         
         
