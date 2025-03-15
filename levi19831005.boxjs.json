@@ -574,6 +574,63 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/jczpck.js",
     "icons": ["https://s2.loli.net/2025/03/11/Ez9iZd1krfupFWn.png","https://s2.loli.net/2025/03/11/Ez9iZd1krfupFWn.png"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/jczpck.js"
+    },
+
+ {
+    "id": "babycare",
+    "name": "Babycare",
+    "keys": ["bbck"],
+    "settings": [{
+                                                        "id": "bbck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "bbck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/bbck.js",
+    "icons": ["https://s2.loli.net/2025/03/15/ADxgdvtXH53qEks.jpg","https://s2.loli.net/2025/03/15/ADxgdvtXH53qEks.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/bbck.js"
+    },
+
+ {
+    "id": "mxbc",
+    "name": "蜜雪冰城",
+    "keys": ["mxbcck"],
+    "settings": [{
+                                                        "id": "mxbcck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "mxbcck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/mxbcck.js",
+    "icons": ["https://s2.loli.net/2025/03/15/TDIdEFoZnsVylgM.jpg","https://s2.loli.net/2025/03/15/TDIdEFoZnsVylgM.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/mxbcck.js"
+    },
+
+ {
+    "id": "picc",
+    "name": "中国人保",
+    "keys": ["piccck"],
+    "settings": [{
+                                                        "id": "piccck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "piccck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/piccck.js",
+    "icons": ["https://s2.loli.net/2025/03/15/ANJWYSRUnqGVovc.jpg","https://s2.loli.net/2025/03/15/ANJWYSRUnqGVovc.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/piccck.js"
     }
         
         
