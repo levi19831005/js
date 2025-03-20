@@ -650,6 +650,25 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xmyxck.js",
     "icons": ["https://s2.loli.net/2025/03/15/cRSMiO73npE9bva.jpg","https://s2.loli.net/2025/03/15/cRSMiO73npE9bva.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/xmyxck.js"
+    },
+
+ {
+    "id": "snzyd",
+    "name": "三诺自营店",
+    "keys": ["snzydck"],
+    "settings": [{
+                                                        "id": "snzydck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "snzydck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/snzydck.js",
+    "icons": ["https://s2.loli.net/2025/03/20/wTgh2dyDr6LtNMG.jpg","https://s2.loli.net/2025/03/20/wTgh2dyDr6LtNMG.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/snzydck.js"
     }
         
         
