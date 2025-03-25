@@ -669,6 +669,44 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/snzydck.js",
     "icons": ["https://s2.loli.net/2025/03/20/wTgh2dyDr6LtNMG.jpg","https://s2.loli.net/2025/03/20/wTgh2dyDr6LtNMG.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/snzydck.js"
+    },
+
+ {
+    "id": "shfy",
+    "name": "山海福烟",
+    "keys": ["shfyck"],
+    "settings": [{
+                                                        "id": "shfyck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "shfyck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/shfyck.js",
+    "icons": ["https://s2.loli.net/2025/03/25/jA635DGkKT7PRry.png","https://s2.loli.net/2025/03/25/jA635DGkKT7PRry.png"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/shfyck.js"
+    },
+
+ {
+    "id": "akb",
+    "name": "艾客帮",
+    "keys": ["akbck"],
+    "settings": [{
+                                                        "id": "akbck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "akbck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/akbck.js",
+    "icons": ["https://s2.loli.net/2025/03/25/HtgXClqZnVBzIsc.png","https://s2.loli.net/2025/03/25/HtgXClqZnVBzIsc.png"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/akbck.js"
     }
         
         
