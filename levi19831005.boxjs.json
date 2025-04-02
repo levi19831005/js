@@ -726,6 +726,25 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qcck.js",
     "icons": ["https://s2.loli.net/2025/04/01/EpmafGs9PH8x54c.png","https://s2.loli.net/2025/04/01/EpmafGs9PH8x54c.png"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/qcck.js"
+    },
+
+ {
+    "id": "hzsc",
+    "name": "混知商城",
+    "keys": ["hzck"],
+    "settings": [{
+                                                        "id": "hzck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "hzck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hzck.js",
+    "icons": ["https://s2.loli.net/2025/04/02/ZiN1EPDmCHUSkwp.png","https://s2.loli.net/2025/04/02/ZiN1EPDmCHUSkwp.png"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/hzck.js"
     }
         
         
