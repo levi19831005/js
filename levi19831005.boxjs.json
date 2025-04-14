@@ -653,25 +653,6 @@
     },
 
  {
-    "id": "snzyd",
-    "name": "三诺自营店",
-    "keys": ["snzydck"],
-    "settings": [{
-                                                        "id": "snzydck",
-                                                        "name": "CK 列表",
-                                                        "val": "",
-                                                        "type": "textarea",
-                                                        "autoGrow": true,
-                                                        "rows": 8,
-                                                        "desc": "snzydck"
-                                                    }],
-    "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/snzydck.js",
-    "icons": ["https://s2.loli.net/2025/03/20/wTgh2dyDr6LtNMG.jpg","https://s2.loli.net/2025/03/20/wTgh2dyDr6LtNMG.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/snzydck.js"
-    },
-
- {
     "id": "shfy",
     "name": "山海福烟",
     "keys": ["shfyck"],
@@ -729,22 +710,22 @@
     },
 
  {
-    "id": "hzsc",
-    "name": "混知商城",
-    "keys": ["hzck"],
+    "id": "yzsc",
+    "name": "有赞商城",
+    "keys": ["yzck"],
     "settings": [{
-                                                        "id": "hzck",
+                                                        "id": "yzck",
                                                         "name": "CK 列表",
                                                         "val": "",
                                                         "type": "textarea",
                                                         "autoGrow": true,
                                                         "rows": 8,
-                                                        "desc": "hzck"
+                                                        "desc": "yzck"
                                                     }],
     "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hzck.js",
-    "icons": ["https://s2.loli.net/2025/04/02/ZiN1EPDmCHUSkwp.png","https://s2.loli.net/2025/04/02/ZiN1EPDmCHUSkwp.png"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/hzck.js"
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/yzck.js",
+    "icons": ["https://s2.loli.net/2025/04/14/lwqXvHnitQ6ARrW.jpg","https://s2.loli.net/2025/04/14/lwqXvHnitQ6ARrW.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/yzck.js"
     }
         
         
