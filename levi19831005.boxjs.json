@@ -726,7 +726,103 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/yzck.js",
     "icons": ["https://s2.loli.net/2025/04/14/lwqXvHnitQ6ARrW.jpg","https://s2.loli.net/2025/04/14/lwqXvHnitQ6ARrW.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/yzck.js"
+    },
+
+ {
+    "id": "jjj",
+    "name": "999会员中心",
+    "keys": ["jjjck"],
+    "settings": [{
+                                                        "id": "jjjck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "jjjck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/jjjck.js",
+    "icons": ["https://s2.loli.net/2025/07/07/IYXBCHbWgo4Qhve.jpg","https://s2.loli.net/2025/07/07/IYXBCHbWgo4Qhve.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/jjjck.js"
+    },
+
+ {
+    "id": "txq",
+    "name": "汤星球",
+    "keys": ["txqck"],
+    "settings": [{
+                                                        "id": "txqck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "txqck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/txqck.js",
+    "icons": ["https://s2.loli.net/2025/07/07/GpCtuqb4RxPlVZ2.jpg","https://s2.loli.net/2025/07/07/GpCtuqb4RxPlVZ2.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/txqck.js"
+    },
+
+ {
+    "id": "zmrs",
+    "name": "中免日上",
+    "keys": ["zmrsck"],
+    "settings": [{
+                                                        "id": "zmrsck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "zmrsck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/zmrsck.js",
+    "icons": ["https://s2.loli.net/2025/07/07/leqoXghxKLmDnYC.png","https://s2.loli.net/2025/07/07/leqoXghxKLmDnYC.png"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/zmrsck.js"
+    },
+
+ {
+    "id": "nyg",
+    "name": "牛游谷",
+    "keys": ["nygck"],
+    "settings": [{
+                                                        "id": "nygck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "nygck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/nygck.js",
+    "icons": ["https://s2.loli.net/2025/07/07/sT5Vu7QcOMo1NbA.jpg","https://s2.loli.net/2025/07/07/sT5Vu7QcOMo1NbA.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/nygck.js"
+    },
+
+ {
+    "id": "fxh",
+    "name": "丰享会",
+    "keys": ["fxhck"],
+    "settings": [{
+                                                        "id": "fxhck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "fxhck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/fxhck.js",
+    "icons": ["https://s2.loli.net/2025/07/07/TUtNAySvDJH8i6O.png","https://s2.loli.net/2025/07/07/TUtNAySvDJH8i6O.png"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/fxhck.js"
     }
+        
         
         
         
