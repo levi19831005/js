@@ -821,6 +821,25 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/fxhck.js",
     "icons": ["https://s2.loli.net/2025/07/07/TUtNAySvDJH8i6O.png","https://s2.loli.net/2025/07/07/TUtNAySvDJH8i6O.png"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/fxhck.js"
+    },
+
+ {
+    "id": "yyzx",
+    "name": "银鱼质享",
+    "keys": ["yyzxck"],
+    "settings": [{
+                                                        "id": "yyzxck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "yyzxck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/yyzxck.js",
+    "icons": ["https://s2.loli.net/2025/07/11/xkZwWq7bcDQo1RF.jpg","https://s2.loli.net/2025/07/11/xkZwWq7bcDQo1RF.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/yyzxck.js"
     }
         
         
