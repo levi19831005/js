@@ -897,7 +897,27 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/tcsyck.js",
     "icons": ["https://s2.loli.net/2025/03/11/lgAaDHBxpCXSsiU.png","https://s2.loli.net/2025/03/11/lgAaDHBxpCXSsiU.png"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/tcsyck.js"
+    },
+
+ {
+    "id": "trsj",
+    "name": "甜润世界",
+    "keys": ["trsjck"],
+    "settings": [{
+                                                        "id": "trsjck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "trsjck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/trsjck.js",
+    "icons": ["https://s2.loli.net/2025/09/11/smyg8xBoIKvpnER.jpg","https://s2.loli.net/2025/09/11/smyg8xBoIKvpnER.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/trsjck.js"
     }
+        
         
         
         
