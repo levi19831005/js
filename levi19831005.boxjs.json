@@ -916,6 +916,25 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/trsjck.js",
     "icons": ["https://s2.loli.net/2025/09/11/smyg8xBoIKvpnER.jpg","https://s2.loli.net/2025/09/11/smyg8xBoIKvpnER.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/trsjck.js"
+    },
+
+ {
+    "id": "bsd",
+    "name": "波司登",
+    "keys": ["bsdck"],
+    "settings": [{
+                                                        "id": "bsdck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "bsdck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/bsdck.js",
+    "icons": ["https://s2.loli.net/2025/09/16/2daYPuoIbE6ZjF3.jpg","https://s2.loli.net/2025/09/16/2daYPuoIbE6ZjF3.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/bsdck.js"
     }
         
         
