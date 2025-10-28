@@ -935,6 +935,44 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/bsdck.js",
     "icons": ["https://s2.loli.net/2025/09/16/2daYPuoIbE6ZjF3.jpg","https://s2.loli.net/2025/09/16/2daYPuoIbE6ZjF3.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/bsdck.js"
+    },
+
+ {
+    "id": "mltz",
+    "name": "名龙堂造",
+    "keys": ["mltzck"],
+    "settings": [{
+                                                        "id": "mltzck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "mltzck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/mltzck.js",
+    "icons": ["https://s2.loli.net/2025/10/28/zxXrKmwhUDFNap8.jpg","https://s2.loli.net/2025/10/28/zxXrKmwhUDFNap8.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/mltzck.js"
+    },
+
+ {
+    "id": "lbdq",
+    "name": "老板电器",
+    "keys": ["lbdqck"],
+    "settings": [{
+                                                        "id": "lbdqck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "lbdqck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/lbdqck.js",
+    "icons": ["https://s2.loli.net/2025/10/28/aRJ6MuhW4G3yerl.jpg","https://s2.loli.net/2025/10/28/aRJ6MuhW4G3yerl.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/lbdqck.js"
     }
         
         
