@@ -973,6 +973,44 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/lbdqck.js",
     "icons": ["https://s2.loli.net/2025/10/28/aRJ6MuhW4G3yerl.jpg","https://s2.loli.net/2025/10/28/aRJ6MuhW4G3yerl.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/lbdqck.js"
+    },
+
+ {
+    "id": "jlc",
+    "name": "嘉立创",
+    "keys": ["jlcck"],
+    "settings": [{
+                                                        "id": "jlcck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "jlcck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/jlcck.js",
+    "icons": ["https://s2.loli.net/2025/11/22/7OrZGJpwbU2S3HM.jpg","https://s2.loli.net/2025/11/22/7OrZGJpwbU2S3HM.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/jlcck.js"
+    },
+
+ {
+    "id": "hz",
+    "name": "媓钻",
+    "keys": ["hzck"],
+    "settings": [{
+                                                        "id": "hzck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "hzck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hzck.js",
+    "icons": ["https://s2.loli.net/2025/11/22/CzoVBxlZrK9GiqU.png","https://s2.loli.net/2025/11/22/CzoVBxlZrK9GiqU.png"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/hzck.js"
     }
         
         
