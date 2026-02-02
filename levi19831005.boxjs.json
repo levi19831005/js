@@ -431,6 +431,25 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xyyxck.js",
     "icons": ["https://s2.loli.net/2026/01/12/3UnWiuZvaAgTHm8.png","https://s2.loli.net/2026/01/12/3UnWiuZvaAgTHm8.png"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/xyyxck.js"
+    },
+
+ {
+    "id": "xmh",
+    "name": "星妈会",
+    "keys": ["xmhck"],
+    "settings": [{
+                                                        "id": "xmhck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "xmhck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xmhck.js",
+    "icons": ["https://s2.loli.net/2026/02/02/O6Z7qA9jTIyhYo4.png","https://s2.loli.net/2026/02/02/O6Z7qA9jTIyhYo4.png"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/xmhck.js"
     }
         
         
