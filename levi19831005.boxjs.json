@@ -450,6 +450,25 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/xmhck.js",
     "icons": ["https://s2.loli.net/2026/02/02/O6Z7qA9jTIyhYo4.png","https://s2.loli.net/2026/02/02/O6Z7qA9jTIyhYo4.png"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/xmhck.js"
+    },
+
+ {
+    "id": "hbhsh",
+    "name": "活伴好生活",
+    "keys": ["hbhshck"],
+    "settings": [{
+                                                        "id": "hbhshck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "hbhshck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hbhshck.js",
+    "icons": ["https://s2.loli.net/2026/02/02/ASu2aFhvny7oQ8I.png","https://s2.loli.net/2026/02/02/ASu2aFhvny7oQ8I.png"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/hbhshck.js"
     }
         
         
