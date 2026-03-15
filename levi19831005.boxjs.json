@@ -488,6 +488,63 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/hqcshck.js",
     "icons": ["https://origin.picgo.net/2026/03/11/hqcsh8257a4b84ca2df2f.jpg","https://origin.picgo.net/2026/03/11/hqcsh8257a4b84ca2df2f.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/hqcshck.js"
+    },
+
+ {
+    "id": "qwsh",
+    "name": "趣蛙生活",
+    "keys": ["qwshck"],
+    "settings": [{
+                                                        "id": "qwshck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "qwshck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qwshck.js",
+    "icons": ["https://origin.picgo.net/2026/03/15/qwyxck70d0027209e1ca8f.th.jpg","https://origin.picgo.net/2026/03/15/qwyxck70d0027209e1ca8f.th.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/qwshck.js"
+    },
+
+ {
+    "id": "gbgb",
+    "name": "呷哺呷哺",
+    "keys": ["gbgbck"],
+    "settings": [{
+                                                        "id": "gbgbck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "gbgbck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/gbgbck.js",
+    "icons": ["https://origin.picgo.net/2026/03/15/gbgbcke64d18e1cd1293ef.th.jpg","https://origin.picgo.net/2026/03/15/gbgbcke64d18e1cd1293ef.th.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/gbgbck.js"
+    },
+
+ {
+    "id": "mfsc",
+    "name": "美孚商城",
+    "keys": ["mfscck"],
+    "settings": [{
+                                                        "id": "mfscck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "mfscck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/mfscck.js",
+    "icons": ["https://origin.picgo.net/2026/03/15/mfscckbb5b83b6211604bb.th.jpg","https://origin.picgo.net/2026/03/15/mfscckbb5b83b6211604bb.th.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/mfscck.js"
     }
         
         
