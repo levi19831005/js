@@ -491,22 +491,22 @@
     },
 
  {
-    "id": "qwsh",
-    "name": "趣蛙生活",
-    "keys": ["qwshck"],
+    "id": "qwyx",
+    "name": "趣蛙优选",
+    "keys": ["qwyxck"],
     "settings": [{
-                                                        "id": "qwshck",
+                                                        "id": "qwyxck",
                                                         "name": "CK 列表",
                                                         "val": "",
                                                         "type": "textarea",
                                                         "autoGrow": true,
                                                         "rows": 8,
-                                                        "desc": "qwshck"
+                                                        "desc": "qwyxck"
                                                     }],
     "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qwshck.js",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/qwyxck.js",
     "icons": ["https://origin.picgo.net/2026/03/15/qwyxck70d0027209e1ca8f.th.jpg","https://origin.picgo.net/2026/03/15/qwyxck70d0027209e1ca8f.th.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/qwshck.js"
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/qwyxck.js"
     },
 
  {
