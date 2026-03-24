@@ -545,6 +545,25 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/mfscck.js",
     "icons": ["https://origin.picgo.net/2026/03/15/mfscckbb5b83b6211604bb.th.jpg","https://origin.picgo.net/2026/03/15/mfscckbb5b83b6211604bb.th.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/mfscck.js"
+    },
+
+ {
+    "id": "ajr",
+    "name": "安吉尔",
+    "keys": ["ajrck"],
+    "settings": [{
+                                                        "id": "ajrck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "ajrck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ajrck.js",
+    "icons": ["https://origin.picgo.net/2026/03/24/a379c43e09fe317a790d17ddfe9fe8c17069d56ed31bb0f9.th.jpg","https://origin.picgo.net/2026/03/24/a379c43e09fe317a790d17ddfe9fe8c17069d56ed31bb0f9.th.jpg"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/ajrck.js"
     }
         
         
