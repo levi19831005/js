@@ -62,22 +62,22 @@
     }  ,
 
  {
-    "id": "szw",
-    "name": " 深圳湾春茧未来荟",
-    "keys": ["szwck"],
+    "id": "wlh",
+    "name": "未来荟",
+    "keys": ["wlhck"],
     "settings": [{
-                                                        "id": "szwck",
+                                                        "id": "wlhck",
                                                         "name": "CK 列表",
                                                         "val": "",
                                                         "type": "textarea",
                                                         "autoGrow": true,
                                                         "rows": 20,
-                                                        "desc": "szwck"
+                                                        "desc": "wlhck"
                                                     }],
     "author": "@hhx",
-    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/szwck.js",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/wlhck.js",
     "icons": ["https://s2.loli.net/2023/07/05/e9Rw4i5GnrkXsD7.jpg","https://s2.loli.net/2023/07/05/e9Rw4i5GnrkXsD7.jpg"],
-    "script": "https://raw.githubusercontent.com/levi19831005/js/main/szwck.js"
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/wlhck.js"
     },
 
  {
