@@ -564,6 +564,44 @@
     "repo": "https://raw.githubusercontent.com/levi19831005/js/main/ajrck.js",
     "icons": ["https://origin.picgo.net/2026/03/24/a379c43e09fe317a790d17ddfe9fe8c17069d56ed31bb0f9.th.jpg","https://origin.picgo.net/2026/03/24/a379c43e09fe317a790d17ddfe9fe8c17069d56ed31bb0f9.th.jpg"],
     "script": "https://raw.githubusercontent.com/levi19831005/js/main/ajrck.js"
+    },
+
+ {
+    "id": "clsh",
+    "name": "城旅生活",
+    "keys": ["clshck"],
+    "settings": [{
+                                                        "id": "clshck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "clshck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/clshck.js",
+    "icons": ["https://www.picgo.net/image/1UX2Um","https://www.picgo.net/image/1UX2Um"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/clshck.js"
+    },
+
+ {
+    "id": "jsp",
+    "name": "今视频",
+    "keys": ["jspck"],
+    "settings": [{
+                                                        "id": "jspck",
+                                                        "name": "CK 列表",
+                                                        "val": "",
+                                                        "type": "textarea",
+                                                        "autoGrow": true,
+                                                        "rows": 8,
+                                                        "desc": "jspck"
+                                                    }],
+    "author": "@hhx",
+    "repo": "https://raw.githubusercontent.com/levi19831005/js/main/jspck.js",
+    "icons": ["https://www.picgo.net/image/1UX5cJ","https://www.picgo.net/image/1UX5cJ"],
+    "script": "https://raw.githubusercontent.com/levi19831005/js/main/jspck.js"
     }
         
         
